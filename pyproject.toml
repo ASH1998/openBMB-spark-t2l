@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openbmb-spark-t2l"
+version = "0.1.0"
+description = "openT2L for MiniCPM-V: document-extraction task pool, experiments and Modal runs (MiniCPM Spark Program entry)."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = [
+    # The model-agnostic library. Until it is on PyPI, install it first from its repository:
+    #   pip install git+https://github.com/ASH1998/openT2L   (or -e ../openT2L)
+    "opent2l>=0.1",
+    "numpy",
+]
+
+[project.optional-dependencies]
+# Building the task pool and synthetic forms.
+data = ["datasets>=3.0", "pillow", "faker"]
+# Running the GPU stages (they run on Modal; the GPU image is defined in modal_app/images.py).
+modal = ["modal>=1.0"]
+# Quick looks through the hosted OpenAI-compatible API (never used for reported numbers).
+api = ["openai>=1.0", "python-dotenv"]
+dev = ["pytest>=8", "ruff"]
+
+[tool.setuptools.packages.find]
+include = ["minicpm_t2l*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py310"

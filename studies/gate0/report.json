@@ -1,0 +1,1158 @@
+{
+  "ocr": {
+    "loraA": {
+      "wins": 7,
+      "n_tasks": 20,
+      "missing": [],
+      "pass": false,
+      "rows": [
+        {
+          "task": "cord_menu",
+          "base": 0.52,
+          "icl1": 0.486,
+          "icl4": 0.429,
+          "loraA": 0.695,
+          "best_baseline": "base",
+          "gain": 0.175,
+          "ci95": [
+            0.111,
+            0.251
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_subtotal",
+          "base": 0.208,
+          "icl1": 0.214,
+          "icl4": 0.189,
+          "loraA": 0.536,
+          "best_baseline": "icl1",
+          "gain": 0.322,
+          "ci95": [
+            0.19,
+            0.466
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_total",
+          "base": 0.53,
+          "icl1": 0.544,
+          "icl4": 0.498,
+          "loraA": 0.741,
+          "best_baseline": "icl1",
+          "gain": 0.197,
+          "ci95": [
+            0.132,
+            0.261
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_full",
+          "base": 0.373,
+          "icl1": 0.425,
+          "icl4": 0.334,
+          "loraA": 0.621,
+          "best_baseline": "icl1",
+          "gain": 0.197,
+          "ci95": [
+            0.125,
+            0.272
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_company",
+          "base": 0.62,
+          "icl1": 0.58,
+          "icl4": 0.28,
+          "loraA": 0.62,
+          "best_baseline": "base",
+          "gain": 0.0,
+          "ci95": [
+            -0.1,
+            0.1
+          ],
+          "win": false
+        },
+        {
+          "task": "sroie_date",
+          "base": 0.78,
+          "icl1": 0.7,
+          "icl4": 0.38,
+          "loraA": 0.84,
+          "best_baseline": "base",
+          "gain": 0.06,
+          "ci95": [
+            -0.02,
+            0.14
+          ],
+          "win": false
+        },
+        {
+          "task": "sroie_address",
+          "base": 0.1,
+          "icl1": 0.061,
+          "icl4": 0.04,
+          "loraA": 0.242,
+          "best_baseline": "base",
+          "gain": 0.142,
+          "ci95": [
+            0.005,
+            0.284
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_total",
+          "base": 0.76,
+          "icl1": 0.66,
+          "icl4": 0.3,
+          "loraA": 0.86,
+          "best_baseline": "base",
+          "gain": 0.1,
+          "ci95": [
+            0.0,
+            0.22
+          ],
+          "win": false
+        },
+        {
+          "task": "sroie_all",
+          "base": 0.57,
+          "icl1": 0.42,
+          "icl4": 0.235,
+          "loraA": 0.62,
+          "best_baseline": "base",
+          "gain": 0.05,
+          "ci95": [
+            -0.005,
+            0.115
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_store",
+          "base": 0.192,
+          "icl1": 0.2,
+          "icl4": 0.167,
+          "loraA": 0.165,
+          "best_baseline": "icl1",
+          "gain": -0.035,
+          "ci95": [
+            -0.114,
+            0.042
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_datetime",
+          "base": 0.457,
+          "icl1": 0.436,
+          "icl4": 0.298,
+          "loraA": 0.474,
+          "best_baseline": "base",
+          "gain": 0.017,
+          "ci95": [
+            -0.05,
+            0.077
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_products",
+          "base": 0.198,
+          "icl1": 0.213,
+          "icl4": 0.253,
+          "loraA": 0.337,
+          "best_baseline": "icl4",
+          "gain": 0.085,
+          "ci95": [
+            -0.002,
+            0.17
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_money",
+          "base": 0.219,
+          "icl1": 0.264,
+          "icl4": 0.293,
+          "loraA": 0.521,
+          "best_baseline": "icl4",
+          "gain": 0.228,
+          "ci95": [
+            0.135,
+            0.318
+          ],
+          "win": true
+        },
+        {
+          "task": "funsd_qa",
+          "base": 0.196,
+          "icl1": 0.211,
+          "icl4": 0.1,
+          "loraA": 0.163,
+          "best_baseline": "icl1",
+          "gain": -0.048,
+          "ci95": [
+            -0.129,
+            0.031
+          ],
+          "win": false
+        },
+        {
+          "task": "funsd_headers",
+          "base": 0.143,
+          "icl1": 0.119,
+          "icl4": 0.106,
+          "loraA": 0.194,
+          "best_baseline": "base",
+          "gain": 0.051,
+          "ci95": [
+            -0.024,
+            0.144
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_zh_qa",
+          "base": 0.058,
+          "icl1": 0.031,
+          "icl4": 0.0,
+          "loraA": 0.073,
+          "best_baseline": "base",
+          "gain": 0.015,
+          "ci95": [
+            -0.056,
+            0.093
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_ja_qa",
+          "base": 0.055,
+          "icl1": 0.015,
+          "icl4": 0.01,
+          "loraA": 0.125,
+          "best_baseline": "base",
+          "gain": 0.07,
+          "ci95": [
+            0.013,
+            0.133
+          ],
+          "win": true
+        },
+        {
+          "task": "xfund_es_qa",
+          "base": 0.118,
+          "icl1": 0.081,
+          "icl4": 0.001,
+          "loraA": 0.13,
+          "best_baseline": "base",
+          "gain": 0.013,
+          "ci95": [
+            -0.072,
+            0.093
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_fr_qa",
+          "base": 0.124,
+          "icl1": 0.136,
+          "icl4": 0.038,
+          "loraA": 0.076,
+          "best_baseline": "icl1",
+          "gain": -0.059,
+          "ci95": [
+            -0.129,
+            0.006
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_de_qa",
+          "base": 0.159,
+          "icl1": 0.091,
+          "icl4": 0.007,
+          "loraA": 0.081,
+          "best_baseline": "base",
+          "gain": -0.078,
+          "ci95": [
+            -0.15,
+            -0.013
+          ],
+          "win": false
+        }
+      ]
+    },
+    "loraB": {
+      "wins": 14,
+      "n_tasks": 20,
+      "missing": [],
+      "pass": true,
+      "rows": [
+        {
+          "task": "cord_menu",
+          "base": 0.52,
+          "icl1": 0.486,
+          "icl4": 0.429,
+          "loraB": 0.732,
+          "best_baseline": "base",
+          "gain": 0.212,
+          "ci95": [
+            0.129,
+            0.309
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_subtotal",
+          "base": 0.208,
+          "icl1": 0.214,
+          "icl4": 0.189,
+          "loraB": 0.612,
+          "best_baseline": "icl1",
+          "gain": 0.398,
+          "ci95": [
+            0.277,
+            0.53
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_total",
+          "base": 0.53,
+          "icl1": 0.544,
+          "icl4": 0.498,
+          "loraB": 0.818,
+          "best_baseline": "icl1",
+          "gain": 0.274,
+          "ci95": [
+            0.199,
+            0.354
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_full",
+          "base": 0.373,
+          "icl1": 0.425,
+          "icl4": 0.334,
+          "loraB": 0.658,
+          "best_baseline": "icl1",
+          "gain": 0.233,
+          "ci95": [
+            0.158,
+            0.312
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_company",
+          "base": 0.62,
+          "icl1": 0.58,
+          "icl4": 0.28,
+          "loraB": 0.78,
+          "best_baseline": "base",
+          "gain": 0.16,
+          "ci95": [
+            0.04,
+            0.28
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_date",
+          "base": 0.78,
+          "icl1": 0.7,
+          "icl4": 0.38,
+          "loraB": 0.9,
+          "best_baseline": "base",
+          "gain": 0.12,
+          "ci95": [
+            0.02,
+            0.22
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_address",
+          "base": 0.1,
+          "icl1": 0.061,
+          "icl4": 0.04,
+          "loraB": 0.34,
+          "best_baseline": "base",
+          "gain": 0.24,
+          "ci95": [
+            0.12,
+            0.38
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_total",
+          "base": 0.76,
+          "icl1": 0.66,
+          "icl4": 0.3,
+          "loraB": 0.9,
+          "best_baseline": "base",
+          "gain": 0.14,
+          "ci95": [
+            0.02,
+            0.26
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_all",
+          "base": 0.57,
+          "icl1": 0.42,
+          "icl4": 0.235,
+          "loraB": 0.7,
+          "best_baseline": "base",
+          "gain": 0.13,
+          "ci95": [
+            0.07,
+            0.19
+          ],
+          "win": true
+        },
+        {
+          "task": "wr_store",
+          "base": 0.192,
+          "icl1": 0.2,
+          "icl4": 0.167,
+          "loraB": 0.235,
+          "best_baseline": "icl1",
+          "gain": 0.035,
+          "ci95": [
+            -0.032,
+            0.11
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_datetime",
+          "base": 0.457,
+          "icl1": 0.436,
+          "icl4": 0.298,
+          "loraB": 0.467,
+          "best_baseline": "base",
+          "gain": 0.009,
+          "ci95": [
+            -0.058,
+            0.082
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_products",
+          "base": 0.198,
+          "icl1": 0.213,
+          "icl4": 0.253,
+          "loraB": 0.439,
+          "best_baseline": "icl4",
+          "gain": 0.187,
+          "ci95": [
+            0.139,
+            0.232
+          ],
+          "win": true
+        },
+        {
+          "task": "wr_money",
+          "base": 0.219,
+          "icl1": 0.264,
+          "icl4": 0.293,
+          "loraB": 0.584,
+          "best_baseline": "icl4",
+          "gain": 0.29,
+          "ci95": [
+            0.194,
+            0.38
+          ],
+          "win": true
+        },
+        {
+          "task": "funsd_qa",
+          "base": 0.196,
+          "icl1": 0.211,
+          "icl4": 0.1,
+          "loraB": 0.131,
+          "best_baseline": "icl1",
+          "gain": -0.08,
+          "ci95": [
+            -0.157,
+            -0.002
+          ],
+          "win": false
+        },
+        {
+          "task": "funsd_headers",
+          "base": 0.143,
+          "icl1": 0.119,
+          "icl4": 0.106,
+          "loraB": 0.315,
+          "best_baseline": "base",
+          "gain": 0.173,
+          "ci95": [
+            0.101,
+            0.251
+          ],
+          "win": true
+        },
+        {
+          "task": "xfund_zh_qa",
+          "base": 0.058,
+          "icl1": 0.031,
+          "icl4": 0.0,
+          "loraB": 0.185,
+          "best_baseline": "base",
+          "gain": 0.126,
+          "ci95": [
+            0.025,
+            0.228
+          ],
+          "win": true
+        },
+        {
+          "task": "xfund_ja_qa",
+          "base": 0.055,
+          "icl1": 0.015,
+          "icl4": 0.01,
+          "loraB": 0.104,
+          "best_baseline": "base",
+          "gain": 0.049,
+          "ci95": [
+            0.004,
+            0.097
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_es_qa",
+          "base": 0.118,
+          "icl1": 0.081,
+          "icl4": 0.001,
+          "loraB": 0.247,
+          "best_baseline": "base",
+          "gain": 0.13,
+          "ci95": [
+            0.041,
+            0.214
+          ],
+          "win": true
+        },
+        {
+          "task": "xfund_fr_qa",
+          "base": 0.124,
+          "icl1": 0.136,
+          "icl4": 0.038,
+          "loraB": 0.195,
+          "best_baseline": "icl1",
+          "gain": 0.059,
+          "ci95": [
+            -0.031,
+            0.149
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_de_qa",
+          "base": 0.159,
+          "icl1": 0.091,
+          "icl4": 0.007,
+          "loraB": 0.249,
+          "best_baseline": "base",
+          "gain": 0.089,
+          "ci95": [
+            -0.01,
+            0.189
+          ],
+          "win": false
+        }
+      ]
+    }
+  },
+  "v47": {
+    "loraA": {
+      "wins": 10,
+      "n_tasks": 20,
+      "missing": [],
+      "pass": false,
+      "rows": [
+        {
+          "task": "cord_menu",
+          "base": 0.583,
+          "icl1": 0.606,
+          "icl4": 0.642,
+          "loraA": 0.78,
+          "best_baseline": "icl4",
+          "gain": 0.138,
+          "ci95": [
+            0.071,
+            0.214
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_subtotal",
+          "base": 0.326,
+          "icl1": 0.269,
+          "icl4": 0.305,
+          "loraA": 0.672,
+          "best_baseline": "base",
+          "gain": 0.346,
+          "ci95": [
+            0.209,
+            0.487
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_total",
+          "base": 0.706,
+          "icl1": 0.681,
+          "icl4": 0.687,
+          "loraA": 0.838,
+          "best_baseline": "base",
+          "gain": 0.132,
+          "ci95": [
+            0.071,
+            0.2
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_full",
+          "base": 0.424,
+          "icl1": 0.482,
+          "icl4": 0.495,
+          "loraA": 0.714,
+          "best_baseline": "icl4",
+          "gain": 0.219,
+          "ci95": [
+            0.145,
+            0.298
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_company",
+          "base": 0.64,
+          "icl1": 0.653,
+          "icl4": 0.5,
+          "loraA": 0.8,
+          "best_baseline": "icl1",
+          "gain": 0.147,
+          "ci95": [
+            -0.002,
+            0.289
+          ],
+          "win": false
+        },
+        {
+          "task": "sroie_date",
+          "base": 0.94,
+          "icl1": 0.64,
+          "icl4": 0.72,
+          "loraA": 1.0,
+          "best_baseline": "base",
+          "gain": 0.06,
+          "ci95": [
+            0.0,
+            0.14
+          ],
+          "win": false
+        },
+        {
+          "task": "sroie_address",
+          "base": 0.2,
+          "icl1": 0.14,
+          "icl4": 0.12,
+          "loraA": 0.4,
+          "best_baseline": "base",
+          "gain": 0.2,
+          "ci95": [
+            0.04,
+            0.36
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_total",
+          "base": 0.72,
+          "icl1": 0.64,
+          "icl4": 0.7,
+          "loraA": 0.96,
+          "best_baseline": "base",
+          "gain": 0.24,
+          "ci95": [
+            0.12,
+            0.38
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_all",
+          "base": 0.63,
+          "icl1": 0.555,
+          "icl4": 0.576,
+          "loraA": 0.75,
+          "best_baseline": "base",
+          "gain": 0.12,
+          "ci95": [
+            0.065,
+            0.18
+          ],
+          "win": true
+        },
+        {
+          "task": "wr_store",
+          "base": 0.252,
+          "icl1": 0.21,
+          "icl4": 0.216,
+          "loraA": 0.286,
+          "best_baseline": "base",
+          "gain": 0.033,
+          "ci95": [
+            -0.032,
+            0.103
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_datetime",
+          "base": 0.469,
+          "icl1": 0.46,
+          "icl4": 0.457,
+          "loraA": 0.539,
+          "best_baseline": "base",
+          "gain": 0.07,
+          "ci95": [
+            0.005,
+            0.138
+          ],
+          "win": true
+        },
+        {
+          "task": "wr_products",
+          "base": 0.432,
+          "icl1": 0.409,
+          "icl4": 0.4,
+          "loraA": 0.432,
+          "best_baseline": "base",
+          "gain": -0.0,
+          "ci95": [
+            -0.045,
+            0.051
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_money",
+          "base": 0.459,
+          "icl1": 0.371,
+          "icl4": 0.481,
+          "loraA": 0.647,
+          "best_baseline": "icl4",
+          "gain": 0.166,
+          "ci95": [
+            0.082,
+            0.251
+          ],
+          "win": true
+        },
+        {
+          "task": "funsd_qa",
+          "base": 0.348,
+          "icl1": 0.323,
+          "icl4": 0.327,
+          "loraA": 0.271,
+          "best_baseline": "base",
+          "gain": -0.077,
+          "ci95": [
+            -0.156,
+            0.004
+          ],
+          "win": false
+        },
+        {
+          "task": "funsd_headers",
+          "base": 0.118,
+          "icl1": 0.112,
+          "icl4": 0.1,
+          "loraA": 0.255,
+          "best_baseline": "base",
+          "gain": 0.138,
+          "ci95": [
+            0.069,
+            0.209
+          ],
+          "win": true
+        },
+        {
+          "task": "xfund_zh_qa",
+          "base": 0.365,
+          "icl1": 0.414,
+          "icl4": 0.4,
+          "loraA": 0.325,
+          "best_baseline": "icl1",
+          "gain": -0.089,
+          "ci95": [
+            -0.16,
+            -0.02
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_ja_qa",
+          "base": 0.163,
+          "icl1": 0.192,
+          "icl4": 0.213,
+          "loraA": 0.167,
+          "best_baseline": "icl4",
+          "gain": -0.046,
+          "ci95": [
+            -0.103,
+            0.011
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_es_qa",
+          "base": 0.256,
+          "icl1": 0.27,
+          "icl4": 0.316,
+          "loraA": 0.33,
+          "best_baseline": "icl4",
+          "gain": 0.014,
+          "ci95": [
+            -0.043,
+            0.064
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_fr_qa",
+          "base": 0.295,
+          "icl1": 0.319,
+          "icl4": 0.378,
+          "loraA": 0.31,
+          "best_baseline": "icl4",
+          "gain": -0.068,
+          "ci95": [
+            -0.133,
+            -0.008
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_de_qa",
+          "base": 0.248,
+          "icl1": 0.381,
+          "icl4": 0.307,
+          "loraA": 0.348,
+          "best_baseline": "icl1",
+          "gain": -0.033,
+          "ci95": [
+            -0.114,
+            0.043
+          ],
+          "win": false
+        }
+      ]
+    },
+    "loraB": {
+      "wins": 10,
+      "n_tasks": 20,
+      "missing": [],
+      "pass": false,
+      "rows": [
+        {
+          "task": "cord_menu",
+          "base": 0.583,
+          "icl1": 0.606,
+          "icl4": 0.642,
+          "loraB": 0.767,
+          "best_baseline": "icl4",
+          "gain": 0.124,
+          "ci95": [
+            0.061,
+            0.196
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_subtotal",
+          "base": 0.326,
+          "icl1": 0.269,
+          "icl4": 0.305,
+          "loraB": 0.709,
+          "best_baseline": "base",
+          "gain": 0.382,
+          "ci95": [
+            0.255,
+            0.52
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_total",
+          "base": 0.706,
+          "icl1": 0.681,
+          "icl4": 0.687,
+          "loraB": 0.817,
+          "best_baseline": "base",
+          "gain": 0.11,
+          "ci95": [
+            0.029,
+            0.188
+          ],
+          "win": true
+        },
+        {
+          "task": "cord_full",
+          "base": 0.424,
+          "icl1": 0.482,
+          "icl4": 0.495,
+          "loraB": 0.77,
+          "best_baseline": "icl4",
+          "gain": 0.275,
+          "ci95": [
+            0.204,
+            0.356
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_company",
+          "base": 0.64,
+          "icl1": 0.653,
+          "icl4": 0.5,
+          "loraB": 0.88,
+          "best_baseline": "icl1",
+          "gain": 0.227,
+          "ci95": [
+            0.12,
+            0.349
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_date",
+          "base": 0.94,
+          "icl1": 0.64,
+          "icl4": 0.72,
+          "loraB": 1.0,
+          "best_baseline": "base",
+          "gain": 0.06,
+          "ci95": [
+            0.0,
+            0.14
+          ],
+          "win": false
+        },
+        {
+          "task": "sroie_address",
+          "base": 0.2,
+          "icl1": 0.14,
+          "icl4": 0.12,
+          "loraB": 0.56,
+          "best_baseline": "base",
+          "gain": 0.36,
+          "ci95": [
+            0.2,
+            0.52
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_total",
+          "base": 0.72,
+          "icl1": 0.64,
+          "icl4": 0.7,
+          "loraB": 0.98,
+          "best_baseline": "base",
+          "gain": 0.26,
+          "ci95": [
+            0.16,
+            0.38
+          ],
+          "win": true
+        },
+        {
+          "task": "sroie_all",
+          "base": 0.63,
+          "icl1": 0.555,
+          "icl4": 0.576,
+          "loraB": 0.8,
+          "best_baseline": "base",
+          "gain": 0.17,
+          "ci95": [
+            0.11,
+            0.235
+          ],
+          "win": true
+        },
+        {
+          "task": "wr_store",
+          "base": 0.252,
+          "icl1": 0.21,
+          "icl4": 0.216,
+          "loraB": 0.3,
+          "best_baseline": "base",
+          "gain": 0.048,
+          "ci95": [
+            0.0,
+            0.095
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_datetime",
+          "base": 0.469,
+          "icl1": 0.46,
+          "icl4": 0.457,
+          "loraB": 0.528,
+          "best_baseline": "base",
+          "gain": 0.059,
+          "ci95": [
+            -0.011,
+            0.133
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_products",
+          "base": 0.432,
+          "icl1": 0.409,
+          "icl4": 0.4,
+          "loraB": 0.458,
+          "best_baseline": "base",
+          "gain": 0.026,
+          "ci95": [
+            -0.009,
+            0.069
+          ],
+          "win": false
+        },
+        {
+          "task": "wr_money",
+          "base": 0.459,
+          "icl1": 0.371,
+          "icl4": 0.481,
+          "loraB": 0.64,
+          "best_baseline": "icl4",
+          "gain": 0.16,
+          "ci95": [
+            0.06,
+            0.251
+          ],
+          "win": true
+        },
+        {
+          "task": "funsd_qa",
+          "base": 0.348,
+          "icl1": 0.323,
+          "icl4": 0.327,
+          "loraB": 0.318,
+          "best_baseline": "base",
+          "gain": -0.03,
+          "ci95": [
+            -0.096,
+            0.041
+          ],
+          "win": false
+        },
+        {
+          "task": "funsd_headers",
+          "base": 0.118,
+          "icl1": 0.112,
+          "icl4": 0.1,
+          "loraB": 0.274,
+          "best_baseline": "base",
+          "gain": 0.156,
+          "ci95": [
+            0.083,
+            0.235
+          ],
+          "win": true
+        },
+        {
+          "task": "xfund_zh_qa",
+          "base": 0.365,
+          "icl1": 0.414,
+          "icl4": 0.4,
+          "loraB": 0.382,
+          "best_baseline": "icl1",
+          "gain": -0.033,
+          "ci95": [
+            -0.115,
+            0.045
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_ja_qa",
+          "base": 0.163,
+          "icl1": 0.192,
+          "icl4": 0.213,
+          "loraB": 0.276,
+          "best_baseline": "icl4",
+          "gain": 0.063,
+          "ci95": [
+            -0.007,
+            0.13
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_es_qa",
+          "base": 0.256,
+          "icl1": 0.27,
+          "icl4": 0.316,
+          "loraB": 0.381,
+          "best_baseline": "icl4",
+          "gain": 0.065,
+          "ci95": [
+            -0.003,
+            0.126
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_fr_qa",
+          "base": 0.295,
+          "icl1": 0.319,
+          "icl4": 0.378,
+          "loraB": 0.403,
+          "best_baseline": "icl4",
+          "gain": 0.026,
+          "ci95": [
+            -0.042,
+            0.09
+          ],
+          "win": false
+        },
+        {
+          "task": "xfund_de_qa",
+          "base": 0.248,
+          "icl1": 0.381,
+          "icl4": 0.307,
+          "loraB": 0.416,
+          "best_baseline": "icl1",
+          "gain": 0.035,
+          "ci95": [
+            -0.052,
+            0.114
+          ],
+          "win": false
+        }
+      ]
+    }
+  }
+}

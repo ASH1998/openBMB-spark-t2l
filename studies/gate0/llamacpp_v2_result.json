@@ -1,0 +1,63 @@
+{
+  "commit": "51a77c4f247ce96fb932e29c9f81625ca9d3b0b7",
+  "build": "CUDA sm_86, A10G",
+  "model": "openbmb/MiniCPM-OCR-1.0",
+  "arm": "loraB",
+  "pooled": {
+    "n_docs": 150,
+    "f1": {
+      "llama_base": 0.3903381642512077,
+      "llama_lora": 0.6902050113895216,
+      "torch_base": 0.4495677233429395,
+      "torch_lora": 0.7017142857142857
+    },
+    "torch_gain": 0.25214656237134625,
+    "llama_gain": 0.2998668471383139,
+    "exact_agreement_lora": 0.5466666666666666,
+    "exact_agreement_base": 0.32666666666666666,
+    "pass_f1": true,
+    "pass_gain": true,
+    "pass": true
+  },
+  "per_task": {
+    "cord_total": {
+      "n_docs": 50,
+      "f1": {
+        "llama_base": 0.5109034267912772,
+        "llama_lora": 0.7883817427385892,
+        "torch_base": 0.5295950155763239,
+        "torch_lora": 0.8181818181818182
+      },
+      "torch_gain": 0.2885868026054943,
+      "llama_gain": 0.277478315947312,
+      "exact_agreement_lora": 0.9,
+      "exact_agreement_base": 0.72
+    },
+    "sroie_all": {
+      "n_docs": 50,
+      "f1": {
+        "llama_base": 0.5111111111111111,
+        "llama_lora": 0.695,
+        "torch_base": 0.57,
+        "torch_lora": 0.7
+      },
+      "torch_gain": 0.13,
+      "llama_gain": 0.18388888888888888,
+      "exact_agreement_lora": 0.4,
+      "exact_agreement_base": 0.1
+    },
+    "wr_money": {
+      "n_docs": 50,
+      "f1": {
+        "llama_base": 0.15819209039548024,
+        "llama_lora": 0.5822784810126582,
+        "torch_base": 0.21875,
+        "torch_lora": 0.5836909871244635
+      },
+      "torch_gain": 0.36494098712446355,
+      "llama_gain": 0.424086390617178,
+      "exact_agreement_lora": 0.34,
+      "exact_agreement_base": 0.16
+    }
+  }
+}

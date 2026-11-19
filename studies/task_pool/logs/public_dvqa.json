@@ -1,0 +1,29 @@
+{
+  "source": "dvqa",
+  "docs_read": 6000,
+  "docs_saved": 646,
+  "tasks": {
+    "dvqa_largest_bar": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "dvqa_smallest_bar": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "dvqa_largest_value": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "dvqa_smallest_value": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "dvqa_most_preferred": {
+      "eval": 46,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {},
+  "seconds": 12.315874576568604
+}

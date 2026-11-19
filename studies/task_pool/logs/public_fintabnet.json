@@ -1,0 +1,29 @@
+{
+  "source": "fintabnet",
+  "docs_read": 5500,
+  "docs_saved": 469,
+  "tasks": {
+    "fintabnet_header": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "fintabnet_first_col": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "fintabnet_shape": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "fintabnet_last_row": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "fintabnet_full": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {},
+  "seconds": 78.85152792930603
+}

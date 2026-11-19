@@ -1,0 +1,17 @@
+{
+  "source": "unimer",
+  "docs_read": 8000,
+  "docs_saved": 580,
+  "tasks": {
+    "unimer_latex_short": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "unimer_latex_long": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {},
+  "seconds": 8.858389377593994
+}

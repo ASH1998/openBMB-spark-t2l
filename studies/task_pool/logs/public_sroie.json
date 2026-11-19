@@ -1,0 +1,50 @@
+{
+  "source": "sroie",
+  "docs_read": 626,
+  "docs_saved": 290,
+  "tasks": {
+    "sroie_company": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "sroie_date": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "sroie_address": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "sroie_total": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "sroie_all": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {
+    "sroie_company": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "sroie_date": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "sroie_address": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "sroie_total": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "sroie_all": {
+      "eval_same": true,
+      "train_same": true
+    }
+  },
+  "seconds": 99.87131667137146
+}

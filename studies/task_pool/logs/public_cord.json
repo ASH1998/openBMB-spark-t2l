@@ -1,0 +1,50 @@
+{
+  "source": "cord",
+  "docs_read": 900,
+  "docs_saved": 290,
+  "tasks": {
+    "cord_menu": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "cord_subtotal": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "cord_total": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "cord_full": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "cord_menu_names": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "cord_total_price": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {
+    "cord_menu": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "cord_subtotal": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "cord_total": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "cord_full": {
+      "eval_same": true,
+      "train_same": true
+    }
+  },
+  "seconds": 193.57771492004395
+}

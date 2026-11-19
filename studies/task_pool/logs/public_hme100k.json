@@ -1,0 +1,13 @@
+{
+  "source": "hme100k",
+  "docs_read": 5000,
+  "docs_saved": 290,
+  "tasks": {
+    "hme100k_latex": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {},
+  "seconds": 14.992303371429443
+}

@@ -1,0 +1,26 @@
+{
+  "source": "xfund_es",
+  "docs_read": 199,
+  "docs_saved": 199,
+  "tasks": {
+    "xfund_es_qa": {
+      "eval": 50,
+      "train_candidates": 149
+    },
+    "xfund_es_headers": {
+      "eval": 50,
+      "train_candidates": 149
+    },
+    "xfund_es_questions": {
+      "eval": 50,
+      "train_candidates": 149
+    }
+  },
+  "gate0_split_checks": {
+    "xfund_es_qa": {
+      "eval_same": true,
+      "train_same": true
+    }
+  },
+  "seconds": 192.670095205307
+}

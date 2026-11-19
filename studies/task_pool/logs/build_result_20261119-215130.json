@@ -1,0 +1,30 @@
+{
+  "public": {},
+  "synth": {
+    "syn_shipping_label_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "errors": []
+}

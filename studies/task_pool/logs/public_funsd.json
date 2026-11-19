@@ -1,0 +1,30 @@
+{
+  "source": "funsd",
+  "docs_read": 149,
+  "docs_saved": 149,
+  "tasks": {
+    "funsd_qa": {
+      "eval": 50,
+      "train_candidates": 99
+    },
+    "funsd_headers": {
+      "eval": 50,
+      "train_candidates": 99
+    },
+    "funsd_questions": {
+      "eval": 50,
+      "train_candidates": 99
+    }
+  },
+  "gate0_split_checks": {
+    "funsd_qa": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "funsd_headers": {
+      "eval_same": true,
+      "train_same": true
+    }
+  },
+  "seconds": 12.724251985549927
+}

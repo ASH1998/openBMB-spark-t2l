@@ -1,0 +1,29 @@
+{
+  "source": "chartqa",
+  "docs_read": 19373,
+  "docs_saved": 1065,
+  "tasks": {
+    "chartqa_table_statista": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "chartqa_table_owid": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "chartqa_table_pew": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "chartqa_table_oecd": {
+      "eval": 40,
+      "train_candidates": 155
+    },
+    "chartqa_columns": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {},
+  "seconds": 48.58148646354675
+}

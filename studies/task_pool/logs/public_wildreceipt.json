@@ -1,0 +1,50 @@
+{
+  "source": "wildreceipt",
+  "docs_read": 1267,
+  "docs_saved": 290,
+  "tasks": {
+    "wr_store": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "wr_datetime": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "wr_products": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "wr_money": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "wr_total": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "wr_tel": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {
+    "wr_store": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "wr_datetime": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "wr_products": {
+      "eval_same": true,
+      "train_same": true
+    },
+    "wr_money": {
+      "eval_same": true,
+      "train_same": true
+    }
+  },
+  "seconds": 222.75923109054565
+}

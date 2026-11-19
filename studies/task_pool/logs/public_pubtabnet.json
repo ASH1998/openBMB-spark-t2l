@@ -1,0 +1,29 @@
+{
+  "source": "pubtabnet",
+  "docs_read": 5500,
+  "docs_saved": 496,
+  "tasks": {
+    "pubtabnet_header": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "pubtabnet_first_col": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "pubtabnet_shape": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "pubtabnet_last_row": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "pubtabnet_full": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {},
+  "seconds": 22.171725273132324
+}

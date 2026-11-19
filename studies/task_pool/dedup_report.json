@@ -1,0 +1,1903 @@
+{
+  "n_docs": 117214,
+  "exact_pairs": 8,
+  "near_text_pairs": 251,
+  "near_text_stats": {
+    "texts_checked": 111718,
+    "skipped_short": 5496,
+    "candidates": 22584,
+    "overflow_buckets": 0
+  },
+  "exact_pair_examples": [
+    [
+      "chartqa/chartqa_train_16909",
+      "chartqa/chartqa_train_16913"
+    ],
+    [
+      "chartqa/chartqa_train_4198",
+      "chartqa/chartqa_train_4549"
+    ],
+    [
+      "chartqa/chartqa_train_8298",
+      "chartqa/chartqa_train_8310"
+    ],
+    [
+      "chartqa/chartqa_val_7927",
+      "chartqa/chartqa_val_7940"
+    ],
+    [
+      "fintabnet/fintabnet_validation_725",
+      "fintabnet/fintabnet_validation_729"
+    ],
+    [
+      "sroie/sroie_X51005268262",
+      "sroie/sroie_X51005301659"
+    ],
+    [
+      "sroie/sroie_X51005301661",
+      "sroie/sroie_X51005303661"
+    ],
+    [
+      "sroie/sroie_X51006401723",
+      "sroie/sroie_X51007135037"
+    ]
+  ],
+  "near_pair_examples": [
+    [
+      "chartqa/chartqa_train_16909",
+      "chartqa/chartqa_train_16913",
+      1.0
+    ],
+    [
+      "chartqa/chartqa_train_4198",
+      "chartqa/chartqa_train_4549",
+      1.0
+    ],
+    [
+      "chartqa/chartqa_train_6298",
+      "chartqa/chartqa_train_6302",
+      0.9487
+    ],
+    [
+      "chartqa/chartqa_train_8298",
+      "chartqa/chartqa_train_8310",
+      0.9626
+    ],
+    [
+      "chartqa/chartqa_val_16718",
+      "chartqa/chartqa_val_16723",
+      0.8904
+    ],
+    [
+      "chartqa/chartqa_val_7927",
+      "chartqa/chartqa_val_7940",
+      0.9906
+    ],
+    [
+      "cord/cord_train_118",
+      "cord/cord_train_760",
+      1.0
+    ],
+    [
+      "cord/cord_train_14",
+      "cord/cord_train_772",
+      0.9104
+    ],
+    [
+      "cord/cord_train_168",
+      "cord/cord_validation_96",
+      0.84
+    ],
+    [
+      "cord/cord_train_204",
+      "cord/cord_train_391",
+      1.0
+    ],
+    [
+      "cord/cord_train_247",
+      "cord/cord_validation_12",
+      1.0
+    ],
+    [
+      "cord/cord_train_489",
+      "cord/cord_validation_67",
+      1.0
+    ],
+    [
+      "cord/cord_validation_16",
+      "cord/cord_validation_38",
+      1.0
+    ],
+    [
+      "fintabnet/fintabnet_train_108",
+      "fintabnet/fintabnet_train_122",
+      0.8878
+    ],
+    [
+      "fintabnet/fintabnet_train_108",
+      "fintabnet/fintabnet_train_220",
+      0.9463
+    ],
+    [
+      "fintabnet/fintabnet_train_122",
+      "fintabnet/fintabnet_train_220",
+      0.8389
+    ],
+    [
+      "fintabnet/fintabnet_train_1320",
+      "fintabnet/fintabnet_train_1355",
+      0.8529
+    ],
+    [
+      "fintabnet/fintabnet_train_3813",
+      "fintabnet/fintabnet_train_3849",
+      0.8554
+    ],
+    [
+      "fintabnet/fintabnet_validation_1194",
+      "fintabnet/fintabnet_validation_1230",
+      1.0
+    ],
+    [
+      "sroie/sroie_X51005268262",
+      "sroie/sroie_X51005301659",
+      1.0
+    ],
+    [
+      "sroie/sroie_X51005301661",
+      "sroie/sroie_X51005301667",
+      0.8425
+    ],
+    [
+      "sroie/sroie_X51005301661",
+      "sroie/sroie_X51005303661",
+      0.9256
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51005433538",
+      0.8707
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51005442394",
+      0.8707
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51006414429",
+      0.8083
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51006414431",
+      0.8083
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51006414470",
+      0.8083
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51006414485",
+      0.8235
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51006414633",
+      0.8235
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51006913024",
+      0.8083
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51007231336",
+      0.8083
+    ],
+    [
+      "sroie/sroie_X51005433522",
+      "sroie/sroie_X51007846307",
+      0.8017
+    ],
+    [
+      "sroie/sroie_X51005433538",
+      "sroie/sroie_X51005442394",
+      0.8974
+    ],
+    [
+      "sroie/sroie_X51005433538",
+      "sroie/sroie_X51006414429",
+      0.85
+    ],
+    [
+      "sroie/sroie_X51005433538",
+      "sroie/sroie_X51006414470",
+      0.85
+    ],
+    [
+      "sroie/sroie_X51005433538",
+      "sroie/sroie_X51006414485",
+      0.8655
+    ],
+    [
+      "sroie/sroie_X51005433538",
+      "sroie/sroie_X51006414633",
+      0.8655
+    ],
+    [
+      "sroie/sroie_X51005433538",
+      "sroie/sroie_X51006913024",
+      0.8197
+    ],
+    [
+      "sroie/sroie_X51005433538",
+      "sroie/sroie_X51006913028",
+      0.8049
+    ],
+    [
+      "sroie/sroie_X51005433538",
+      "sroie/sroie_X51007231336",
+      0.8197
+    ],
+    [
+      "sroie/sroie_X51005442394",
+      "sroie/sroie_X51006414429",
+      0.85
+    ],
+    [
+      "sroie/sroie_X51005442394",
+      "sroie/sroie_X51006414470",
+      0.85
+    ],
+    [
+      "sroie/sroie_X51005442394",
+      "sroie/sroie_X51006414485",
+      0.85
+    ],
+    [
+      "sroie/sroie_X51005442394",
+      "sroie/sroie_X51006414633",
+      0.85
+    ],
+    [
+      "sroie/sroie_X51005442394",
+      "sroie/sroie_X51006913024",
+      0.8049
+    ],
+    [
+      "sroie/sroie_X51005442394",
+      "sroie/sroie_X51006913028",
+      0.8049
+    ],
+    [
+      "sroie/sroie_X51005442394",
+      "sroie/sroie_X51007231336",
+      0.8049
+    ],
+    [
+      "sroie/sroie_X51005447860",
+      "sroie/sroie_X51005605286",
+      0.8257
+    ],
+    [
+      "sroie/sroie_X51005447861",
+      "sroie/sroie_X51005605334",
+      0.8142
+    ],
+    [
+      "sroie/sroie_X51005447861",
+      "sroie/sroie_X51006008091",
+      0.8304
+    ]
+  ],
+  "actions": [
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007231336",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007231336",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007231336",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007231336",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007231336",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005757324",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005757324",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005757324",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005757324",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005757324",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_full",
+      "dropped": "cord/cord_train_247",
+      "dup_of": "cord/cord_validation_12"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_menu",
+      "dropped": "cord/cord_train_247",
+      "dup_of": "cord/cord_validation_12"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_menu_names",
+      "dropped": "cord/cord_train_247",
+      "dup_of": "cord/cord_validation_12"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_subtotal",
+      "dropped": "cord/cord_train_247",
+      "dup_of": "cord/cord_validation_12"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_total",
+      "dropped": "cord/cord_train_247",
+      "dup_of": "cord/cord_validation_12"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_total_price",
+      "dropped": "cord/cord_train_247",
+      "dup_of": "cord/cord_validation_12"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51008064061",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51008064061",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51008064061",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51008064061",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51008064061",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005433538",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005433538",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005433538",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005433538",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005433538",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_datetime",
+      "dropped": "wildreceipt/wr_train_586",
+      "dup_of": "wildreceipt/wr_validation_234"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_money",
+      "dropped": "wildreceipt/wr_train_586",
+      "dup_of": "wildreceipt/wr_validation_234"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_products",
+      "dropped": "wildreceipt/wr_train_586",
+      "dup_of": "wildreceipt/wr_validation_234"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_store",
+      "dropped": "wildreceipt/wr_train_586",
+      "dup_of": "wildreceipt/wr_validation_234"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_tel",
+      "dropped": "wildreceipt/wr_train_586",
+      "dup_of": "wildreceipt/wr_validation_234"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_total",
+      "dropped": "wildreceipt/wr_train_586",
+      "dup_of": "wildreceipt/wr_validation_234"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005711442",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005711442",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005711442",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005711442",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005711442",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006414485",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006414485",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006414485",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006414485",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006414485",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005442394",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005442394",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005442394",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005442394",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005442394",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_full",
+      "dropped": "cord/cord_train_489",
+      "dup_of": "cord/cord_validation_67"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_menu",
+      "dropped": "cord/cord_train_489",
+      "dup_of": "cord/cord_validation_67"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_menu_names",
+      "dropped": "cord/cord_train_489",
+      "dup_of": "cord/cord_validation_67"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_subtotal",
+      "dropped": "cord/cord_train_489",
+      "dup_of": "cord/cord_validation_67"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_total",
+      "dropped": "cord/cord_train_489",
+      "dup_of": "cord/cord_validation_67"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_total_price",
+      "dropped": "cord/cord_train_489",
+      "dup_of": "cord/cord_validation_67"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007339648",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007339648",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007339648",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007339648",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007339648",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006414431",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006414431",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006414431",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006414431",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006414431",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007339114",
+      "dup_of": "sroie/sroie_X51007339166"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007339114",
+      "dup_of": "sroie/sroie_X51007339166"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007339114",
+      "dup_of": "sroie/sroie_X51007339166"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007339114",
+      "dup_of": "sroie/sroie_X51007339166"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007339114",
+      "dup_of": "sroie/sroie_X51007339166"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51008042782",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51008042782",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51008042782",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51008042782",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51008042782",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005711404",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005711404",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005711404",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005711404",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005711404",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51008164996",
+      "dup_of": "sroie/sroie_X51008164997"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51008164996",
+      "dup_of": "sroie/sroie_X51008164997"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51008164996",
+      "dup_of": "sroie/sroie_X51008164997"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51008164996",
+      "dup_of": "sroie/sroie_X51008164997"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51008164996",
+      "dup_of": "sroie/sroie_X51008164997"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005757353",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005757353",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005757353",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005757353",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005757353",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005676538",
+      "dup_of": "sroie/sroie_X51005676549"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005676538",
+      "dup_of": "sroie/sroie_X51005676549"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005676538",
+      "dup_of": "sroie/sroie_X51005676549"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005676538",
+      "dup_of": "sroie/sroie_X51005676549"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005676538",
+      "dup_of": "sroie/sroie_X51005676549"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006414470",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006414470",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006414470",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006414470",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006414470",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_headers",
+      "dropped": "xfund_de/xfund_de_de_train_134",
+      "dup_of": "xfund_de/xfund_de_de_val_19"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_qa",
+      "dropped": "xfund_de/xfund_de_de_train_134",
+      "dup_of": "xfund_de/xfund_de_de_val_19"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_questions",
+      "dropped": "xfund_de/xfund_de_de_train_134",
+      "dup_of": "xfund_de/xfund_de_de_val_19"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_headers",
+      "dropped": "xfund_de/xfund_de_de_train_58",
+      "dup_of": "xfund_de/xfund_de_de_val_34"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_qa",
+      "dropped": "xfund_de/xfund_de_de_train_58",
+      "dup_of": "xfund_de/xfund_de_de_val_34"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_questions",
+      "dropped": "xfund_de/xfund_de_de_train_58",
+      "dup_of": "xfund_de/xfund_de_de_val_34"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006913024",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006913024",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006913024",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006913024",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006913024",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005711441",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005711441",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005711441",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005711441",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005711441",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_headers",
+      "dropped": "xfund_de/xfund_de_de_train_71",
+      "dup_of": "xfund_de/xfund_de_de_val_19"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_qa",
+      "dropped": "xfund_de/xfund_de_de_train_71",
+      "dup_of": "xfund_de/xfund_de_de_val_19"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_questions",
+      "dropped": "xfund_de/xfund_de_de_train_71",
+      "dup_of": "xfund_de/xfund_de_de_val_19"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005757323",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005757323",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005757323",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005757323",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005757323",
+      "dup_of": "sroie/sroie_X51008063849"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005433522",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005433522",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005433522",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005433522",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005433522",
+      "dup_of": "sroie/sroie_X51006414429"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005757290",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005757290",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005757290",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005757290",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005757290",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005711401",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005711401",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005711401",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005711401",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005711401",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_full",
+      "dropped": "cord/cord_train_168",
+      "dup_of": "cord/cord_validation_96"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_menu",
+      "dropped": "cord/cord_train_168",
+      "dup_of": "cord/cord_validation_96"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_menu_names",
+      "dropped": "cord/cord_train_168",
+      "dup_of": "cord/cord_validation_96"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_subtotal",
+      "dropped": "cord/cord_train_168",
+      "dup_of": "cord/cord_validation_96"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_total",
+      "dropped": "cord/cord_train_168",
+      "dup_of": "cord/cord_validation_96"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "cord_total_price",
+      "dropped": "cord/cord_train_168",
+      "dup_of": "cord/cord_validation_96"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007339653",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007339653",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007339653",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007339653",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007339653",
+      "dup_of": "sroie/sroie_X51007339642"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007339131",
+      "dup_of": "sroie/sroie_X51007339126"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007339131",
+      "dup_of": "sroie/sroie_X51007339126"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007339131",
+      "dup_of": "sroie/sroie_X51007339126"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007339131",
+      "dup_of": "sroie/sroie_X51007339126"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007339131",
+      "dup_of": "sroie/sroie_X51007339126"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007339656",
+      "dup_of": "sroie/sroie_X51007339639"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007339656",
+      "dup_of": "sroie/sroie_X51007339639"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007339656",
+      "dup_of": "sroie/sroie_X51007339639"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007339656",
+      "dup_of": "sroie/sroie_X51007339639"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007339656",
+      "dup_of": "sroie/sroie_X51007339639"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006401723",
+      "dup_of": "sroie/sroie_X51007135037"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006401723",
+      "dup_of": "sroie/sroie_X51007135037"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006401723",
+      "dup_of": "sroie/sroie_X51007135037"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006401723",
+      "dup_of": "sroie/sroie_X51007135037"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006401723",
+      "dup_of": "sroie/sroie_X51007135037"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006557119",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006557119",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006557119",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006557119",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006557119",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_es_headers",
+      "dropped": "xfund_es/xfund_es_es_train_21",
+      "dup_of": "xfund_es/xfund_es_es_val_49"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_es_qa",
+      "dropped": "xfund_es/xfund_es_es_train_21",
+      "dup_of": "xfund_es/xfund_es_es_val_49"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_es_questions",
+      "dropped": "xfund_es/xfund_es_es_train_21",
+      "dup_of": "xfund_es/xfund_es_es_val_49"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007339098",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007339098",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007339098",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007339098",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007339098",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007339117",
+      "dup_of": "sroie/sroie_X51007339118"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007339117",
+      "dup_of": "sroie/sroie_X51007339118"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007339117",
+      "dup_of": "sroie/sroie_X51007339118"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007339117",
+      "dup_of": "sroie/sroie_X51007339118"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007339117",
+      "dup_of": "sroie/sroie_X51007339118"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006913028",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006913028",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006913028",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006913028",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006913028",
+      "dup_of": "sroie/sroie_X51006414633"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007339132",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007339132",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007339132",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007339132",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007339132",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_ja_headers",
+      "dropped": "xfund_ja/xfund_ja_ja_train_4",
+      "dup_of": "xfund_ja/xfund_ja_ja_val_43"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_ja_qa",
+      "dropped": "xfund_ja/xfund_ja_ja_train_4",
+      "dup_of": "xfund_ja/xfund_ja_ja_val_43"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_ja_questions",
+      "dropped": "xfund_ja/xfund_ja_ja_train_4",
+      "dup_of": "xfund_ja/xfund_ja_ja_val_43"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007103578",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007103578",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007103578",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007103578",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007103578",
+      "dup_of": "sroie/sroie_X51007103681"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005677332",
+      "dup_of": "sroie/sroie_X51005676541"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005677332",
+      "dup_of": "sroie/sroie_X51005676541"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005677332",
+      "dup_of": "sroie/sroie_X51005676541"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005677332",
+      "dup_of": "sroie/sroie_X51005676541"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005677332",
+      "dup_of": "sroie/sroie_X51005676541"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_datetime",
+      "dropped": "wildreceipt/wr_train_557",
+      "dup_of": "wildreceipt/wr_validation_165"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_money",
+      "dropped": "wildreceipt/wr_train_557",
+      "dup_of": "wildreceipt/wr_validation_165"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_products",
+      "dropped": "wildreceipt/wr_train_557",
+      "dup_of": "wildreceipt/wr_validation_165"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_store",
+      "dropped": "wildreceipt/wr_train_557",
+      "dup_of": "wildreceipt/wr_validation_165"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_tel",
+      "dropped": "wildreceipt/wr_train_557",
+      "dup_of": "wildreceipt/wr_validation_165"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "wr_total",
+      "dropped": "wildreceipt/wr_train_557",
+      "dup_of": "wildreceipt/wr_validation_165"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006008091",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006008091",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006008091",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006008091",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006008091",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006619341",
+      "dup_of": "sroie/sroie_X51006620186"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006619341",
+      "dup_of": "sroie/sroie_X51006620186"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006619341",
+      "dup_of": "sroie/sroie_X51006620186"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006619341",
+      "dup_of": "sroie/sroie_X51006620186"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006619341",
+      "dup_of": "sroie/sroie_X51006620186"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006392299",
+      "dup_of": "sroie/sroie_X51006388064"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006392299",
+      "dup_of": "sroie/sroie_X51006388064"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006392299",
+      "dup_of": "sroie/sroie_X51006388064"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006392299",
+      "dup_of": "sroie/sroie_X51006388064"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006392299",
+      "dup_of": "sroie/sroie_X51006388064"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005711453",
+      "dup_of": "sroie/sroie_X51007846395"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005711453",
+      "dup_of": "sroie/sroie_X51007846395"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005711453",
+      "dup_of": "sroie/sroie_X51007846395"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005711453",
+      "dup_of": "sroie/sroie_X51007846395"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005711453",
+      "dup_of": "sroie/sroie_X51007846395"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_fr_headers",
+      "dropped": "xfund_fr/xfund_fr_fr_train_147",
+      "dup_of": "xfund_fr/xfund_fr_fr_val_7"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_fr_qa",
+      "dropped": "xfund_fr/xfund_fr_fr_train_147",
+      "dup_of": "xfund_fr/xfund_fr_fr_val_7"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_fr_questions",
+      "dropped": "xfund_fr/xfund_fr_fr_train_147",
+      "dup_of": "xfund_fr/xfund_fr_fr_val_7"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51007339097",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51007339097",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51007339097",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51007339097",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51007339097",
+      "dup_of": "sroie/sroie_X51007339151"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005711403",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005711403",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005711403",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005711403",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005711403",
+      "dup_of": "sroie/sroie_X51005711451"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006557184",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006557184",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006557184",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006557184",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006557184",
+      "dup_of": "sroie/sroie_X51006557117"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005447861",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005447861",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005447861",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005447861",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005447861",
+      "dup_of": "sroie/sroie_X51005605334"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_headers",
+      "dropped": "xfund_de/xfund_de_de_train_62",
+      "dup_of": "xfund_de/xfund_de_de_val_20"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_qa",
+      "dropped": "xfund_de/xfund_de_de_train_62",
+      "dup_of": "xfund_de/xfund_de_de_val_20"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "xfund_de_questions",
+      "dropped": "xfund_de/xfund_de_de_train_62",
+      "dup_of": "xfund_de/xfund_de_de_val_20"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51006414703",
+      "dup_of": "sroie/sroie_X51006414718"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51006414703",
+      "dup_of": "sroie/sroie_X51006414718"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51006414703",
+      "dup_of": "sroie/sroie_X51006414718"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51006414703",
+      "dup_of": "sroie/sroie_X51006414718"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51006414703",
+      "dup_of": "sroie/sroie_X51006414718"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_address",
+      "dropped": "sroie/sroie_X51005268262",
+      "dup_of": "sroie/sroie_X51005301659"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_all",
+      "dropped": "sroie/sroie_X51005268262",
+      "dup_of": "sroie/sroie_X51005301659"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_company",
+      "dropped": "sroie/sroie_X51005268262",
+      "dup_of": "sroie/sroie_X51005301659"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_date",
+      "dropped": "sroie/sroie_X51005268262",
+      "dup_of": "sroie/sroie_X51005301659"
+    },
+    {
+      "rule": "train_vs_eval",
+      "task": "sroie_total",
+      "dropped": "sroie/sroie_X51005268262",
+      "dup_of": "sroie/sroie_X51005301659"
+    }
+  ],
+  "n_actions": 266,
+  "rules": {
+    "text_jaccard": 0.8,
+    "min_text_chars": 30,
+    "shingle": 5,
+    "num_perm": 64,
+    "bands": 16
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "invoices",
+  "docs_read": 475,
+  "docs_saved": 294,
+  "tasks": {
+    "inv_header": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "inv_parties": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "inv_items": {
+      "eval": 48,
+      "train_candidates": 240
+    },
+    "inv_summary": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "gate0_split_checks": {},
+  "seconds": 37.251715898513794
+}

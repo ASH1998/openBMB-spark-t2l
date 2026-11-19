@@ -1,0 +1,2005 @@
+{
+  "public": {
+    "cord": {
+      "source": "cord",
+      "docs_read": 900,
+      "docs_saved": 290,
+      "tasks": {
+        "cord_menu": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "cord_subtotal": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "cord_total": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "cord_full": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "cord_menu_names": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "cord_total_price": {
+          "eval": 50,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {
+        "cord_menu": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "cord_subtotal": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "cord_total": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "cord_full": {
+          "eval_same": true,
+          "train_same": true
+        }
+      },
+      "seconds": 193.57771492004395
+    },
+    "sroie": {
+      "source": "sroie",
+      "docs_read": 626,
+      "docs_saved": 290,
+      "tasks": {
+        "sroie_company": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "sroie_date": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "sroie_address": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "sroie_total": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "sroie_all": {
+          "eval": 50,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {
+        "sroie_company": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "sroie_date": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "sroie_address": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "sroie_total": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "sroie_all": {
+          "eval_same": true,
+          "train_same": true
+        }
+      },
+      "seconds": 99.87131667137146
+    },
+    "wildreceipt": {
+      "source": "wildreceipt",
+      "docs_read": 1267,
+      "docs_saved": 290,
+      "tasks": {
+        "wr_store": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "wr_datetime": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "wr_products": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "wr_money": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "wr_total": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "wr_tel": {
+          "eval": 50,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {
+        "wr_store": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "wr_datetime": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "wr_products": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "wr_money": {
+          "eval_same": true,
+          "train_same": true
+        }
+      },
+      "seconds": 222.75923109054565
+    },
+    "funsd": {
+      "source": "funsd",
+      "docs_read": 149,
+      "docs_saved": 149,
+      "tasks": {
+        "funsd_qa": {
+          "eval": 50,
+          "train_candidates": 99
+        },
+        "funsd_headers": {
+          "eval": 50,
+          "train_candidates": 99
+        },
+        "funsd_questions": {
+          "eval": 50,
+          "train_candidates": 99
+        }
+      },
+      "gate0_split_checks": {
+        "funsd_qa": {
+          "eval_same": true,
+          "train_same": true
+        },
+        "funsd_headers": {
+          "eval_same": true,
+          "train_same": true
+        }
+      },
+      "seconds": 12.724251985549927
+    },
+    "xfund_zh": {
+      "source": "xfund_zh",
+      "docs_read": 199,
+      "docs_saved": 199,
+      "tasks": {
+        "xfund_zh_qa": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_zh_headers": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_zh_questions": {
+          "eval": 50,
+          "train_candidates": 149
+        }
+      },
+      "gate0_split_checks": {
+        "xfund_zh_qa": {
+          "eval_same": true,
+          "train_same": true
+        }
+      },
+      "seconds": 160.89976143836975
+    },
+    "xfund_ja": {
+      "source": "xfund_ja",
+      "docs_read": 199,
+      "docs_saved": 199,
+      "tasks": {
+        "xfund_ja_qa": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_ja_headers": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_ja_questions": {
+          "eval": 50,
+          "train_candidates": 149
+        }
+      },
+      "gate0_split_checks": {
+        "xfund_ja_qa": {
+          "eval_same": true,
+          "train_same": true
+        }
+      },
+      "seconds": 101.87582015991211
+    },
+    "xfund_es": {
+      "source": "xfund_es",
+      "docs_read": 199,
+      "docs_saved": 199,
+      "tasks": {
+        "xfund_es_qa": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_es_headers": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_es_questions": {
+          "eval": 50,
+          "train_candidates": 149
+        }
+      },
+      "gate0_split_checks": {
+        "xfund_es_qa": {
+          "eval_same": true,
+          "train_same": true
+        }
+      },
+      "seconds": 192.670095205307
+    },
+    "xfund_fr": {
+      "source": "xfund_fr",
+      "docs_read": 199,
+      "docs_saved": 199,
+      "tasks": {
+        "xfund_fr_qa": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_fr_headers": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_fr_questions": {
+          "eval": 50,
+          "train_candidates": 149
+        }
+      },
+      "gate0_split_checks": {
+        "xfund_fr_qa": {
+          "eval_same": true,
+          "train_same": true
+        }
+      },
+      "seconds": 132.93243026733398
+    },
+    "xfund_de": {
+      "source": "xfund_de",
+      "docs_read": 199,
+      "docs_saved": 199,
+      "tasks": {
+        "xfund_de_qa": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_de_headers": {
+          "eval": 50,
+          "train_candidates": 149
+        },
+        "xfund_de_questions": {
+          "eval": 50,
+          "train_candidates": 149
+        }
+      },
+      "gate0_split_checks": {
+        "xfund_de_qa": {
+          "eval_same": true,
+          "train_same": true
+        }
+      },
+      "seconds": 122.63384056091309
+    },
+    "pubtabnet": {
+      "source": "pubtabnet",
+      "docs_read": 5500,
+      "docs_saved": 496,
+      "tasks": {
+        "pubtabnet_header": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "pubtabnet_first_col": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "pubtabnet_shape": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "pubtabnet_last_row": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "pubtabnet_full": {
+          "eval": 50,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {},
+      "seconds": 22.171725273132324
+    },
+    "dvqa": {
+      "source": "dvqa",
+      "docs_read": 6000,
+      "docs_saved": 646,
+      "tasks": {
+        "dvqa_largest_bar": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "dvqa_smallest_bar": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "dvqa_largest_value": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "dvqa_smallest_value": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "dvqa_most_preferred": {
+          "eval": 46,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {},
+      "seconds": 12.315874576568604
+    },
+    "unimer": {
+      "source": "unimer",
+      "docs_read": 8000,
+      "docs_saved": 580,
+      "tasks": {
+        "unimer_latex_short": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "unimer_latex_long": {
+          "eval": 50,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {},
+      "seconds": 8.858389377593994
+    },
+    "hme100k": {
+      "source": "hme100k",
+      "docs_read": 5000,
+      "docs_saved": 290,
+      "tasks": {
+        "hme100k_latex": {
+          "eval": 50,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {},
+      "seconds": 14.992303371429443
+    },
+    "fintabnet": {
+      "source": "fintabnet",
+      "docs_read": 5500,
+      "docs_saved": 469,
+      "tasks": {
+        "fintabnet_header": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "fintabnet_first_col": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "fintabnet_shape": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "fintabnet_last_row": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "fintabnet_full": {
+          "eval": 50,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {},
+      "seconds": 78.85152792930603
+    },
+    "chartqa": {
+      "source": "chartqa",
+      "docs_read": 19373,
+      "docs_saved": 1065,
+      "tasks": {
+        "chartqa_table_statista": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "chartqa_table_owid": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "chartqa_table_pew": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "chartqa_table_oecd": {
+          "eval": 40,
+          "train_candidates": 155
+        },
+        "chartqa_columns": {
+          "eval": 50,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {},
+      "seconds": 48.58148646354675
+    },
+    "invoices": {
+      "source": "invoices",
+      "docs_read": 475,
+      "docs_saved": 294,
+      "tasks": {
+        "inv_header": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "inv_parties": {
+          "eval": 50,
+          "train_candidates": 240
+        },
+        "inv_items": {
+          "eval": 48,
+          "train_candidates": 240
+        },
+        "inv_summary": {
+          "eval": 50,
+          "train_candidates": 240
+        }
+      },
+      "gate0_split_checks": {},
+      "seconds": 37.251715898513794
+    }
+  },
+  "synth": {
+    "syn_bank_account_opening_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_bank_account_opening_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_customs_declaration_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_delivery_note_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_donation_receipt_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_event_registration_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_gym_membership_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_hotel_registration_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_insurance_claim_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_job_application_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_lab_report_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_library_membership_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_patient_intake_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_payslip_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_prescription_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_purchase_order_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_rental_application_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_restaurant_bill_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_school_enrollment_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_shipping_label_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_travel_expense_claim_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_utility_bill_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_vehicle_registration_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_visa_application_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_en_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_en_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_en_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_en_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_en_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_en_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_en_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_en_07": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_zh_00": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_zh_01": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_zh_02": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_zh_03": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_zh_04": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_zh_05": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_zh_06": {
+      "eval": 50,
+      "train_candidates": 240
+    },
+    "syn_warranty_card_zh_07": {
+      "eval": 50,
+      "train_candidates": 240
+    }
+  },
+  "errors": [
+    {
+      "chunk": 49,
+      "error": "RemoteError('')"
+    }
+  ]
+}

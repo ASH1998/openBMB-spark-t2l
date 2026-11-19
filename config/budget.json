@@ -1,0 +1,16 @@
+{
+  "currency": "USD",
+  "provider": "modal",
+  "project_cap_usd": 600,
+  "confirmed_by_user": true,
+  "confirmed_at": "2026-11-19",
+  "stage_caps_usd": {
+    "gate0": 40,
+    "task_pool": 40,
+    "hypernetwork": 350,
+    "evaluation": 80,
+    "overhead": 90
+  },
+  "max_single_reservation_usd": 40,
+  "note": "Caps approved by the user in chat on 2026-11-19 (USD 600 total, USD 40 for gate0). Single-run cap raised to 40 on 2026-11-19 so the Gate 0 fan-out can run as one reservation (user: 'cost is fine')."
+}

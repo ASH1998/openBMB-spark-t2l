@@ -33,7 +33,14 @@ The hypernetwork behind these numbers is on Hugging Face: [ASHu2/openT2L-MiniCPM
 | Input | 1–8 labelled example pages. Each is embedded by the frozen base model as the last LM hidden state averaged over the answer tokens, with processor settings `downsample_mode="16x"`, `max_slice_nums=9`. |
 | Trained on | 333 tasks: 16 public datasets and synthetic forms. Real labels only. |
 
-The model card has a complete example: embed 4 pages, emit an adapter, load it with PEFT. Because the training data includes non-commercial datasets (XFUND, DVQA) and some with unclear licences (SROIE, WildReceipt, HME100K), the weights and every adapter they emit are for non-commercial use.
+The model card has a complete example: embed 4 pages, emit an adapter, load it with PEFT.
+
+The card's code was run as published: openT2L installed from GitHub, the weights downloaded from the Hub. It was run on 3 held-out tasks × 10 pages with the Gate 1 support pages (run G1-10, [modal_app/verify_hf_card.py](modal_app/verify_hf_card.py)).
+- **Chinese purchase order:** F1 0.987, outputs identical to Gate 1 on 10/10 pages.
+- **FinTabNet table:** F1 0.913, outputs identical to Gate 1 on 10/10 pages.
+- **Invoice line items:** F1 0.721 vs 0.699 in Gate 1. 8/10 outputs are identical; PEFT applies the LoRA with slightly different numerics than the hooks used in Gate 1.
+
+On the same pages the base model scores 0.26, 0.37 and 0.41. Results: [studies/gate1/hf_card_check.json](studies/gate1/hf_card_check.json). Because the training data includes non-commercial datasets (XFUND, DVQA) and some with unclear licences (SROIE, WildReceipt, HME100K), the weights and every adapter they emit are for non-commercial use.
 
 ## What we ran
 

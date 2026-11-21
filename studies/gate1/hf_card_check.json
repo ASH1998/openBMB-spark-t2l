@@ -1,0 +1,1257 @@
+{
+  "summary": {
+    "hf_repo": "ASHu2/openT2L-MiniCPM-V-4.7-1B-docs",
+    "library": "git+https://github.com/ASH1998/openT2L",
+    "t2l_file": "/usr/local/lib/python3.12/site-packages/t2l/__init__.py",
+    "seconds": 310.34476017951965,
+    "tasks": {
+      "syn_purchase_order_zh_00": {
+        "support": [
+          "syn_purchase_order_zh_00_0132",
+          "syn_purchase_order_zh_00_0088",
+          "syn_purchase_order_zh_00_0151",
+          "syn_purchase_order_zh_00_0216"
+        ],
+        "adapter_files": [
+          "adapter_config.json",
+          "adapter_model.safetensors"
+        ],
+        "n_docs": 10,
+        "f1_card": 0.9866666666666667,
+        "f1_gate1_emit4": 0.9866666666666667,
+        "f1_gate1_base": 0.26,
+        "identical_to_gate1_emit4": 10
+      },
+      "fintabnet_full": {
+        "support": [
+          "fintabnet_train_192",
+          "fintabnet_train_1412",
+          "fintabnet_train_315",
+          "fintabnet_train_1533"
+        ],
+        "adapter_files": [
+          "adapter_config.json",
+          "adapter_model.safetensors"
+        ],
+        "n_docs": 10,
+        "f1_card": 0.9130434782608695,
+        "f1_gate1_emit4": 0.9130434782608695,
+        "f1_gate1_base": 0.37453183520599254,
+        "identical_to_gate1_emit4": 10
+      },
+      "inv_items": {
+        "support": [
+          "inv_train_286",
+          "inv_train_108",
+          "inv_train_226",
+          "inv_train_301"
+        ],
+        "adapter_files": [
+          "adapter_config.json",
+          "adapter_model.safetensors"
+        ],
+        "n_docs": 10,
+        "f1_card": 0.7211895910780669,
+        "f1_gate1_emit4": 0.6988847583643123,
+        "f1_gate1_base": 0.40654205607476634,
+        "identical_to_gate1_emit4": 8
+      }
+    }
+  },
+  "raw": {
+    "t2l_file": "/usr/local/lib/python3.12/site-packages/t2l/__init__.py",
+    "card_head_lines": 26,
+    "tasks": {
+      "syn_purchase_order_zh_00": {
+        "support": [
+          "syn_purchase_order_zh_00_0132",
+          "syn_purchase_order_zh_00_0088",
+          "syn_purchase_order_zh_00_0151",
+          "syn_purchase_order_zh_00_0216"
+        ],
+        "adapter_files": [
+          "adapter_config.json",
+          "adapter_model.safetensors"
+        ],
+        "preds": [
+          {
+            "id": "syn_purchase_order_zh_00_0000",
+            "output": "{\"poNumber\": \"PO-108503\", \"orderDate\": \"2017/10/20\", \"vendor\": \"中建创业传媒有限公司\", \"total\": \"28123.69\", \"paymentTerms\": \"货到付款\", \"items\": [{\"description\": \"迷你充电器\", \"qty\": \"127\", \"unit\": \"件\", \"unitPrice\": \"815.90元\", \"amount\": \"4405.40元\"}, {\"description\": \"家用螺丝套装\", \"qty\": \"156\", \"unit\": \"件\", \"unitPrice\": \"323.24元\", \"amount\": \"5028.80元\"}]}",
+            "label": {
+              "poNumber": "PO-108503",
+              "orderDate": "2017/10/20",
+              "vendor": "中建创业传媒有限公司",
+              "total": "28123.69元",
+              "paymentTerms": "货到付款",
+              "items": [
+                {
+                  "description": "迷你充电器",
+                  "qty": "127",
+                  "unit": "件",
+                  "unitPrice": "815.90元",
+                  "amount": "4405.40元"
+                },
+                {
+                  "description": "家用螺丝套装",
+                  "qty": "156",
+                  "unit": "件",
+                  "unitPrice": "323.24元",
+                  "amount": "5028.80元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-108503\", \"orderDate\": \"2017/10/20\", \"vendor\": \"中建创业传媒有限公司\", \"total\": \"28123.69\", \"paymentTerms\": \"货到付款\", \"items\": [{\"description\": \"迷你充电器\", \"qty\": \"127\", \"unit\": \"件\", \"unitPrice\": \"815.90元\", \"amount\": \"4405.40元\"}, {\"description\": \"家用螺丝套装\", \"qty\": \"156\", \"unit\": \"件\", \"unitPrice\": \"323.24元\", \"amount\": \"5028.80元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"P0-108503\",\n    \"orderDate\": \"2017/10/20\",\n    \"vendor\": \"中建创业传媒有限公司\",\n    \"total\": \"28123.69 元\",\n    \"paymentTerms\": \"货到付款\"\n}\n{\n    \"description\": \"速充充电器\", \"qty\": \"127\", \"unit\": \"件\", \"unitPrice\": \"815.90 元\", \"amount\": \"4405.40 元\"},\n    {\n        \"description\": \"家用螺丝套装\", \"qty\": \"156\", \"unit\": \"件\", \"unitPrice\": \"323.24 元\", \"amount\": \"5028.80 元\"\n    }\n}"
+          },
+          {
+            "id": "syn_purchase_order_zh_00_0001",
+            "output": "{\"poNumber\": \"PO-466781\", \"orderDate\": \"2018/10/13\", \"vendor\": \"维旺明网络有限公司\", \"total\": \"44198.44元\", \"paymentTerms\": \"月结30天\", \"items\": [{\"description\": \"高速阀门\", \"qty\": \"435\", \"unit\": \"千克\", \"unitPrice\": \"427.55元\", \"amount\": \"137.83元\"}]}",
+            "label": {
+              "poNumber": "PO-466781",
+              "orderDate": "2018/10/13",
+              "vendor": "维旺明网络有限公司",
+              "total": "44198.44元",
+              "paymentTerms": "月结30天",
+              "items": [
+                {
+                  "description": "高速阀门",
+                  "qty": "435",
+                  "unit": "千克",
+                  "unitPrice": "427.55元",
+                  "amount": "137.83元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-466781\", \"orderDate\": \"2018/10/13\", \"vendor\": \"维旺明网络有限公司\", \"total\": \"44198.44元\", \"paymentTerms\": \"月结30天\", \"items\": [{\"description\": \"高速阀门\", \"qty\": \"435\", \"unit\": \"千克\", \"unitPrice\": \"427.55元\", \"amount\": \"137.83元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"PO-466781\",\n    \"orderDate\": \"2018/10/13\",\n    \"vendor\": \"维明网络有限公司\",\n    \"total\": \"44198.44 元\",\n    \"paymentTerms\": \"月结 30 天\"\n}\n{\n    \"description\": \"高速阀门\",\n    \"qty\": \"435\",\n    \"unit\": \"千克\",\n    \"unitPrice\": \"427.55 元\",\n    \"amount\": \"137.83 元\"\n}"
+          },
+          {
+            "id": "syn_purchase_order_zh_00_0002",
+            "output": "{\"poNumber\": \"PO-268348\", \"orderDate\": \"2021/05/24\", \"vendor\": \"图龙信息科技有限公司\", \"total\": \"12512.02元\", \"paymentTerms\": \"月结60天\", \"items\": [{\"description\": \"多功能台灯\", \"qty\": \"151\", \"unit\": \"套\", \"unitPrice\": \"270.83元\", \"amount\": \"673.95元\"}]}",
+            "label": {
+              "poNumber": "PO-268348",
+              "orderDate": "2021/05/24",
+              "vendor": "图龙信息科技有限公司",
+              "total": "12512.02元",
+              "paymentTerms": "月结60天",
+              "items": [
+                {
+                  "description": "多功能台灯",
+                  "qty": "151",
+                  "unit": "套",
+                  "unitPrice": "270.83元",
+                  "amount": "673.95元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-268348\", \"orderDate\": \"2021/05/24\", \"vendor\": \"图龙信息科技有限公司\", \"total\": \"12512.02元\", \"paymentTerms\": \"月结60天\", \"items\": [{\"description\": \"多功能台灯\", \"qty\": \"151\", \"unit\": \"套\", \"unitPrice\": \"270.83元\", \"amount\": \"673.95元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"P0-268348\",\n    \"orderDate\": \"2021/05/24\",\n    \"vendor\": \"图龙信息科技有限公司\",\n    \"total\": \"12512.02 元\",\n    \"paymentTerms\": \"月结 60 天\"\n}\n{\n    \"description\": \"多功能台灯\",\n    \"qty\": \"151\",\n    \"unit\": \"套\",\n    \"unitPrice\": \"270.83 元\",\n    \"amount\": \"673.95 元\"\n}"
+          },
+          {
+            "id": "syn_purchase_order_zh_00_0003",
+            "output": "{\"poNumber\": \"PO-540079\", \"orderDate\": \"2025/01/09\", \"vendor\": \"四通科技有限公司\", \"total\": \"71258.82元\", \"paymentTerms\": \"月结60天\", \"items\": [{\"description\": \"加厚水杯\", \"qty\": \"335\", \"unit\": \"箱\", \"unitPrice\": \"20.04元\", \"amount\": \"7838.90元\"}, {\"description\": \"加厚传感器\", \"qty\": \"60\", \"unit\": \"千克\", \"unitPrice\": \"427.07元\", \"amount\": \"1613.66元\"}, {\"description\": \"不锈钢充电器\", \"qty\": \"135\", \"unit\": \"套\", \"unitPrice\": \"84.34元\", \"amount\": \"4248.82元\"}]}",
+            "label": {
+              "poNumber": "PO-540079",
+              "orderDate": "2025/01/09",
+              "vendor": "四通科技有限公司",
+              "total": "71258.82元",
+              "paymentTerms": "月结60天",
+              "items": [
+                {
+                  "description": "加厚水杯",
+                  "qty": "335",
+                  "unit": "箱",
+                  "unitPrice": "20.04元",
+                  "amount": "7838.90元"
+                },
+                {
+                  "description": "加厚传感器",
+                  "qty": "60",
+                  "unit": "千克",
+                  "unitPrice": "427.07元",
+                  "amount": "1613.66元"
+                },
+                {
+                  "description": "不锈钢充电器",
+                  "qty": "135",
+                  "unit": "套",
+                  "unitPrice": "84.34元",
+                  "amount": "4248.82元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-540079\", \"orderDate\": \"2025/01/09\", \"vendor\": \"四通科技有限公司\", \"total\": \"71258.82元\", \"paymentTerms\": \"月结60天\", \"items\": [{\"description\": \"加厚水杯\", \"qty\": \"335\", \"unit\": \"箱\", \"unitPrice\": \"20.04元\", \"amount\": \"7838.90元\"}, {\"description\": \"加厚传感器\", \"qty\": \"60\", \"unit\": \"千克\", \"unitPrice\": \"427.07元\", \"amount\": \"1613.66元\"}, {\"description\": \"不锈钢充电器\", \"qty\": \"135\", \"unit\": \"套\", \"unitPrice\": \"84.34元\", \"amount\": \"4248.82元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"PO-540079\",\n    \"orderDate\": \"2025/01/09\",\n    \"vendor\": \"四通科技有限公司\",\n    \"total\": \"71258.82 元\",\n    \"paymentTerms\": \"月结 60 天\"\n}\n{\n    \"description\": \"加厚水杯\", \"qty\": \"335\", \"unit\": \"箱\", \"unitPrice\": \"20.04 元\", \"amount\": \"7838.90 元\"\n}\n{\n    \"description\": \"加厚传感器\", \"qty\": \"60\", \"unit\": \"千克\", \"unitPrice\": \"427.07 元\", \"amount\": \"1613.66 元\"\n}\n{\n    \"description\": \"不锈钢充电器\", \"qty\": \"135\", \"unit\": \"套\", \"unitPrice\": \"84.34 元\", \"amount\": \"4248.82 元\"\n}"
+          },
+          {
+            "id": "syn_purchase_order_zh_00_0004",
+            "output": "{\"poNumber\": \"PO-634694\", \"orderDate\": \"2019/10/25\", \"vendor\": \"图龙信息信息有限公司\", \"total\": \"33446.92元\", \"paymentTerms\": \"月结60天\", \"items\": [{\"description\": \"迷你水杯\", \"qty\": \"206\", \"unit\": \"千克\", \"unitPrice\": \"888.41元\", \"amount\": \"6694.67元\"}, {\"description\": \"多功能耳机\", \"qty\": \"52\", \"unit\": \"箱\", \"unitPrice\": \"177.67元\", \"amount\": \"2879.88元\"}, {\"description\": \"节能耳机\", \"qty\": \"223\", \"unit\": \"箱\", \"unitPrice\": \"622.97元\", \"amount\": \"5265.82元\"}]}",
+            "label": {
+              "poNumber": "PO-634694",
+              "orderDate": "2019/10/25",
+              "vendor": "图龙信息信息有限公司",
+              "total": "33446.92元",
+              "paymentTerms": "月结60天",
+              "items": [
+                {
+                  "description": "迷你水杯",
+                  "qty": "206",
+                  "unit": "千克",
+                  "unitPrice": "888.41元",
+                  "amount": "6694.67元"
+                },
+                {
+                  "description": "多功能耳机",
+                  "qty": "52",
+                  "unit": "箱",
+                  "unitPrice": "177.67元",
+                  "amount": "2879.88元"
+                },
+                {
+                  "description": "节能耳机",
+                  "qty": "223",
+                  "unit": "箱",
+                  "unitPrice": "622.97元",
+                  "amount": "5265.82元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-634694\", \"orderDate\": \"2019/10/25\", \"vendor\": \"图龙信息信息有限公司\", \"total\": \"33446.92元\", \"paymentTerms\": \"月结60天\", \"items\": [{\"description\": \"迷你水杯\", \"qty\": \"206\", \"unit\": \"千克\", \"unitPrice\": \"888.41元\", \"amount\": \"6694.67元\"}, {\"description\": \"多功能耳机\", \"qty\": \"52\", \"unit\": \"箱\", \"unitPrice\": \"177.67元\", \"amount\": \"2879.88元\"}, {\"description\": \"节能耳机\", \"qty\": \"223\", \"unit\": \"箱\", \"unitPrice\": \"622.97元\", \"amount\": \"5265.82元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"PO-634694\",\n    \"orderDate\": \"2019/10/25\",\n    \"vendor\": \"图龙信息信息有限公司\",\n    \"total\": \"33446.92 元\",\n    \"paymentTerms\": \"月结 60 天\"\n}\n{\n    \"description\": \"送你水杯\", \"qty\": \"206\", \"unit\": \"千克\", \"unitPrice\": \"888.41 元\", \"amount\": \"6694.67 元\"\n},\n{\n    \"description\": \"多功能耳机\", \"qty\": \"52\", \"unit\": \"箱\", \"unitPrice\": \"177.67 元\", \"amount\": \"2879.88 元\"\n},\n{\n    \"description\": \"节能耳机\", \"qty\": \"223\", \"unit\": \"箱\", \"unitPrice\": \"622.97 元\", \"amount\": \"5265.82 元\"\n}"
+          },
+          {
+            "id": "syn_purchase_order_zh_00_0005",
+            "output": "{\"poNumber\": \"PO-550130\", \"orderDate\": \"2015/08/03\", \"vendor\": \"飞海科技网络有限公司\", \"total\": \"35091.95元\", \"paymentTerms\": \"月结60天\", \"items\": [{\"description\": \"加厚水泵\", \"qty\": \"5\", \"unit\": \"件\", \"unitPrice\": \"587.07元\", \"amount\": \"6880.47元\"}]}",
+            "label": {
+              "poNumber": "PO-550130",
+              "orderDate": "2015/08/03",
+              "vendor": "飞海科技网络有限公司",
+              "total": "35091.95元",
+              "paymentTerms": "月结60天",
+              "items": [
+                {
+                  "description": "加厚水泵",
+                  "qty": "5",
+                  "unit": "件",
+                  "unitPrice": "587.07元",
+                  "amount": "6880.47元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-550130\", \"orderDate\": \"2015/08/03\", \"vendor\": \"飞海科技网络有限公司\", \"total\": \"35091.95元\", \"paymentTerms\": \"月结60天\", \"items\": [{\"description\": \"加厚水泵\", \"qty\": \"5\", \"unit\": \"件\", \"unitPrice\": \"587.07元\", \"amount\": \"6880.47元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"P0-550130\",\n    \"orderDate\": \"2015/08/03\",\n    \"vendor\": \"飞海科技网络有限公司\",\n    \"total\": \"35091.95 元\",\n    \"paymentTerms\": \"月结 60 天\"\n}\n{\n    \"description\": \"加厚水泵\",\n    \"qty\": \"5\",\n    \"unit\": \"件\",\n    \"unitPrice\": \"587.07 元\",\n    \"amount\": \"6880.47 元\"\n}"
+          },
+          {
+            "id": "syn_purchase_order_zh_00_0006",
+            "output": "{\"poNumber\": \"PO-159674\", \"orderDate\": \"2023/05/16\", \"vendor\": \"银嘉信息有限公司\", \"total\": \"41351.60元\", \"paymentTerms\": \"预付\", \"items\": [{\"description\": \"高速打印纸\", \"qty\": \"328\", \"unit\": \"千克\", \"unitPrice\": \"841.91元\", \"amount\": \"5224.10元\"}, {\"description\": \"工业水泵\", \"qty\": \"21\", \"unit\": \"套\", \"unitPrice\": \"871.73元\", \"amount\": \"1666.06元\"}]}",
+            "label": {
+              "poNumber": "PO-159674",
+              "orderDate": "2023/05/16",
+              "vendor": "银嘉信息有限公司",
+              "total": "41351.60元",
+              "paymentTerms": "预付",
+              "items": [
+                {
+                  "description": "高速打印纸",
+                  "qty": "328",
+                  "unit": "千克",
+                  "unitPrice": "841.91元",
+                  "amount": "5224.10元"
+                },
+                {
+                  "description": "工业水泵",
+                  "qty": "21",
+                  "unit": "套",
+                  "unitPrice": "871.73元",
+                  "amount": "1666.06元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-159674\", \"orderDate\": \"2023/05/16\", \"vendor\": \"银嘉信息有限公司\", \"total\": \"41351.60元\", \"paymentTerms\": \"预付\", \"items\": [{\"description\": \"高速打印纸\", \"qty\": \"328\", \"unit\": \"千克\", \"unitPrice\": \"841.91元\", \"amount\": \"5224.10元\"}, {\"description\": \"工业水泵\", \"qty\": \"21\", \"unit\": \"套\", \"unitPrice\": \"871.73元\", \"amount\": \"1666.06元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"P0-159674\",\n    \"orderDate\": \"2023/05/16\",\n    \"vendor\": \"银嘉信息有限公司\",\n    \"total\": \"41351.60 元\",\n    \"paymentTerms\": \"预付\"\n}\n{\n    \"description\": \"高速打印纸\", \"qty\": \"328\", \"unit\": \"千克\", \"unitPrice\": \"841.91 元\", \"amount\": \"5224.10 元\"},\n    {\n        \"description\": \"工业水泵\", \"qty\": \"21\", \"unit\": \"套\", \"unitPrice\": \"871.73 元\", \"amount\": \"1666.06 元\"\n    }\n}"
+          },
+          {
+            "id": "syn_purchase_order_zh_00_0007",
+            "output": "{\"poNumber\": \"PO-589752\", \"orderDate\": \"2020/11/10\", \"vendor\": \"维涛传媒有限公司\", \"total\": \"43558.53元\", \"paymentTerms\": \"货到付款\", \"items\": [{\"description\": \"高速水泵\", \"qty\": \"381\", \"unit\": \"千克\", \"unitPrice\": \"627.45元\", \"amount\": \"4219.53元\"}]}",
+            "label": {
+              "poNumber": "PO-589752",
+              "orderDate": "2020/11/10",
+              "vendor": "维涛传媒有限公司",
+              "total": "43558.53元",
+              "paymentTerms": "货到付款",
+              "items": [
+                {
+                  "description": "高速水泵",
+                  "qty": "381",
+                  "unit": "千克",
+                  "unitPrice": "627.45元",
+                  "amount": "4219.53元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-589752\", \"orderDate\": \"2020/11/10\", \"vendor\": \"维涛传媒有限公司\", \"total\": \"43558.53元\", \"paymentTerms\": \"货到付款\", \"items\": [{\"description\": \"高速水泵\", \"qty\": \"381\", \"unit\": \"千克\", \"unitPrice\": \"627.45元\", \"amount\": \"4219.53元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"PO-589752\",\n    \"orderDate\": \"2020/11/10\",\n    \"vendor\": \"维清传媒有限公司\",\n    \"total\": \"43558.53 元\",\n    \"paymentTerms\": \"货到付款\"\n}\n{\n    \"description\": \"高速水泵\",\n    \"qty\": \"381\",\n    \"unit\": \"千克\",\n    \"unitPrice\": \"627.45 元\",\n    \"amount\": \"4219.53 元\"\n}"
+          },
+          {
+            "id": "syn_purchase_order_zh_00_0008",
+            "output": "{\"poNumber\": \"PO-112022\", \"orderDate\": \"2019/01/16\", \"vendor\": \"商软冠联传媒有限公司\", \"total\": \"28035.96元\", \"paymentTerms\": \"货到付款\", \"items\": [{\"description\": \"加厚耳机\", \"qty\": \"441\", \"unit\": \"箱\", \"unitPrice\": \"607.23元\", \"amount\": \"7079.59元\"}, {\"description\": \"加厚水杯\", \"qty\": \"235\", \"unit\": \"件\", \"unitPrice\": \"632.81元\", \"amount\": \"3697.95元\"}, {\"description\": \"加厚水杯\", \"qty\": \"414\", \"unit\": \"套\", \"unitPrice\": \"358.91元\", \"amount\": \"3818.51元\"}]}",
+            "label": {
+              "poNumber": "PO-112022",
+              "orderDate": "2019/01/16",
+              "vendor": "商软冠联传媒有限公司",
+              "total": "28035.96元",
+              "paymentTerms": "货到付款",
+              "items": [
+                {
+                  "description": "加厚耳机",
+                  "qty": "441",
+                  "unit": "箱",
+                  "unitPrice": "607.23元",
+                  "amount": "7079.59元"
+                },
+                {
+                  "description": "加厚水杯",
+                  "qty": "235",
+                  "unit": "件",
+                  "unitPrice": "632.81元",
+                  "amount": "3697.95元"
+                },
+                {
+                  "description": "加厚水杯",
+                  "qty": "414",
+                  "unit": "套",
+                  "unitPrice": "358.91元",
+                  "amount": "3818.51元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-112022\", \"orderDate\": \"2019/01/16\", \"vendor\": \"商软冠联传媒有限公司\", \"total\": \"28035.96元\", \"paymentTerms\": \"货到付款\", \"items\": [{\"description\": \"加厚耳机\", \"qty\": \"441\", \"unit\": \"箱\", \"unitPrice\": \"607.23元\", \"amount\": \"7079.59元\"}, {\"description\": \"加厚水杯\", \"qty\": \"235\", \"unit\": \"件\", \"unitPrice\": \"632.81元\", \"amount\": \"3697.95元\"}, {\"description\": \"加厚水杯\", \"qty\": \"414\", \"unit\": \"套\", \"unitPrice\": \"358.91元\", \"amount\": \"3818.51元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"P0-112022\",\n    \"orderDate\": \"2019/01/16\",\n    \"vendor\": \"商冠联传媒有限公司\",\n    \"total\": \"28035.96 元\",\n    \"paymentTerms\": \"货到付款\"\n}\n{\n    \"description\": \"加厚耳机\", \"qty\": \"441\", \"unit\": \"箱\", \"unitPrice\": \"607.23 元\", \"amount\": \"7079.59 元\"},\n    {\n        \"description\": \"加厚水杯\", \"qty\": \"235\", \"unit\": \"件\", \"unitPrice\": \"632.81 元\", \"amount\": \"3697.95 元\"},\n        {\n            \"description\": \"加厚水杯\", \"qty\": \"414\", \"unit\": \"套\", \"unitPrice\": \"358.91 元\", \"amount\": \"3818.51 元\"\n        }\n}"
+          },
+          {
+            "id": "syn_purchase_order_zh_00_0009",
+            "output": "{\"poNumber\": \"PO-551621\", \"orderDate\": \"2017/10/13\", \"vendor\": \"兰金电子网络有限公司\", \"total\": \"38526.72元\", \"paymentTerms\": \"结扣30天\", \"items\": [{\"description\": \"不锈钢传感器\", \"qty\": \"141\", \"unit\": \"千克\", \"unitPrice\": \"255.94元\", \"amount\": \"3794.69元\"}, {\"description\": \"高速笔记本\", \"qty\": \"30\", \"unit\": \"件\", \"unitPrice\": \"536.15元\", \"amount\": \"13.68元\"}, {\"description\": \"节能传感器\", \"qty\": \"429\", \"unit\": \"千克\", \"unitPrice\": \"251.63元\", \"amount\": \"121.93元\"}]}",
+            "label": {
+              "poNumber": "PO-551621",
+              "orderDate": "2017/10/13",
+              "vendor": "兰金电子网络有限公司",
+              "total": "38526.72元",
+              "paymentTerms": "月结30天",
+              "items": [
+                {
+                  "description": "不锈钢传感器",
+                  "qty": "141",
+                  "unit": "千克",
+                  "unitPrice": "255.94元",
+                  "amount": "3794.69元"
+                },
+                {
+                  "description": "高速笔记本",
+                  "qty": "30",
+                  "unit": "件",
+                  "unitPrice": "536.15元",
+                  "amount": "13.68元"
+                },
+                {
+                  "description": "节能传感器",
+                  "qty": "429",
+                  "unit": "千克",
+                  "unitPrice": "251.63元",
+                  "amount": "121.93元"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"poNumber\": \"PO-551621\", \"orderDate\": \"2017/10/13\", \"vendor\": \"兰金电子网络有限公司\", \"total\": \"38526.72元\", \"paymentTerms\": \"结扣30天\", \"items\": [{\"description\": \"不锈钢传感器\", \"qty\": \"141\", \"unit\": \"千克\", \"unitPrice\": \"255.94元\", \"amount\": \"3794.69元\"}, {\"description\": \"高速笔记本\", \"qty\": \"30\", \"unit\": \"件\", \"unitPrice\": \"536.15元\", \"amount\": \"13.68元\"}, {\"description\": \"节能传感器\", \"qty\": \"429\", \"unit\": \"千克\", \"unitPrice\": \"251.63元\", \"amount\": \"121.93元\"}]}",
+            "gate1_base": "{\n    \"poNumber\": \"PO-551621\",\n    \"orderDate\": \"2017/10/13\",\n    \"vendor\": \"兰金电子网络有限公司\",\n    \"total\": \"38526.72 元\",\n    \"paymentTerms\": \"月底 30 天\"\n}\n{\n    \"description\": \"不锈钢传感器\", \"qty\": \"141\", \"unit\": \"千克\", \"unitPrice\": \"255.94 元\", \"amount\": \"3794.69 元\"\n}\n{\n    \"description\": \"高速笔记本\", \"qty\": \"30\", \"unit\": \"件\", \"unitPrice\": \"536.15 元\", \"amount\": \"13.68 元\"\n}\n{\n    \"description\": \"节能传感器\", \"qty\": \"429\", \"unit\": \"千克\", \"unitPrice\": \"251.63 元\", \"amount\": \"121.93 元\"\n}"
+          }
+        ]
+      },
+      "fintabnet_full": {
+        "support": [
+          "fintabnet_train_192",
+          "fintabnet_train_1412",
+          "fintabnet_train_315",
+          "fintabnet_train_1533"
+        ],
+        "adapter_files": [
+          "adapter_config.json",
+          "adapter_model.safetensors"
+        ],
+        "preds": [
+          {
+            "id": "fintabnet_validation_19",
+            "output": "{\"rows\": [[\"(in millions, except percentages)\", \"2012\", \"2011\", \"2010\"], [\"Allowance for doubtful accounts\", \"$143\", \"$150\", \"$140\"], [\"Allowance as a percentage of customer receivables\", \"2.2%\", \"2.4%\", \"2.6%\"], [\"Allowance as a percentage of revenue\", \"0.13%\", \"0.15%\", \"0.14%\"], [\"Reduction to allowance for customer deductions and write-offs\", \"30\", \"22\", \"9\"], [\"Addition to Allowance\", \"22\", \"27\", \"27\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "(in millions, except percentages)",
+                  "2012",
+                  "2011",
+                  "2010"
+                ],
+                [
+                  "Allowance for doubtful accounts",
+                  "$143",
+                  "$150",
+                  "$140"
+                ],
+                [
+                  "Allowance as a percentage of customer receivables",
+                  "2.2%",
+                  "2.4%",
+                  "2.6%"
+                ],
+                [
+                  "Allowance as a percentage of revenue",
+                  "0.13%",
+                  "0.15%",
+                  "0.14%"
+                ],
+                [
+                  "Reduction to allowance for customer deductions and write-offs",
+                  "30",
+                  "22",
+                  "9"
+                ],
+                [
+                  "Addition to Allowance",
+                  "22",
+                  "27",
+                  "27"
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"(in millions, except percentages)\", \"2012\", \"2011\", \"2010\"], [\"Allowance for doubtful accounts\", \"$143\", \"$150\", \"$140\"], [\"Allowance as a percentage of customer receivables\", \"2.2%\", \"2.4%\", \"2.6%\"], [\"Allowance as a percentage of revenue\", \"0.13%\", \"0.15%\", \"0.14%\"], [\"Reduction to allowance for customer deductions and write-offs\", \"30\", \"22\", \"9\"], [\"Addition to Allowance\", \"22\", \"27\", \"27\"]]}",
+            "gate1_base": "{\n    \"rows\": [[(in millions, except percentages),], [(\"Allowance for doubtful accounts\", \"$143\", \"$150\", \"$140\"),], [(\"Allowance as a percentage of customer receivables\", \"2.2%\", \"2.4%\", \"2.6%\"),], [(\"Allowance as a percentage of revenue\", \"0.13%\", \"0.15%\", \"0.14%\"),], [(\"Reduction to allowance for customer deductions and write-offs\", \"30\", \"22\", \"9\"),], [(\"Addition to Allowance\", \"22\", \"27\", \"27\")]]\n}"
+          },
+          {
+            "id": "fintabnet_validation_468",
+            "output": "{\"rows\": [[\"Plan Assets\", \"2014\", \"2013\"], [\"Asset Category\", \"\", \"\"], [\"Equity securities\", \"21%\", \"23%\"], [\"Fixed income securities\", \"76%\", \"74%\"], [\"Other\", \"3%\", \"3%\"], [\"Total\", \"100%\", \"100%\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "",
+                  "2014",
+                  "2013"
+                ],
+                [
+                  "Plan Assets",
+                  "",
+                  ""
+                ],
+                [
+                  "Asset Category",
+                  "",
+                  ""
+                ],
+                [
+                  "Equity securities",
+                  "21%",
+                  "23%"
+                ],
+                [
+                  "Fixed income securities",
+                  "76%",
+                  "74%"
+                ],
+                [
+                  "Other",
+                  "3%",
+                  "3%"
+                ],
+                [
+                  "Total",
+                  "100%",
+                  "100%"
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"Plan Assets\", \"2014\", \"2013\"], [\"Asset Category\", \"\", \"\"], [\"Equity securities\", \"21%\", \"23%\"], [\"Fixed income securities\", \"76%\", \"74%\"], [\"Other\", \"3%\", \"3%\"], [\"Total\", \"100%\", \"100%\"]]}",
+            "gate1_base": "{\n    \"rows\": [\n        {\n            \"plan assets\": \"Plan Assets\",\n            \"2014\": \"2014\",\n            \"2013\": \"2013\"\n        },\n        {\n            \"Asset Category\": \"Equity securities\",\n            \"2014\": \"21%\",\n            \"2013\": \"23%\"\n        },\n        {\n            \"Asset Category\": \"Fixed income securities\",\n            \"2014\": \"76%\",\n            \"2013\": \"74%\"\n        },\n        {\n            \"Asset Category\": \"Other\",\n            \"2014\": \"3%\",\n            \"2013\": \"3%\"\n        },\n        {\n            \"Total\": \"100%\",\n            \"2014\": \"100%\",\n            \"2013\": \"100%\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "fintabnet_validation_1230",
+            "output": "{\"rows\": [[\"Exhibit Number\", \"Description\"], [\"2.1*\", \"Separation and Distribution Agreement, dated as of June 29, 2007, between Morgan Stanley and Discover Financial Services (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on July 5, 2007 and incorporated herein by reference thereto), as amended by the First Amendment to the Separation and Distribution Agreement dated as of June 29, 2007 between Discover Financial Services and Morgan Stanley, dated February 11, 2010 (filed as Exhibit 10.2 to Discover Financial Services' Current Report on Form 8-K filed on February 12, 2010 and incorporated herein by reference thereto).\"], [\"2.2*\", \"Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated February 7, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, and Barclays Bank PLC (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on February 7, 2008 and incorporated herein by reference thereto), as amended and restated by Amended and Restated Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated March 31, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, Barclays Bank PLC, and Barclays Group US Inc. (filed as Exhibit 2.1 to Discover Financial Services' Quarterly Report on Form 10-Q filed on April 14, 2008 and incorporated herein by reference thereto).\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "ExhibitNumber",
+                  "Description"
+                ],
+                [
+                  "2.1*",
+                  "Separation and Distribution Agreement, dated as of June 29, 2007, between Morgan Stanley and Discover Financial Services (filed asExhibit 2.1to Discover Financial Services’ Current Report on Form 8-K filed on July 5, 2007 and incorporated herein by reference thereto), as amended by the First Amendment to the Separation and Distribution Agreement dated as of June 29, 2007 between Discover Financial Services and Morgan Stanley, dated February 11, 2010 (filed asExhibit 10.2to Discover Financial Services’ Current Report on Form 8-K filed on February 12, 2010 and incorporated herein by reference thereto)."
+                ],
+                [
+                  "2.2*",
+                  "Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated February 7, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, and Barclays Bank Plc (filed asExhibit 2.1to Discover Financial Services’ Current Report on Form 8-K filed on February 7, 2008 and incorporated herein by reference thereto), as amended and restated by Amended and Restated Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated March 31, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, Barclays Bank PLC, and Barclays Group US Inc. (filed asExhibit 2.1to Discover Financial Services’ Quarterly Report on Form 10-Q filed on April 14, 2008 and incorporated herein by reference thereto)."
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"Exhibit Number\", \"Description\"], [\"2.1*\", \"Separation and Distribution Agreement, dated as of June 29, 2007, between Morgan Stanley and Discover Financial Services (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on July 5, 2007 and incorporated herein by reference thereto), as amended by the First Amendment to the Separation and Distribution Agreement dated as of June 29, 2007 between Discover Financial Services and Morgan Stanley, dated February 11, 2010 (filed as Exhibit 10.2 to Discover Financial Services' Current Report on Form 8-K filed on February 12, 2010 and incorporated herein by reference thereto).\"], [\"2.2*\", \"Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated February 7, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, and Barclays Bank PLC (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on February 7, 2008 and incorporated herein by reference thereto), as amended and restated by Amended and Restated Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated March 31, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, Barclays Bank PLC, and Barclays Group US Inc. (filed as Exhibit 2.1 to Discover Financial Services' Quarterly Report on Form 10-Q filed on April 14, 2008 and incorporated herein by reference thereto).\"]]}",
+            "gate1_base": "{\n    \"rows\": [\n        [\n            \"2.1*\",\n            \"Separation and Distribution Agreement, dated as of June 29, 2007, between Morgan Stanley and Discover Financial Services (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on July 5, 2007 and incorporated herein by reference thereto), as amended by the First Amendment to the Separation and Distribution Agreement dated as of June 29, 2007 between Discover Financial Services and Morgan Stanley, dated February 11, 2010 (filed as Exhibit 10.2 to Discover Financial Services' Current Report on Form 8-K filed on February 12, 2010 and incorporated herein by reference thereto).\"\n        ],\n        [\n            \"2.2*\",\n            \"Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated February 7, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, and Barclays Bank Plc (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on February 7, 2008 and incorporated herein by reference thereto), as amended and restated by Amended and Restated Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated March 31, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, Barclays Bank PLC, and Barclays Group US Inc. (filed as Exhibit 2.1 to Discover Financial Services' Quarterly Report on Form 10-Q filed on April 14, 2008 and incorporated herein by reference thereto).\"\n        ]\n    ]\n}"
+          },
+          {
+            "id": "fintabnet_validation_718",
+            "output": "{\"rows\": [[\"(in thousands)\", \"Balance at Beginning of Period\", \"Charged to Expense\", \"Deductions\", \"Balance At End of Period\"], [\"Year Ended June 30, 2004:\", \"$12,617\", \"$57\", \"$(276)\", \"$12,398\"], [\"Year Ended June 30, 2005:\", \"$12,398\", \"$228\", \"$(401)\", \"$12,225\"], [\"Year Ended June 30, 2006:\", \"$12,225\", \"$16\", \"$(133)\", \"$12,108\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "(in thousands)",
+                  "Balance at Beginning of Period",
+                  "Charged to Expense",
+                  "Deductions",
+                  "Balance At End of Period"
+                ],
+                [
+                  "Year Ended June 30, 2004:",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Allowance for Doubtful Accounts",
+                  "$12,617",
+                  "$57",
+                  "$(276)",
+                  "$12,398"
+                ],
+                [
+                  "Year Ended June 30, 2005:",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Allowance for Doubtful Accounts",
+                  "$12,398",
+                  "$228",
+                  "$(401)",
+                  "$12,225"
+                ],
+                [
+                  "Year Ended June 30, 2006:",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Allowance for Doubtful Accounts",
+                  "$12,225",
+                  "$16",
+                  "$(133)",
+                  "$12,108"
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"(in thousands)\", \"Balance at Beginning of Period\", \"Charged to Expense\", \"Deductions\", \"Balance At End of Period\"], [\"Year Ended June 30, 2004:\", \"$12,617\", \"$57\", \"$(276)\", \"$12,398\"], [\"Year Ended June 30, 2005:\", \"$12,398\", \"$228\", \"$(401)\", \"$12,225\"], [\"Year Ended June 30, 2006:\", \"$12,225\", \"$16\", \"$(133)\", \"$12,108\"]]}",
+            "gate1_base": "{\n    \"rows\": [\n        {\n            \"Year Ended June 30, 2004\": \"Allowance for Doubtful Accounts\",\n            \"Balance at Beginning of Period\": \"$12,617\",\n            \"Charged to Expense\": \"57\",\n            \"Deductions\": \"(276)\",\n            \"Balance At End of Period\": \"$12,398\"\n        },\n        {\n            \"Year Ended June 30, 2005\": \"Allowance for Doubtful Accounts\",\n            \"Balance at Beginning of Period\": \"$12,398\",\n            \"Charged to Expense\": \"228\",\n            \"Deductions\": \"(401)\",\n            \"Balance At End of Period\": \"$12,225\"\n        },\n        {\n            \"Year Ended June 30, 2006\": \"Allowance for Doubtful Accounts\",\n            \"Balance at Beginning of Period\": \"$12,225\",\n            \"Charged to Expense\": \"16\",\n            \"Deductions\": \"(133)\",\n            \"Balance At End of Period\": \"$12,108\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "fintabnet_validation_1194",
+            "output": "{\"rows\": [[\"Exhibit Number\", \"Description\"], [\"2.1*\", \"Separation and Distribution Agreement, dated as of June 29, 2007, between Morgan Stanley and Discover Financial Services (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on July 5, 2007 and incorporated herein by reference thereto), as amended by the First Amendment to the Separation and Distribution Agreement dated as of June 29, 2007 between Discover Financial Services and Morgan Stanley, dated February 11, 2010 (filed as Exhibit 10.2 to Discover Financial Services' Current Report on Form 8-K filed on February 12, 2010 and incorporated herein by reference thereto).\"], [\"2.2*\", \"Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated February 7, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, and Barclays Bank PLC (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on February 7, 2008 and incorporated herein by reference thereto), as amended and restated by Amended and Restated Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated March 31, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, Barclays Bank PLC, and Barclays Group US Inc. (filed as Exhibit 2.1 to Discover Financial Services' Quarterly Report on Form 10-Q filed on April 14, 2008 and incorporated herein by reference thereto).\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "ExhibitNumber",
+                  "Description"
+                ],
+                [
+                  "2.1*",
+                  "Separation and Distribution Agreement, dated as of June 29, 2007, between Morgan Stanley and Discover Financial Services (filed asExhibit 2.1to Discover Financial Services’ Current Report on Form 8-K filed on July 5, 2007 and incorporated herein by reference thereto), as amended by the First Amendment to the Separation and Distribution Agreement dated as of June 29, 2007 between Discover Financial Services and Morgan Stanley, dated February 11, 2010 (filed asExhibit 10.2to Discover Financial Services’ Current Report on Form 8-K filed on February 12, 2010 and incorporated herein by reference thereto)."
+                ],
+                [
+                  "2.2*",
+                  "Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated February 7, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, and Barclays Bank Plc (filed asExhibit 2.1to Discover Financial Services’ Current Report on Form 8-K filed on February 7, 2008 and incorporated herein by reference thereto), as amended and restated by Amended and Restated Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated March 31, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, Barclays Bank PLC, and Barclays Group US Inc. (filed asExhibit 2.1to Discover Financial Services’ Quarterly Report on Form 10-Q filed on April 14, 2008 and incorporated herein by reference thereto)."
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"Exhibit Number\", \"Description\"], [\"2.1*\", \"Separation and Distribution Agreement, dated as of June 29, 2007, between Morgan Stanley and Discover Financial Services (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on July 5, 2007 and incorporated herein by reference thereto), as amended by the First Amendment to the Separation and Distribution Agreement dated as of June 29, 2007 between Discover Financial Services and Morgan Stanley, dated February 11, 2010 (filed as Exhibit 10.2 to Discover Financial Services' Current Report on Form 8-K filed on February 12, 2010 and incorporated herein by reference thereto).\"], [\"2.2*\", \"Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated February 7, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, and Barclays Bank PLC (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on February 7, 2008 and incorporated herein by reference thereto), as amended and restated by Amended and Restated Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated March 31, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, Barclays Bank PLC, and Barclays Group US Inc. (filed as Exhibit 2.1 to Discover Financial Services' Quarterly Report on Form 10-Q filed on April 14, 2008 and incorporated herein by reference thereto).\"]]}",
+            "gate1_base": "{\n    \"rows\": [\n        [\n            \"2.1*\",\n            \"Separation and Distribution Agreement, dated as of June 29, 2007, between Morgan Stanley and Discover Financial Services (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on July 5, 2007 and incorporated herein by reference thereto), as amended by the First Amendment to the Separation and Distribution Agreement dated as of June 29, 2007 between Discover Financial Services and Morgan Stanley, dated February 11, 2010 (filed as Exhibit 10.2 to Discover Financial Services' Current Report on Form 8-K filed on February 12, 2010 and incorporated herein by reference thereto).\"\n        ],\n        [\n            \"2.2*\",\n            \"Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated February 7, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, and Barclays Bank Plc (filed as Exhibit 2.1 to Discover Financial Services' Current Report on Form 8-K filed on February 7, 2008 and incorporated herein by reference thereto), as amended and restated by Amended and Restated Agreement for the Sale and Purchase of the Goldfish Credit Card Business, dated March 31, 2008, among Discover Financial Services, Goldfish Bank Limited, Discover Bank, SCFC Receivables Corporation, Barclays Bank PLC, and Barclays Group US Inc. (filed as Exhibit 2.1 to Discover Financial Services' Quarterly Report on Form 10-Q filed on April 14, 2008 and incorporated herein by reference thereto).\"\n        ]\n    ]\n}"
+          },
+          {
+            "id": "fintabnet_validation_230",
+            "output": "{\"rows\": [[\"\", \"2010\", \"2009\"], [\"Time-based awards\", \"108,637\", \"138,773\"], [\"Performance-based awards\", \"40,618\", \"87,723\"], [\"Market-based awards earned\", \"23,821\", \"27,227\"], [\"Total vested and distributed\", \"173,076\", \"253,723\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "",
+                  "2010",
+                  "2009"
+                ],
+                [
+                  "Time-based awards",
+                  "108,637",
+                  "138,773"
+                ],
+                [
+                  "Performance-based awards",
+                  "40,618",
+                  "87,723"
+                ],
+                [
+                  "Market-based awards earned",
+                  "23,821",
+                  "27,227"
+                ],
+                [
+                  "Total vested and distributed",
+                  "173,076",
+                  "253,723"
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"\", \"2010\", \"2009\"], [\"Time-based awards\", \"108,637\", \"138,773\"], [\"Performance-based awards\", \"40,618\", \"87,723\"], [\"Market-based awards earned\", \"23,821\", \"27,227\"], [\"Total vested and distributed\", \"173,076\", \"253,723\"]]}",
+            "gate1_base": "{\n    \"rows\": [\n        [\n            \"Time-based awards\",\n            \"108,637\",\n            \"138,773\"\n        ],\n        [\n            \"Performance-based awards\",\n            \"40,618\",\n            \"87,723\"\n        ],\n        [\n            \"Market-based awards earned\",\n            \"23,821\",\n            \"27,227\"\n        ],\n        [\n            \"Total vested and distributed\",\n            \"173,076\",\n            \"253,723\"\n        ]\n    ]\n}"
+          },
+          {
+            "id": "fintabnet_validation_338",
+            "output": "{\"rows\": [[\"Weighted average assumptions:\", \"2015\", \"2014\", \"2015\", \"2014\"], [\"Discount rate (for expense)\", \"3.83%\", \"4.82%\", \"3.87%\", \"4.92%\"], [\"Expected return on plan assets\", \"7.23%\", \"7.52%\", \"—\", \"—\"], [\"Rate of compensation increase (for expense)\", \"2.42%\", \"2.64%\", \"—\", \"—\"], [\"Discount rate (for benefit obligation)\", \"4.11%\", \"3.79%\", \"4.12%\", \"4.08%\"], [\"Rate of compensation increase (for benefit obligation)\", \"2.44%\", \"2.42%\", \"—\", \"—\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "",
+                  "PensionBenefits",
+                  "PostretirementBenefits"
+                ],
+                [
+                  "",
+                  "2015",
+                  "2014",
+                  "2015",
+                  "2014"
+                ],
+                [
+                  "Weighted average assumptions:",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Discount rate (for expense)",
+                  "3.83%",
+                  "4.82%",
+                  "3.87%",
+                  "4.92%"
+                ],
+                [
+                  "Expected return on plan assets",
+                  "7.23%",
+                  "7.52%",
+                  "—",
+                  "—"
+                ],
+                [
+                  "Rate of compensation increase (for expense)",
+                  "2.42%",
+                  "2.64%",
+                  "—",
+                  "—"
+                ],
+                [
+                  "Discount rate (for benefit obligation)",
+                  "4.11%",
+                  "3.79%",
+                  "4.12%",
+                  "4.08%"
+                ],
+                [
+                  "Rate of compensation increase (for benefit obligation)",
+                  "2.44%",
+                  "2.42%",
+                  "—",
+                  "—"
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"Weighted average assumptions:\", \"2015\", \"2014\", \"2015\", \"2014\"], [\"Discount rate (for expense)\", \"3.83%\", \"4.82%\", \"3.87%\", \"4.92%\"], [\"Expected return on plan assets\", \"7.23%\", \"7.52%\", \"—\", \"—\"], [\"Rate of compensation increase (for expense)\", \"2.42%\", \"2.64%\", \"—\", \"—\"], [\"Discount rate (for benefit obligation)\", \"4.11%\", \"3.79%\", \"4.12%\", \"4.08%\"], [\"Rate of compensation increase (for benefit obligation)\", \"2.44%\", \"2.42%\", \"—\", \"—\"]]}",
+            "gate1_base": "{\n    \"rows\": [\n        [\n            \"Weighted average assumptions:\",\n            \"2015\",\n            \"2014\",\n            \"2015\",\n            \"2014\"\n        ],\n        [\n            \"Discount rate (for expense)\",\n            \"3.83%\",\n            \"4.82%\",\n            \"3.87%\",\n            \"4.92%\"\n        ],\n        [\n            \"Expected return on plan assets\",\n            \"7.23%\",\n            \"7.52%\",\n            \"—\",\n            \"—\"\n        ],\n        [\n            \"Rate of compensation increase (for expense)\",\n            \"2.42%\",\n            \"2.64%\",\n            \"—\",\n            \"—\"\n        ],\n        [\n            \"Discount rate (for benefit obligation)\",\n            \"4.11%\",\n            \"3.79%\",\n            \"4.12%\",\n            \"4.08%\"\n        ],\n        [\n            \"Rate of compensation increase (for benefit obligation)\",\n            \"2.44%\",\n            \"2.42%\",\n            \"—\",\n            \"—\"\n        ]\n    ]\n}"
+          },
+          {
+            "id": "fintabnet_validation_1495",
+            "output": "{\"rows\": [[\"Accounts Payable and Accrued Expenses\", \"2006\", \"2005\"], [\"Accounts payable\", \"$ 854\", \"$ 394\"], [\"Salaries, wages and benefits\", \"220\", \"167\"], [\"Taxes other than income\", \"23\", \"17\"], [\"Income taxes\", \"20\", \"7\"], [\"Joint venture\", \"—\", \"51\"], [\"Other\", \"202\", \"117\"], [\"Total\", \"$1,319\", \"$ 753\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "Accounts Payable and Accrued Expenses",
+                  "2006",
+                  "2005"
+                ],
+                [
+                  "Accounts payable",
+                  "$854",
+                  "$394"
+                ],
+                [
+                  "Salaries, wages and benefits",
+                  "220",
+                  "167"
+                ],
+                [
+                  "Taxes other than income",
+                  "23",
+                  "17"
+                ],
+                [
+                  "Income taxes",
+                  "20",
+                  "7"
+                ],
+                [
+                  "Joint venture",
+                  "—",
+                  "51"
+                ],
+                [
+                  "Other",
+                  "202",
+                  "117"
+                ],
+                [
+                  "",
+                  "$1,319",
+                  "$753"
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"Accounts Payable and Accrued Expenses\", \"2006\", \"2005\"], [\"Accounts payable\", \"$ 854\", \"$ 394\"], [\"Salaries, wages and benefits\", \"220\", \"167\"], [\"Taxes other than income\", \"23\", \"17\"], [\"Income taxes\", \"20\", \"7\"], [\"Joint venture\", \"—\", \"51\"], [\"Other\", \"202\", \"117\"], [\"Total\", \"$1,319\", \"$ 753\"]]}",
+            "gate1_base": "{\n    \"rows\": [\n        {\n            \"Accounts Payable and Accrued Expenses\": \"Accounts payable\",\n            \"2006\": \"$ 854\",\n            \"2005\": \"$ 394\"\n        },\n        {\n            \"Accounts Payable and Accrued Expenses\": \"Salaries, wages and benefits\",\n            \"2006\": \"220\",\n            \"2005\": \"167\"\n        },\n        {\n            \"Accounts Payable and Accrued Expenses\": \"Taxes other than income\",\n            \"2006\": \"23\",\n            \"2005\": \"17\"\n        },\n        {\n            \"Accounts Payable and Accrued Expenses\": \"Income taxes\",\n            \"2006\": \"20\",\n            \"2005\": \"7\"\n        },\n        {\n            \"Accounts Payable and Accrued Expenses\": \"Joint venture\",\n            \"2006\": \"—\",\n            \"2005\": \"51\"\n        },\n        {\n            \"Accounts Payable and Accrued Expenses\": \"Other\",\n            \"2006\": \"202\",\n            \"2005\": \"117\"\n        },\n        {\n            \"Accounts Payable and Accrued Expenses\": \"Total\",\n            \"2006\": \"$1,319\",\n            \"2005\": \"$ 753\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "fintabnet_validation_650",
+            "output": "{\"rows\": [[\"(In thousands)\", \"Year ended June 30,\", \"2014\", \"2013\", \"2012\"], [\"Receivables sold under factoring agreements\", \"$116,292\", \"$144,307\", \"$368,894\"], [\"Proceeds from sales of LCs\", \"$8,323\", \"$3,808\", \"$30,142\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "",
+                  "Year ended June 30,"
+                ],
+                [
+                  "(In thousands)",
+                  "2014",
+                  "2013",
+                  "2012"
+                ],
+                [
+                  "Receivables sold under factoring agreements",
+                  "$116,292",
+                  "$144,307",
+                  "$368,894"
+                ],
+                [
+                  "Proceeds from sales of LCs",
+                  "$8,323",
+                  "$3,808",
+                  "$30,142"
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"(In thousands)\", \"Year ended June 30,\", \"2014\", \"2013\", \"2012\"], [\"Receivables sold under factoring agreements\", \"$116,292\", \"$144,307\", \"$368,894\"], [\"Proceeds from sales of LCs\", \"$8,323\", \"$3,808\", \"$30,142\"]]}",
+            "gate1_base": "{\n    \"rows\": [\n        {\n            \"header\": \" (In thousands) \",\n            \"header\": \" Year ended June 30,\",\n            \"header\":,\n            \"body\": \" 2014 2013 2012\"\n        },\n        {\n            \"header\": \" Receivables sold under factoring agreements \",\n            \"header\":,\n            \"body\": \" $116,292 $144,307 $368,894\"\n        },\n        {\n            \"header\": \" Proceeds from sales of LCs \",\n            \"header\":,\n            \"body\": \" $ 8,323 $ 3,808 $ 30,142\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "fintabnet_validation_1127",
+            "output": "{\"rows\": [[\"3-Month Rolling\", \"Average Excess\", \"Spread(1)\"], [\"Group excess spread percentage\", \"13.46%\"], [\"DiscoverSeries excess spread percentage\", \"13.38%\"]]}",
+            "label": {
+              "rows": [
+                [
+                  "",
+                  "3-Month RollingAverage ExcessSpread(1)"
+                ],
+                [
+                  "Group excess spread percentage",
+                  "13.46%"
+                ],
+                [
+                  "DiscoverSeries excess spread percentage",
+                  "13.38%"
+                ]
+              ]
+            },
+            "gate1_emit4": "{\"rows\": [[\"3-Month Rolling\", \"Average Excess\", \"Spread(1)\"], [\"Group excess spread percentage\", \"13.46%\"], [\"DiscoverSeries excess spread percentage\", \"13.38%\"]]}",
+            "gate1_base": "{\n    \"rows\": [[\"Group excess spread percentage.\", \"13.46%\"],\n              [\"DiscoverSeries excess spread percentage.\", \"13.38%\"]]\n}"
+          }
+        ]
+      },
+      "inv_items": {
+        "support": [
+          "inv_train_286",
+          "inv_train_108",
+          "inv_train_226",
+          "inv_train_301"
+        ],
+        "adapter_files": [
+          "adapter_config.json",
+          "adapter_model.safetensors"
+        ],
+        "preds": [
+          {
+            "id": "inv_validation_3",
+            "output": "{\"items\": [{\"item_desc\": \"Yilong 5.5\\\"x8\\\" Handwoven Silk Area Rugs Red Living Room Classic Carpets 1696\", \"item_qty\": \"1,00\", \"item_net_price\": \"3 300,00\", \"item_net_worth\": \"3 300,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"3 630,00\"}, {\"item_desc\": \"YILONG 4'x6\\\" Golden Handmade Area Carpet Tribal Hand Knotted Silk Rugs 074B\", \"item_qty\": \"1,00\", \"item_net_price\": \"3 600,00\", \"item_net_worth\": \"3 600,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"3 960,00\"}, {\"item_desc\": \"Yilong 5'x7\\\" Handknotted Silk Carpet Home Interior Classic Luxury Area Rug 1047\", \"item_qty\": \"1,00\", \"item_net_price\": \"8 400,00\", \"item_net_worth\": \"8 400,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"9 240,00\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "Yilong 5.5'x8' Handwoven Silk Area Rugs Red Living Room Classic Carpets 1696",
+                  "item_qty": "1,00",
+                  "item_net_price": "3 300,00",
+                  "item_net_worth": "3 300,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "3 630,00"
+                },
+                {
+                  "item_desc": "YILONG 4'x6' Golden Handmade Area Carpet Tribal Hand Knotted Silk Rugs 074B",
+                  "item_qty": "1,00",
+                  "item_net_price": "3 600,00",
+                  "item_net_worth": "3 600,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "3960,00"
+                },
+                {
+                  "item_desc": "Yilong 5'x7' Handknotted Silk Carpet Home Interior Classic Luxury Area Rug 1047",
+                  "item_qty": "1,00",
+                  "item_net_price": "8400,00",
+                  "item_net_worth": "8400,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "9240,00"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"Yilong 5.5\\\"x8\\\" Handwoven Silk Area Rugs Red Living Room Classic Carpets 1696\", \"item_qty\": \"1,00\", \"item_net_price\": \"3 300,00\", \"item_net_worth\": \"3 300,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"3 630,00\"}, {\"item_desc\": \"YILONG 4'x6\\\" Golden Handmade Area Carpet Tribal Hand Knotted Silk Rugs 074B\", \"item_qty\": \"1,00\", \"item_net_price\": \"3 600,00\", \"item_net_worth\": \"3 600,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"3 960,00\"}, {\"item_desc\": \"Yilong 5'x7\\\" Handknotted Silk Carpet Home Interior Classic Luxury Area Rug 1047\", \"item_qty\": \"1,00\", \"item_net_price\": \"8 400,00\", \"item_net_worth\": \"8 400,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"9 240,00\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"Yilong 5.5\\\"x8\\\" Handwoven Silk Area Rugs Red Living Room Classic Carpets 1696\",\n            \"item_qty\": \"1,00\",\n            \"item_net_price\": \"3 300,00\",\n            \"item_net_worth\": \"3 300,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"3 630,00\"\n        },\n        {\n            \"item_desc\": \"YILONG 4\\\"x6\\\" Golden Handmade Area Carpet Tribal Hand Knotted Silk Rugs 074B\",\n            \"item_qty\": \"1,00\",\n            \"item_net_price\": \"3 600,00\",\n            \"item_net_worth\": \"3 600,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"3 960,00\"\n        },\n        {\n            \"item_desc\": \"Yilong 5\\\"x7\\\" Handknotted silk Carpet Home Interior Classic Luxury Area Rug 1047\",\n            \"item_qty\": \"1,00\",\n            \"item_net_price\": \"8 400,00\",\n            \"item_net_worth\": \"8 400,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"9 240,00\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "inv_validation_44",
+            "output": "{\"items\": [{\"item_desc\": \"Custom Build Dell Desktop\", \"item_qty\": \"5,00\", \"item_net_price\": \"99,00\", \"item_net_worth\": \"495,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"544,50\"}, {\"item_desc\": \"Computer Desktop Gaming i5\", \"item_qty\": \"2,00\", \"item_net_price\": \"315,00\", \"item_net_worth\": \"630,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"693,00\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "Custom Build Dell Desktop Computer i5 I 16GB I 1TB SSD I HDMI Windows 10 PC WiFi",
+                  "item_qty": "5,00",
+                  "item_net_price": "99,00",
+                  "item_net_worth": "495,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "544,50"
+                },
+                {
+                  "item_desc": "Computer Desktop Gaming i5 Ram 16 G",
+                  "item_qty": "2,00",
+                  "item_net_price": "315,00",
+                  "item_net_worth": "630,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "693,00"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"Custom Build Dell Desktop\", \"item_qty\": \"5,00\", \"item_net_price\": \"99.00\", \"item_net_worth\": \"495.00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"544,50\"}, {\"item_desc\": \"Computer Desktop Gaming i5\", \"item_qty\": \"2,00\", \"item_net_price\": \"315.00\", \"item_net_worth\": \"630.00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"693.00\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"Custom Build Dell Desktop\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"99.00\",\n            \"item_net_worth\": \"495,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"544,50\"\n        },\n        {\n            \"item_desc\": \"Computer i5 | 16GB | 1TB SD | HDMI Windows 10 PC WiFi\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Computer Desktop Gaming i5\",\n            \"item_qty\": \"2,00\",\n            \"item_net_price\": \"315,00\",\n            \"item_net_worth\": \"630,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"693,00\"\n        },\n        {\n            \"item_desc\": \"Ram 16 G\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "inv_validation_26",
+            "output": "{\"items\": [{\"item_desc\": \"16\\\" Marble Coffee Table Top\", \"item_qty\": \"4,00\", \"item_net_price\": \"318,71\", \"item_net_worth\": \"1,274,84\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,402,32\"}, {\"item_desc\": \"48 Inch Marble Restaurant Table\", \"item_qty\": \"3,00\", \"item_net_price\": \"2,692,00\", \"item_net_worth\": \"8,076,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"8,883,60\"}, {\"item_desc\": \"Nugget Play Couch - Dew Drop\", \"item_qty\": \"5,00\", \"item_net_price\": \"550,00\", \"item_net_worth\": \"2,750,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"3,025,00\"}, {\"item_desc\": \"18\\\" White Marble Coffee Table\", \"item_qty\": \"4,00\", \"item_net_price\": \"394,64\", \"item_net_worth\": \"1,578,56\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,736,42\"}, {\"item_desc\": \"18\\\" Black Marble Coffee Table\", \"item_qty\": \"5,00\", \"item_net_price\": \"377,65\", \"item_net_worth\": \"1,888,25\", \"item_vat\": \"10%\", \"item_gross_worth\": \"2,077,08\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "16\" Marble Coffee Table Top Mother of Peral Peacock Inlay Restaurant Decors W366",
+                  "item_qty": "4,00",
+                  "item_net_price": "318,71",
+                  "item_net_worth": "1274,84",
+                  "item_vat": "10%",
+                  "item_gross_worth": "1402,32"
+                },
+                {
+                  "item_desc": "48 Inch Marble Restaurant Table Inlay with Lapis Lazuli Stone Dinning Table Top",
+                  "item_qty": "3,00",
+                  "item_net_price": "2692,00",
+                  "item_net_worth": "8076,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "8883,60"
+                },
+                {
+                  "item_desc": "Nugget Play Couch Dew Drop",
+                  "item_qty": "5,00",
+                  "item_net_price": "550,00",
+                  "item_net_worth": "2 750,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "3 025,00"
+                },
+                {
+                  "item_desc": "18\" White Marble Coffee Table Top Carnelian Floral Inlay Art Furniture Gift W541",
+                  "item_qty": "4,00",
+                  "item_net_price": "394,64",
+                  "item_net_worth": "1578,56",
+                  "item_vat": "10%",
+                  "item_gross_worth": "1736,42"
+                },
+                {
+                  "item_desc": "18\" Black Marble Coffee Table Top Mother of Pearl Inlay Furniture Decors H1883B",
+                  "item_qty": "5,00",
+                  "item_net_price": "377,65",
+                  "item_net_worth": "1888,25",
+                  "item_vat": "10%",
+                  "item_gross_worth": "2077,08"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"16\\\" Marble Coffee Table Top\", \"item_qty\": \"4,00\", \"item_net_price\": \"318,71\", \"item_net_worth\": \"1,274,84\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,402,32\"}, {\"item_desc\": \"48 Inch Marble Restaurant Table\", \"item_qty\": \"3,00\", \"item_net_price\": \"2,692,00\", \"item_net_worth\": \"8,076,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"8,883,60\"}, {\"item_desc\": \"Nugget Play Couch - Dew Drop\", \"item_qty\": \"5,00\", \"item_net_price\": \"550,00\", \"item_net_worth\": \"2,750,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"3,025,00\"}, {\"item_desc\": \"18\\\" White Marble Coffee Table\", \"item_qty\": \"4,00\", \"item_net_price\": \"394,64\", \"item_net_worth\": \"1,578,56\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,736,42\"}, {\"item_desc\": \"18\\\" Black Marble Coffee Table\", \"item_qty\": \"5,00\", \"item_net_price\": \"377,65\", \"item_net_worth\": \"1,888,25\", \"item_vat\": \"10%\", \"item_gross_worth\": \"2,077,08\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"16\\\" Marble Coffee Table Top\",\n            \"item_qty\": \"4,00\",\n            \"item_net_price\": \"318,71\",\n            \"item_net_worth\": \"1274,84\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"1402,32\"\n        },\n        {\n            \"item_desc\": \"48 Inch Marble Restaurant Table\",\n            \"item_qty\": \"3,00\",\n            \"item_net_price\": \"2 692,00\",\n            \"item_net_worth\": \"8076,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"8883,60\"\n        },\n        {\n            \"item_desc\": \"Nugget Play Couch - Dew Drop\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"550,00\",\n            \"item_net_worth\": \"2750,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"3025,00\"\n        },\n        {\n            \"item_desc\": \"18\\\" White Marble Coffee Table\",\n            \"item_qty\": \"4,00\",\n            \"item_net_price\": \"394,64\",\n            \"item_net_worth\": \"1578,56\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"1736,42\"\n        },\n        {\n            \"item_desc\": \"Top Carnelian Floral Inlay Art\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Furniture Gift W541\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"18\\\" Black Marble Coffee Table\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"377,65\",\n            \"item_net_worth\": \"1888,25\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"2077,08\"\n        },\n        {\n            \"item_desc\": \"Top Mother of Pearl Inlay\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Furniture Decors H1883B\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "inv_validation_48",
+            "output": "{\"items\": [{\"item_desc\": \"10-Core Gaming Computer\", \"item_qty\": \"4,00\", \"item_net_price\": \"348,88\", \"item_net_worth\": \"1,395,52\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,535,07\"}, {\"item_desc\": \"Dell Desktop Computer 3020\", \"item_qty\": \"5,00\", \"item_net_price\": \"134,95\", \"item_net_worth\": \"674,75\", \"item_vat\": \"10%\", \"item_gross_worth\": \"742,23\"}, {\"item_desc\": \"Custom Gaming Computer\", \"item_qty\": \"2,00\", \"item_net_price\": \"1,092,27\", \"item_net_worth\": \"2,184,54\", \"item_vat\": \"10%\", \"item_gross_worth\": \"2,402,99\"}, {\"item_desc\": \"Dell Desktop Computer\", \"item_qty\": \"3,00\", \"item_net_price\": \"501,32\", \"item_net_worth\": \"1,503,96\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,654,36\"}, {\"item_desc\": \"Dell Desktop Computer\", \"item_qty\": \"5,00\", \"item_net_price\": \"144,99\", \"item_net_worth\": \"724,95\", \"item_vat\": \"10%\", \"item_gross_worth\": \"797,45\"}, {\"item_desc\": \"Dell Desktop Computer[Intel\", \"item_qty\": \"2,00\", \"item_net_price\": \"69,95\", \"item_net_worth\": \"139,90\", \"item_vat\": \"10%\", \"item_gross_worth\": \"153,89\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "10-Core Gaming Computer Desktop PC Tower HDMI 8GB DDR4 R7 Graphic CUSTOM BUILT",
+                  "item_qty": "4,00",
+                  "item_net_price": "348,88",
+                  "item_net_worth": "1395,52",
+                  "item_vat": "10%",
+                  "item_gross_worth": "1535,07"
+                },
+                {
+                  "item_desc": "Dell Desktop Computer 3020 Micro Tiny PC Intel i3 4GB 120GB SSD Windows 10 WiFi",
+                  "item_qty": "5,00",
+                  "item_net_price": "134,95",
+                  "item_net_worth": "674,75",
+                  "item_vat": "10%",
+                  "item_gross_worth": "742,23"
+                },
+                {
+                  "item_desc": "Custom Gaming Computer Ryzen 7 2700 32GB DDR4 Nvidia RTX 2060 RGB SSD 500GB HDD",
+                  "item_qty": "2,00",
+                  "item_net_price": "1092,27",
+                  "item_net_worth": "2184,54",
+                  "item_vat": "10%",
+                  "item_gross_worth": "2402,99"
+                },
+                {
+                  "item_desc": "10-Core Gaming Computer Desktop PC Tower 500 GB Quad 8GB AMD R7 GRAPHICS NEW",
+                  "item_qty": "3,00",
+                  "item_net_price": "501,32",
+                  "item_net_worth": "1503,96",
+                  "item_vat": "10%",
+                  "item_gross_worth": "1654,36"
+                },
+                {
+                  "item_desc": "Dell Desktop Computer PC Optiplex 790 Quad Core i5 8GB 480GB SSD Windows 10 Wifi",
+                  "item_qty": "5,00",
+                  "item_net_price": "144,99",
+                  "item_net_worth": "724,95",
+                  "item_vat": "10%",
+                  "item_gross_worth": "797,45"
+                },
+                {
+                  "item_desc": "Dell Desktop ComputerlIntel Core 2 Duo 8GB 1TB HD Windows 10 PC 22\" LCD Wifi",
+                  "item_qty": "2,00",
+                  "item_net_price": "69,95",
+                  "item_net_worth": "139,90",
+                  "item_vat": "10%",
+                  "item_gross_worth": "153,89"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"10-Core Gaming Computer\", \"item_qty\": \"4,00\", \"item_net_price\": \"348.88\", \"item_net_worth\": \"1,395,52\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,535,07\"}, {\"item_desc\": \"Dell Desktop Computer 3020\", \"item_qty\": \"5,00\", \"item_net_price\": \"134,95\", \"item_net_worth\": \"674,75\", \"item_vat\": \"10%\", \"item_gross_worth\": \"742,23\"}, {\"item_desc\": \"Custom Gaming Computer\", \"item_qty\": \"2,00\", \"item_net_price\": \"1,092,27\", \"item_net_worth\": \"2,184,54\", \"item_vat\": \"10%\", \"item_gross_worth\": \"2,402,99\"}, {\"item_desc\": \"Dell Desktop Computer\", \"item_qty\": \"3,00\", \"item_net_price\": \"501,32\", \"item_net_worth\": \"1,503,96\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,654,36\"}, {\"item_desc\": \"Dell Desktop Computer\", \"item_qty\": \"5,00\", \"item_net_price\": \"144,99\", \"item_net_worth\": \"724,95\", \"item_vat\": \"10%\", \"item_gross_worth\": \"797,45\"}, {\"item_desc\": \"Dell Desktop Computer[Intel\", \"item_qty\": \"2,00\", \"item_net_price\": \"69,95\", \"item_net_worth\": \"139,90\", \"item_vat\": \"10%\", \"item_gross_worth\": \"153,89\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"10-Core Gaming Computer\",\n            \"item_qty\": \"4,00\",\n            \"item_net_price\": \"348,88\",\n            \"item_net_worth\": \"1395,52\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"1 535,07\"\n        },\n        {\n            \"item_desc\": \"Dell Desktop Computer 3020\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"134,95\",\n            \"item_net_worth\": \"674,75\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"742,23\"\n        },\n        {\n            \"item_desc\": \"Micro Tiny PC Intel i3 4GB\",\n            \"item_qty\": \"120GB\",\n            \"item_net_price\": \"SOS\",\n            \"item_net_worth\": \"SOS\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"SOS\"\n        },\n        {\n            \"item_desc\": \"120GB SSD Windows 10 Wi-Fi\",\n            \"item_qty\": \"2,00\",\n            \"item_net_price\": \"1092,27\",\n            \"item_net_worth\": \"184,54\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"2 402,99\"\n        },\n        {\n            \"item_desc\": \"Custom Gaming Computer\",\n            \"item_qty\": \"2,00\",\n            \"item_net_price\": \"1092,27\",\n            \"item_net_worth\": \"184,54\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"2 402,99\"\n        },\n        {\n            \"item_desc\": \"10-Core Gaming Computer\",\n            \"item_qty\": \"3,00\",\n            \"item_net_price\": \"501,32\",\n            \"item_net_worth\": \"1503,96\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"1 654,36\"\n        },\n        {\n            \"item_desc\": \"Dell Desktop Computer PC\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"144,99\",\n            \"item_net_worth\": \"724,95\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"797,45\"\n        },\n        {\n            \"item_desc\": \"Optiplex 790 Quad Core i5 8GB\",\n            \"item_qty\": \"480GB\",\n            \"item_net_price\": \"SOS\",\n            \"item_net_worth\": \"SOS\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"SOS\"\n        },\n        {\n            \"item_desc\": \"Windows 10 Wi-Fi\",\n            \"item_qty\": \"2,00\",\n            \""
+          },
+          {
+            "id": "inv_validation_25",
+            "output": "{\"items\": [{\"item_desc\": \"Bohemian Rag Rug - Woven\", \"item_qty\": \"3,00\", \"item_net_price\": \"23,39\", \"item_net_worth\": \"70,17\", \"item_vat\": \"10%\", \"item_gross_worth\": \"77,19\"}, {\"item_desc\": \"World Map Round Carpets Room\", \"item_qty\": \"4,00\", \"item_net_price\": \"83,78\", \"item_net_worth\": \"335,12\", \"item_vat\": \"10%\", \"item_gross_worth\": \"368,63\"}, {\"item_desc\": \"YILONG 4'x6' Golden Handmade\", \"item_qty\": \"3,00\", \"item_net_price\": \"3 600,00\", \"item_net_worth\": \"10800,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"11 880,00\"}, {\"item_desc\": \"Black+White Rectangle Shape\", \"item_qty\": \"4,00\", \"item_net_price\": \"21,10\", \"item_net_worth\": \"84,40\", \"item_vat\": \"10%\", \"item_gross_worth\": \"92,84\"}, {\"item_desc\": \"Floor Mat Kitchen Bedroom\", \"item_qty\": \"5,00\", \"item_net_price\": \"31,58\", \"item_net_worth\": \"157,90\", \"item_vat\": \"10%\", \"item_gross_worth\": \"173,69\"}, {\"item_desc\": \"Rug Beni Ourain, Moroccan\", \"item_qty\": \"5,00\", \"item_net_price\": \"450,00\", \"item_net_worth\": \"250,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"2 475,00\"}, {\"item_desc\": \"Rug Berber Beni Ouarain Carpet\", \"item_qty\": \"2,00\", \"item_net_price\": \"12,49\", \"item_net_worth\": \"24,98\", \"item_vat\": \"10%\", \"item_gross_worth\": \"27,48\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "Bohemian Rag Rug- Woven Chindi Dari Living Room Rug/ Hand-Woven Carpet Rug-Mats",
+                  "item_qty": "3,00",
+                  "item_net_price": "23,39",
+                  "item_net_worth": "70,17",
+                  "item_vat": "10%",
+                  "item_gross_worth": "77,19"
+                },
+                {
+                  "item_desc": "World Map Round Carpets Room Printed Area Rug Blue Floor Mat Bedroom Play Mat",
+                  "item_qty": "4,00",
+                  "item_net_price": "83,78",
+                  "item_net_worth": "335,12",
+                  "item_vat": "10%",
+                  "item_gross_worth": "368,63"
+                },
+                {
+                  "item_desc": "YILONG 4'x6' Golden Handmade Area Carpet Tribal Hand Knotted Silk Rugs 074B",
+                  "item_qty": "3,00",
+                  "item_net_price": "3600,00",
+                  "item_net_worth": "10 800,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "11 880,00"
+                },
+                {
+                  "item_desc": "Black+White Rectangle Shape Area Rug Carpet Floor Pad Doormat Mats Non-slip Z4F9",
+                  "item_qty": "4,00",
+                  "item_net_price": "21,10",
+                  "item_net_worth": "84,40",
+                  "item_vat": "10%",
+                  "item_gross_worth": "92,84"
+                },
+                {
+                  "item_desc": "Floor Mat Kitchen Bedroom Bathroom Non Slip Doormat Carpet Area Rug 180x60cm",
+                  "item_qty": "5,00",
+                  "item_net_price": "31,58",
+                  "item_net_worth": "157,90",
+                  "item_vat": "10%",
+                  "item_gross_worth": "173,69"
+                },
+                {
+                  "item_desc": "Rug Beni Ourain, Moroccan Handmade 100% Wool Area Rug Berber Beni Ouarain Carpet",
+                  "item_qty": "5,00",
+                  "item_net_price": "450,00",
+                  "item_net_worth": "2250,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "2475,00"
+                },
+                {
+                  "item_desc": "Colorful Marble Printed Living Room and Bedroom Area Rugs Carpet CNK2413",
+                  "item_qty": "2,00",
+                  "item_net_price": "12,49",
+                  "item_net_worth": "24,98",
+                  "item_vat": "10%",
+                  "item_gross_worth": "27,48"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"Bohemian Rag Rug - Woven\", \"item_qty\": \"3,00\", \"item_net_price\": \"23,39\", \"item_net_worth\": \"70,17\", \"item_vat\": \"10%\", \"item_gross_worth\": \"77,19\"}, {\"item_desc\": \"World Map Round Carpets Room\", \"item_qty\": \"4,00\", \"item_net_price\": \"83,78\", \"item_net_worth\": \"335,12\", \"item_vat\": \"10%\", \"item_gross_worth\": \"368,63\"}, {\"item_desc\": \"YILONG 4'x6' Golden Handmade\", \"item_qty\": \"3,00\", \"item_net_price\": \"3 600,00\", \"item_net_worth\": \"10800,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"11 880,00\"}, {\"item_desc\": \"Black+White Rectangle Shape\", \"item_qty\": \"4,00\", \"item_net_price\": \"21,10\", \"item_net_worth\": \"84,40\", \"item_vat\": \"10%\", \"item_gross_worth\": \"92,84\"}, {\"item_desc\": \"Floor Mat Kitchen Bedroom\", \"item_qty\": \"5,00\", \"item_net_price\": \"31,58\", \"item_net_worth\": \"157,90\", \"item_vat\": \"10%\", \"item_gross_worth\": \"173,69\"}, {\"item_desc\": \"Rug Beni Ourain, Moroccan\", \"item_qty\": \"5,00\", \"item_net_price\": \"450,00\", \"item_net_worth\": \"250,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"2 475,00\"}, {\"item_desc\": \"Rug Berber Beni Ouarain Carpet\", \"item_qty\": \"2,00\", \"item_net_price\": \"12,49\", \"item_net_worth\": \"24,98\", \"item_vat\": \"10%\", \"item_gross_worth\": \"27,48\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"Bohemian Rag Rug- Woven\",\n            \"item_qty\": \"3,00\",\n            \"item_net_price\": \"23,39\",\n            \"item_net_worth\": \"70,17\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"77,19\"\n        },\n        {\n            \"item_desc\": \"Chindi Darl Living Room R/Hand-Woven Carpet Rug-Mats\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"World Map Round Carpets Room\",\n            \"item_qty\": \"4,00\",\n            \"item_net_price\": \"83,78\",\n            \"item_net_worth\": \"335,12\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"368,63\"\n        },\n        {\n            \"item_desc\": \"Printed Area Rug Blue Floor Mat\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"YILONG 4'x6\" Golden Handmade\",\n            \"item_qty\": \"3,00\",\n            \"item_net_price\": \"3 600,00\",\n            \"item_net_worth\": \"10800,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"11 880,00\"\n        },\n        {\n            \"item_desc\": \"Area Carpet Tribal Hand\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Knotted Silk Rugs 074B\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Black+White Rectangle Shape\",\n            \"item_qty\": \"4,00\",\n            \"item_net_price\": \"21,10\",\n            \"item_net_worth\": \"84,40\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"92,84\"\n        },\n        {\n            \"item_desc\": \"Area Rug Carpet Floor Pad\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Doormat Mats Non-slip 24F9\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n"
+          },
+          {
+            "id": "inv_validation_7",
+            "output": "{\"items\": [{\"item_desc\": \"Escada Long Black Dress S2 40 100% Silk Lining\", \"item_qty\": \"3,00\", \"item_net_price\": \"74,99\", \"item_net_worth\": \"224,97\", \"item_vat\": \"10%\", \"item_gross_worth\": \"247,47\"}, {\"item_desc\": \"Lilly Pulitzer Lillywood California 8 Shift Dress\", \"item_qty\": \"1,00\", \"item_net_price\": \"76,00\", \"item_net_worth\": \"76,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"83,60\"}, {\"item_desc\": \"Guess White Halter Dress Size 10\", \"item_qty\": \"5,00\", \"item_net_price\": \"13,00\", \"item_net_worth\": \"65,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"71,50\"}, {\"item_desc\": \"Women Elegant Fashion O-Neck Knee Length Short Sleeve Retro Floral Print Dress\", \"item_qty\": \"1,00\", \"item_net_price\": \"12,00\", \"item_net_worth\": \"12,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"13,20\"}, {\"item_desc\": \"sandro dress\", \"item_qty\": \"5,00\", \"item_net_price\": \"80,00\", \"item_net_worth\": \"400,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"440,00\"}, {\"item_desc\": \"Women Sexy Lingerie Lace Dress Underwear Babydoll Sleepwear G-string Bikini Lot\", \"item_qty\": \"2,00\", \"item_net_price\": \"0,99\", \"item_net_worth\": \"1,98\", \"item_vat\": \"10%\", \"item_gross_worth\": \"2,18\"}, {\"item_desc\": \"Women's Almatrici Madrid Dress Chevron Boho Ethnic Exotic Tribal Size 42L\", \"item_qty\": \"2,00\", \"item_net_price\": \"54,86\", \"item_net_worth\": \"109,72\", \"item_vat\": \"10%\", \"item_gross_worth\": \"120,69\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "Escada Long Black Dress SZ 40 100% Silk Lining",
+                  "item_qty": "3,00",
+                  "item_net_price": "74,99",
+                  "item_net_worth": "224,97",
+                  "item_vat": "10%",
+                  "item_gross_worth": "247,47"
+                },
+                {
+                  "item_desc": "Lilly Pulitzer Lillywood California 8 Shift Dress",
+                  "item_qty": "1,00",
+                  "item_net_price": "76,00",
+                  "item_net_worth": "76,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "83,60"
+                },
+                {
+                  "item_desc": "Guess White Halter Dress Size 10",
+                  "item_qty": "5,00",
+                  "item_net_price": "13,00",
+                  "item_net_worth": "65,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "71,50"
+                },
+                {
+                  "item_desc": "Women Elegant Fashion O-Neck Knee Length Short Sleeve Retro Floral Print Dress",
+                  "item_qty": "1,00",
+                  "item_net_price": "12,00",
+                  "item_net_worth": "12,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "13,20"
+                },
+                {
+                  "item_desc": "sandro dress",
+                  "item_qty": "5,00",
+                  "item_net_price": "80,00",
+                  "item_net_worth": "400,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "440,00"
+                },
+                {
+                  "item_desc": "Women Sexy Lingerie Lace Dress Underwear Babydoll Sleepwear G-string Bikini Lot",
+                  "item_qty": "2,00",
+                  "item_net_price": "0,99",
+                  "item_net_worth": "1,98",
+                  "item_vat": "10%",
+                  "item_gross_worth": "2,18"
+                },
+                {
+                  "item_desc": "Women's Almatrichi Madrid Dress Chevron Boho Ethnic Exotic Tribal Size 42 L",
+                  "item_qty": "2,00",
+                  "item_net_price": "54,86",
+                  "item_net_worth": "109,72",
+                  "item_vat": "10%",
+                  "item_gross_worth": "120,69"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"Escada Long Black Dress S2 40 100% Silk Lining\", \"item_qty\": \"3,00\", \"item_net_price\": \"74,99\", \"item_net_worth\": \"224,97\", \"item_vat\": \"10%\", \"item_gross_worth\": \"247,47\"}, {\"item_desc\": \"Lilly Pulitzer Lillywood California 8 Shift Dress\", \"item_qty\": \"1,00\", \"item_net_price\": \"76,00\", \"item_net_worth\": \"76,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"83,60\"}, {\"item_desc\": \"Guess White Halter Dress Size 10\", \"item_qty\": \"5,00\", \"item_net_price\": \"13,00\", \"item_net_worth\": \"65,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"71,50\"}, {\"item_desc\": \"Women Elegant Fashion O-Neck Knee Length Short Sleeve Retro Floral Print Dress\", \"item_qty\": \"1,00\", \"item_net_price\": \"12,00\", \"item_net_worth\": \"12,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"13,20\"}, {\"item_desc\": \"sandro dress\", \"item_qty\": \"5,00\", \"item_net_price\": \"80,00\", \"item_net_worth\": \"400,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"440,00\"}, {\"item_desc\": \"Women Sexy Lingerie Lace Dress Underwear Babydoll Sleepwear G-string Bikini Lot\", \"item_qty\": \"2,00\", \"item_net_price\": \"0,99\", \"item_net_worth\": \"1,98\", \"item_vat\": \"10%\", \"item_gross_worth\": \"2,18\"}, {\"item_desc\": \"Women's Almatrici Madrid Dress Chevron Boho Ethnic Exotic Tribal Size 42L\", \"item_qty\": \"2,00\", \"item_net_price\": \"54,86\", \"item_net_worth\": \"109,72\", \"item_vat\": \"10%\", \"item_gross_worth\": \"120,69\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"Escada Long Black Dress SZ 40\",\n            \"item_qty\": \"3,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"224,97\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"247,47\"\n        },\n        {\n            \"item_desc\": \"Lilly Pulitzer Lillywood California 8 Shift Dress\",\n            \"item_qty\": \"1,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"76,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"83,60\"\n        },\n        {\n            \"item_desc\": \"Guess White Halter Dress Size 10\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"13,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"71,50\"\n        },\n        {\n            \"item_desc\": \"Women Elegant Fashion O-Neck Knee Length Short Sleeve Retro Floral Print Dress\",\n            \"item_qty\": \"1,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"12,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"13,20\"\n        },\n        {\n            \"item_desc\": \"sandro dress\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"80,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"440,00\"\n        },\n        {\n            \"item_desc\": \"Women Sexy Lingerie Lace Dress Underwear Babydoll Sleepwear G-string Bikini Lot\",\n            \"item_qty\": \"2,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"0,99\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"2,18\"\n        },\n        {\n            \"item_desc\": \"Women's Almatrichi Madrid Dress Chevron Boho Ethnic Exotic Tribal Size 42 L\",\n            \"item_qty\": \"2,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"54,86\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"120,69\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "inv_validation_31",
+            "output": "{\"items\": [{\"item_desc\": \"European Colour Sunflower\", \"item_qty\": \"4,00\", \"item_net_price\": \"13,66\", \"item_net_worth\": \"54,64\", \"item_vat\": \"10%\", \"item_gross_worth\": \"60,10\"}, {\"item_desc\": \"Floral Style Vintage 5X7\", \"item_qty\": \"2,00\", \"item_net_price\": \"889,62\", \"item_net_worth\": \"1,779,24\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,957,16\"}, {\"item_desc\": \"Happy Christmas Home\", \"item_qty\": \"5,00\", \"item_net_price\": \"60,32\", \"item_net_worth\": \"301,60\", \"item_vat\": \"10%\", \"item_gross_worth\": \"331,76\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "European Colour Sunflower Pattern Mats Hallway Carpets Doormat Bedroom Area Rugs",
+                  "item_qty": "4,00",
+                  "item_net_price": "13,66",
+                  "item_net_worth": "54,64",
+                  "item_vat": "10%",
+                  "item_gross_worth": "60,10"
+                },
+                {
+                  "item_desc": "Floral Style Vintage 5X7 Handmade Bidjar Foyer Rug Oriental Home Decor Carpet",
+                  "item_qty": "2,00",
+                  "item_net_price": "889,62",
+                  "item_net_worth": "1779,24",
+                  "item_vat": "10%",
+                  "item_gross_worth": "1957,16"
+                },
+                {
+                  "item_desc": "Happy Christmas Home Decoration Rug Mat Carpet Bedroom Rugs Bedside Area Rug New",
+                  "item_qty": "5,00",
+                  "item_net_price": "60,32",
+                  "item_net_worth": "301,60",
+                  "item_vat": "10%",
+                  "item_gross_worth": "331,76"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"European Colour Sunflower\", \"item_qty\": \"4,00\", \"item_net_price\": \"13,66\", \"item_net_worth\": \"54,64\", \"item_vat\": \"10%\", \"item_gross_worth\": \"60,10\"}, {\"item_desc\": \"Floral Style Vintage 5X7\", \"item_qty\": \"2,00\", \"item_net_price\": \"889,62\", \"item_net_worth\": \"1,779,24\", \"item_vat\": \"10%\", \"item_gross_worth\": \"1,957,16\"}, {\"item_desc\": \"Happy Christmas Home\", \"item_qty\": \"5,00\", \"item_net_price\": \"60,32\", \"item_net_worth\": \"301,60\", \"item_vat\": \"10%\", \"item_gross_worth\": \"331,76\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"European Colour Sunflower\",\n            \"item_qty\": \"4,00\",\n            \"item_net_price\": \"13,66\",\n            \"item_net_worth\": \"54,64\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"60,10\"\n        },\n        {\n            \"item_desc\": \"Floral Style Vintage 5X7\",\n            \"item_qty\": \"2,00\",\n            \"item_net_price\": \"889,62\",\n            \"item_net_worth\": \"779,24\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"1 957,16\"\n        },\n        {\n            \"item_desc\": \"Happy Christmas Home\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"60,32\",\n            \"item_net_worth\": \"301,60\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"331,76\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "inv_validation_47",
+            "output": "{\"items\": [{\"item_desc\": \"YILONG 5\\\"x7.5\\\" Handknotted Silk Carpet Whirwind Home Decor Classic Rug 0807\", \"item_qty\": \"3,00\", \"item_net_price\": \"2 800,00\", \"item_net_worth\": \"8 400,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"9 240,00\"}, {\"item_desc\": \"Yilong 5\\\"x7\\\" Handknotted Silk Carpet Home Interior Classic Luxury Area Rug 1047\", \"item_qty\": \"2,00\", \"item_net_price\": \"8 400,00\", \"item_net_worth\": \"16 800,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"18 480,00\"}, {\"item_desc\": \"Fluffy Rugs Anti-slip Area Rug Dining Room Carpet Floor Mat Home Bedroom Decor !\", \"item_qty\": \"4,00\", \"item_net_price\": \"4,99\", \"item_net_worth\": \"19,96\", \"item_vat\": \"10%\", \"item_gross_worth\": \"21,96\"}, {\"item_desc\": \"Turkish Kayseri Small Kilim Rug, Doormat, Bathtim, Decor Area Rug Carpet 41\\\"x74\\\"\", \"item_qty\": \"2,00\", \"item_net_price\": \"55,00\", \"item_net_worth\": \"110,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"121,00\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "YILONG 5'x7.5' Handknotted Silk Carpet Whirlwind Home Decor Classic Rug 0807",
+                  "item_qty": "3,00",
+                  "item_net_price": "8400,00",
+                  "item_net_worth": "",
+                  "item_vat": "10%",
+                  "item_gross_worth": "9240,00"
+                },
+                {
+                  "item_desc": "Yilong 5'x7' Handknotted Silk Carpet Home Interior Classic Luxury Area Rug 1047",
+                  "item_qty": "2,00",
+                  "item_net_price": "",
+                  "item_net_worth": "16 800,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "18 480,00"
+                },
+                {
+                  "item_desc": "Fluffy Rugs Anti-slip Area Rug Dining Room Carpet Floor Mat Home Bedroom Decor !",
+                  "item_qty": "4,00",
+                  "item_net_price": "4,99",
+                  "item_net_worth": "19,96",
+                  "item_vat": "10%",
+                  "item_gross_worth": "21,96"
+                },
+                {
+                  "item_desc": "Turkish Kayseri Small Kilim Rug, Doormat, Bathmat, Decor Area Rug Carpet 41\"x74\"",
+                  "item_qty": "2,00",
+                  "item_net_price": "55,00",
+                  "item_net_worth": "110,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "121,00"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"YILONG 5\\\"x7.5\\\" Handknotted Silk Carpet Whirwind Home Decor Classic Rug 0807\", \"item_qty\": \"3,00\", \"item_net_price\": \"2 800,00\", \"item_net_worth\": \"8 400,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"9 240,00\"}, {\"item_desc\": \"Yilong 5\\\"x7\\\" Handknotted Silk Carpet Home Interior Classic Luxury Area Rug 1047\", \"item_qty\": \"2,00\", \"item_net_price\": \"8 400,00\", \"item_net_worth\": \"16 800,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"18 480,00\"}, {\"item_desc\": \"Fluffy Rugs Anti-slip Area Rug Dining Room Carpet Floor Mat Home Bedroom Decor !\", \"item_qty\": \"4,00\", \"item_net_price\": \"4,99\", \"item_net_worth\": \"19,96\", \"item_vat\": \"10%\", \"item_gross_worth\": \"21,96\"}, {\"item_desc\": \"Turkish Kayseri Small Kilim Rug, Doormat, Bathtim, Decor Area Rug Carpet 41\\\"x74\\\"\", \"item_qty\": \"2,00\", \"item_net_price\": \"55,00\", \"item_net_worth\": \"110,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"121,00\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"YILONG 5\\\"x7.5\\\" Handknotted\",\n            \"item_qty\": \"3,00\",\n            \"item_net_price\": \"2 800,00\",\n            \"item_net_worth\": \"8400,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"9 240,00\"\n        },\n        {\n            \"item_desc\": \"Silk Carpet Whirlwind Home\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Decor Classic Rug 0807\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Yilong 5\\\"x7\\\" Handknotted Silk\",\n            \"item_qty\": \"2,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"8 400,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"18 480,00\"\n        },\n        {\n            \"item_desc\": \"Carpet Home Interior Classic\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Luxury Area Rug 1047\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Fluffy Rugs Anti-slip Area Rug\",\n            \"item_qty\": \"4,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"4,99\",\n            \"item_vat\": \"19.96\",\n            \"item_gross_worth\": \"21,96\"\n        },\n        {\n            \"item_desc\": \"Dining Room Carpet Floor Mat\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Home Bedroom Decor !\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Turkish Kayseri Small Kilim Rug,\",\n            \"item_qty\": \"2,00\",\n            \"item_net_price\": \"each\",\n            \"item_net_worth\": \"55,00\",\n            \"item_vat\": \"110,00\",\n            \"item_gross_worth"
+          },
+          {
+            "id": "inv_validation_34",
+            "output": "{\"items\": [{\"item_desc\": \"That Quail Robert\", \"item_qty\": \"4,00\", \"item_net_price\": \"4.89\", \"item_net_worth\": \"19,56\", \"item_vat\": \"10%\", \"item_gross_worth\": \"21,52\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "That Quail Robert",
+                  "item_qty": "4,00",
+                  "item_net_price": "4,89",
+                  "item_net_worth": "19,56",
+                  "item_vat": "10%",
+                  "item_gross_worth": "21,52"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"That Quail Robert\", \"item_qty\": \"4,00\", \"item_net_price\": \"4.89\", \"item_net_worth\": \"19,56\", \"item_vat\": \"10%\", \"item_gross_worth\": \"21,52\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"That Quail Robert\",\n            \"item_qty\": \"4,00\",\n            \"item_net_price\": \"each 4.89\",\n            \"item_net_worth\": \"4.89\",\n            \"item_vat\": \"19.56\",\n            \"item_gross_worth\": \"21.52\"\n        }\n    ]\n}"
+          },
+          {
+            "id": "inv_validation_17",
+            "output": "{\"items\": [{\"item_desc\": \"Gaming PC Desktop Computer\", \"item_qty\": \"5,00\", \"item_net_price\": \"999,50\", \"item_net_worth\": \"4,997,50\", \"item_vat\": \"10%\", \"item_gross_worth\": \"5,497,25\"}, {\"item_desc\": \"Ryzen Gaming Computer\", \"item_qty\": \"4,00\", \"item_net_price\": \"752,00\", \"item_net_worth\": \"3,008,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"3,308,80\"}, {\"item_desc\": \"Custom Built Windows 98 Retro\", \"item_qty\": \"1,00\", \"item_net_price\": \"409,99\", \"item_net_worth\": \"409,99\", \"item_vat\": \"10%\", \"item_gross_worth\": \"450,99\"}, {\"item_desc\": \"Dell Optiplex Desktop Computer\", \"item_qty\": \"5,00\", \"item_net_price\": \"159,95\", \"item_net_worth\": \"799,75\", \"item_vat\": \"10%\", \"item_gross_worth\": \"879,73\"}, {\"item_desc\": \"HP Windows 10 Pro Desktop\", \"item_qty\": \"2,00\", \"item_net_price\": \"169,95\", \"item_net_worth\": \"339,90\", \"item_vat\": \"10%\", \"item_gross_worth\": \"373,89\"}, {\"item_desc\": \"Dell Optiplex Desktop Computer\", \"item_qty\": \"3,00\", \"item_net_price\": \"169,95\", \"item_net_worth\": \"509,85\", \"item_vat\": \"10%\", \"item_gross_worth\": \"560,83\"}, {\"item_desc\": \"Fast i7 RGB Gaming Desktop PC\", \"item_qty\": \"5,00\", \"item_net_price\": \"790,00\", \"item_net_worth\": \"3,950,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"4,345,00\"}]}",
+            "label": {
+              "items": [
+                {
+                  "item_desc": "Gaming PC Desktop Computer HDMI RGB Intel i7 RTX 2060, HDD+SSD, Windows 10, Wifi",
+                  "item_qty": "5,00",
+                  "item_net_price": "999,50",
+                  "item_net_worth": "4997,50",
+                  "item_vat": "10%",
+                  "item_gross_worth": "5 497,25"
+                },
+                {
+                  "item_desc": "Ryzen Gaming Computer",
+                  "item_qty": "4,00",
+                  "item_net_price": "752,00",
+                  "item_net_worth": "3008,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "3 308,80"
+                },
+                {
+                  "item_desc": "Custom Built Windows 98 Retro Gaming Industrial PC Computer P2 B Montego II 5GB",
+                  "item_qty": "1,00",
+                  "item_net_price": "409,99",
+                  "item_net_worth": "409,99",
+                  "item_vat": "10%",
+                  "item_gross_worth": "450,99"
+                },
+                {
+                  "item_desc": "Dell Optiplex Desktop Computer 790 Core i7 8GB RAM 1TB HD DVD Windows 10 PC Wifi",
+                  "item_qty": "5,00",
+                  "item_net_price": "159,95",
+                  "item_net_worth": "799,75",
+                  "item_vat": "10%",
+                  "item_gross_worth": "879,73"
+                },
+                {
+                  "item_desc": "HP Windows 10 Pro Desktop Computer Intel QUAD CORE i5 Wifi, Keyboard & Mouse",
+                  "item_qty": "2,00",
+                  "item_net_price": "169,95",
+                  "item_net_worth": "339,90",
+                  "item_vat": "10%",
+                  "item_gross_worth": "373,89"
+                },
+                {
+                  "item_desc": "Dell Optiplex Desktop Computer PC Quad Core i5 16GB 1TB HD Wifi Windows 10 Pro",
+                  "item_qty": "3,00",
+                  "item_net_price": "169,95",
+                  "item_net_worth": "509,85",
+                  "item_vat": "10%",
+                  "item_gross_worth": "560,83"
+                },
+                {
+                  "item_desc": "Fast i7 RGB Gaming Desktop PC Computer VR-Ready WiFi AAA Fortnite GTAV PUBG IG3",
+                  "item_qty": "5,00",
+                  "item_net_price": "790,00",
+                  "item_net_worth": "3950,00",
+                  "item_vat": "10%",
+                  "item_gross_worth": "4 345,00"
+                }
+              ]
+            },
+            "gate1_emit4": "{\"items\": [{\"item_desc\": \"Gaming PC Desktop Computer\", \"item_qty\": \"5,00\", \"item_net_price\": \"999,50\", \"item_net_worth\": \"4,997,50\", \"item_vat\": \"10%\", \"item_gross_worth\": \"5,497,25\"}, {\"item_desc\": \"Ryzen Gaming Computer\", \"item_qty\": \"4,00\", \"item_net_price\": \"752,00\", \"item_net_worth\": \"3,008,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"3,308,80\"}, {\"item_desc\": \"Custom Built Windows 98 Retro\", \"item_qty\": \"1,00\", \"item_net_price\": \"409,99\", \"item_net_worth\": \"409,99\", \"item_vat\": \"10%\", \"item_gross_worth\": \"450,99\"}, {\"item_desc\": \"Dell Optiplex Desktop Computer\", \"item_qty\": \"5,00\", \"item_net_price\": \"159,95\", \"item_net_worth\": \"799,75\", \"item_vat\": \"10%\", \"item_gross_worth\": \"879,73\"}, {\"item_desc\": \"HP Windows 10 Pro Desktop\", \"item_qty\": \"2,00\", \"item_net_price\": \"169,95\", \"item_net_worth\": \"339,90\", \"item_vat\": \"10%\", \"item_gross_worth\": \"373,89\"}, {\"item_desc\": \"Dell Optiplex Desktop Computer\", \"item_qty\": \"3,00\", \"item_net_price\": \"169,95\", \"item_net_worth\": \"509,85\", \"item_vat\": \"10%\", \"item_gross_worth\": \"560,83\"}, {\"item_desc\": \"Fast i7 RGB Gaming Desktop PC\", \"item_qty\": \"5,00\", \"item_net_price\": \"790,00\", \"item_net_worth\": \"3,950,00\", \"item_vat\": \"10%\", \"item_gross_worth\": \"4,345,00\"}]}",
+            "gate1_base": "{\n    \"items\": [\n        {\n            \"item_desc\": \"Gaming PC Desktop Computer\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"999,50\",\n            \"item_net_worth\": \"4997,50\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"5 497,25\"\n        },\n        {\n            \"item_desc\": \"Ryzen Gaming Computer\",\n            \"item_qty\": \"4,00\",\n            \"item_net_price\": \"752,00\",\n            \"item_net_worth\": \"3008,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"3 308,80\"\n        },\n        {\n            \"item_desc\": \"Custom Built Windows 98 Retro\",\n            \"item_qty\": \"1,00\",\n            \"item_net_price\": \"409,99\",\n            \"item_net_worth\": \"409,99\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"450,99\"\n        },\n        {\n            \"item_desc\": \"Dell Optiplex Desktop Computer\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"159,95\",\n            \"item_net_worth\": \"799,75\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"879,73\"\n        },\n        {\n            \"item_desc\": \"HP Windows 10 Pro Desktop\",\n            \"item_qty\": \"2,00\",\n            \"item_net_price\": \"169,95\",\n            \"item_net_worth\": \"339,90\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"373,89\"\n        },\n        {\n            \"item_desc\": \"Dell Optiplex Desktop Computer\",\n            \"item_qty\": \"3,00\",\n            \"item_net_price\": \"169,95\",\n            \"item_net_worth\": \"509,85\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"560,83\"\n        },\n        {\n            \"item_desc\": \"Fast i7 RGB Gaming Desktop PC\",\n            \"item_qty\": \"5,00\",\n            \"item_net_price\": \"790,00\",\n            \"item_net_worth\": \"3950,00\",\n            \"item_vat\": \"10%\",\n            \"item_gross_worth\": \"4 345,00\"\n        },\n        {\n            \"item_desc\": \"Computer VR-Ready WiFi AAA\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\",\n            \"item_gross_worth\": \"\"\n        },\n        {\n            \"item_desc\": \"Fortnite GTAV PUBG IG3\",\n            \"item_qty\": \"\",\n            \"item_net_price\": \"\",\n            \"item_net_worth\": \"\",\n            \"item_vat\": \"\","
+          }
+        ]
+      }
+    },
+    "seconds": 310.34476017951965
+  }
+}

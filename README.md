@@ -21,6 +21,20 @@ Limits, stated plainly:
 
 Details: [studies/gate1/results.md](studies/gate1/results.md).
 
+## Released weights
+
+The hypernetwork behind these numbers is on Hugging Face: [ASHu2/openT2L-MiniCPM-V-4.7-1B-docs](https://huggingface.co/ASHu2/openT2L-MiniCPM-V-4.7-1B-docs) (CC-BY-NC-4.0).
+
+| | |
+| --- | --- |
+| What it is | The final Gate 1 hypernetwork (run `final`, 6,000 steps), converted without changes to openT2L's safetensors + JSON format |
+| Size | 72.2M parameters (fp32, 289 MB) |
+| What it emits | A rank-8, alpha-16 LoRA for 48 modules of MiniCPM-V-4.7-1B's language model: q/v in the 6 full-attention layers, plus in_proj_qkv/out_proj in the 18 linear-attention layers. That is 1.8M parameters, about 3.6 MB in fp16, in standard PEFT format. |
+| Input | 1–8 labelled example pages. Each is embedded by the frozen base model as the last LM hidden state averaged over the answer tokens, with processor settings `downsample_mode="16x"`, `max_slice_nums=9`. |
+| Trained on | 333 tasks: 16 public datasets and synthetic forms. Real labels only. |
+
+The model card has a complete example: embed 4 pages, emit an adapter, load it with PEFT. Because the training data includes non-commercial datasets (XFUND, DVQA) and some with unclear licences (SROIE, WildReceipt, HME100K), the weights and every adapter they emit are for non-commercial use.
+
 ## What we ran
 
 Each gate has a protocol, frozen before its runs, plus its results. Later changes are dated amendments. Every experiment is in [experiments/LOG.md](experiments/LOG.md), failed and stopped runs included. A plain-language table is in [experiments/SUMMARY.md](experiments/SUMMARY.md).

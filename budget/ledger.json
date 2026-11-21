@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "reservations": [
+    {
+      "id": "b3b3c6b8b45243edb85d2513e2c4764e",
+      "stage": "gate0",
+      "run": "gate0-probe",
+      "note": "",
+      "reserved_usd": 1.0,
+      "actual_usd": 0.03,
+      "status": "completed",
+      "started_at": "2026-11-19T05:19:42.923224+00:00",
+      "finished_at": "2026-11-19T05:19:59.925975+00:00",
+      "details": {
+        "wall_seconds": 16.99061632156372,
+        "reconciled": "2026-11-19 from `modal billing report --for today`: app minicpm-t2l-gate0 billed USD 0.334 for completed hours; split by wall time, rounded up to 0.60 to cover the unbilled current hour"
+      }
+    },
+    {
+      "id": "01df7092b2e14b238954c4856494fff7",
+      "stage": "gate0",
+      "run": "gate0-probe",
+      "note": "",
+      "reserved_usd": 1.0,
+      "actual_usd": 0.03,
+      "status": "completed",
+      "started_at": "2026-11-19T05:20:22.077637+00:00",
+      "finished_at": "2026-11-19T05:20:35.009791+00:00",
+      "details": {
+        "wall_seconds": 12.923518419265747,
+        "reconciled": "2026-11-19 from `modal billing report --for today`: app minicpm-t2l-gate0 billed USD 0.334 for completed hours; split by wall time, rounded up to 0.60 to cover the unbilled current hour"
+      }
+    },
+    {
+      "id": "7ee3c02f76d8425c88ae3e8b52c60660",
+      "stage": "gate0",
+      "run": "gate0-build",
+      "note": "",
+      "reserved_usd": 2.0,
+      "actual_usd": 0.3,
+      "status": "completed",
+      "started_at": "2026-11-19T05:20:24.615334+00:00",
+      "finished_at": "2026-11-19T05:55:32.047761+00:00",
+      "details": {
+        "wall_seconds": 2107.42329621315,
+        "reconciled": "2026-11-19 from `modal billing report --for today`: app minicpm-t2l-gate0 billed USD 0.334 for completed hours; split by wall time, rounded up to 0.60 to cover the unbilled current hour"
+      }
+    },
+    {
+      "id": "121d622cf0aa4a1783c4481e62032d13",
+      "stage": "gate0",
+      "run": "gate0-smoke-v47",
+      "note": "",
+      "reserved_usd": 1.0,
+      "actual_usd": 0.04,
+      "status": "failed",
+      "started_at": "2026-11-19T05:48:38.585570+00:00",
+      "finished_at": "2026-11-19T05:50:57.737709+00:00",
+      "details": {
+        "error_type": "ValueError",
+        "wall_seconds": 139.14314150810242,
+        "reconciled": "2026-11-19 from `modal billing report --for today`: app minicpm-t2l-gate0 billed USD 0.334 for completed hours; split by wall time, rounded up to 0.60 to cover the unbilled current hour"
+      }
+    },
+    {
+      "id": "435d2cfcfb1c409691c68df222aa32ea",
+      "stage": "gate0",
+      "run": "gate0-smoke-v47",
+      "note": "",
+      "reserved_usd": 1.0,
+      "actual_usd": 0.2,
+      "status": "completed",
+      "started_at": "2026-11-19T05:53:32.718639+00:00",
+      "finished_at": "2026-11-19T06:11:48.415819+00:00",
+      "details": {
+        "wall_seconds": 1095.686270236969,
+        "reconciled": "2026-11-19 from `modal billing report --for today`: app minicpm-t2l-gate0 billed USD 0.334 for completed hours; split by wall time, rounded up to 0.60 to cover the unbilled current hour"
+      }
+    },
+    {
+      "id": "e7aa88c0eeb644b384c0968eb8b9ed52",
+      "stage": "gate0",
+      "run": "gate0-everything",
+      "note": "",
+      "reserved_usd": 34.0,
+      "actual_usd": 0.5,
+      "status": "failed",
+      "started_at": "2026-11-19T06:12:56.671665+00:00",
+      "finished_at": "2026-11-19T06:35:00+00:00",
+      "details": {
+        "note": "stopped by Claude to relaunch with 3 jobs per GPU; ~25 min of one L4; actual estimated"
+      }
+    },
+    {
+      "id": "4789a3bbff384179925ea6e48c157735",
+      "stage": "gate0",
+      "run": "gpu-concurrency-test",
+      "note": "",
+      "reserved_usd": 0.5,
+      "actual_usd": 0.81,
+      "status": "completed",
+      "started_at": "2026-11-19T06:20:08.748199+00:00",
+      "finished_at": "2026-11-19T06:30:33.644576+00:00",
+      "details": {
+        "note": "GPU never allocated; test stopped",
+        "reconciled": "reconciled 2026-11-19 15:55 IST from `modal billing report --for today`: the three GPU test apps billed 0.227 + 0.061 + 0.52 (two of them were not reserved separately)"
+      }
+    },
+    {
+      "id": "613f0b014bd940adb17b548e42db4718",
+      "stage": "gate0",
+      "run": "gate0-everything",
+      "note": "",
+      "reserved_usd": 38.0,
+      "actual_usd": 2.0,
+      "status": "failed",
+      "started_at": "2026-11-19T06:31:47.065958+00:00",
+      "finished_at": "2026-11-19T07:20:00+00:00",
+      "details": {
+        "note": "stopped to relaunch without in-process concurrency (Triton autotuner race); up to 7 L4 for ~25 min; actual estimated"
+      }
+    },
+    {
+      "id": "3ce876932109453694da2a5ca9cc41a9",
+      "stage": "gate0",
+      "run": "gate0-everything",
+      "note": "",
+      "reserved_usd": 36.0,
+      "actual_usd": 0.3,
+      "status": "failed",
+      "started_at": "2026-11-19T06:55:56.979601+00:00",
+      "finished_at": "2026-11-19T07:00:00+00:00",
+      "details": {
+        "note": "stopped to move all arms to A10G (amendment 1); 1 L4 for ~10 min; actual estimated"
+      }
+    },
+    {
+      "id": "07a719d4921842c6965951a14dab5400",
+      "stage": "gate0",
+      "run": "gate0-everything",
+      "note": "",
+      "reserved_usd": 33.0,
+      "actual_usd": 28.78,
+      "status": "completed",
+      "started_at": "2026-11-19T06:58:45.195274+00:00",
+      "finished_at": "2026-11-19T09:43:09.131456+00:00",
+      "details": {
+        "hold_adjusted": "2026-11-19 15:20 IST: reserved 36 -> 33; modal billing showed gate0 app at USD 29.83 with ~7 containers left",
+        "wall_seconds": 9863.928219079971,
+        "reconciled": "reconciled 2026-11-19 15:55 IST from `modal billing report --for today`: app minicpm-t2l-gate0 billed 31.18 for complete hours, +1.0 for the unbilled last hour, minus 3.40 already booked on earlier gate0 reservations"
+      }
+    },
+    {
+      "id": "0813cf37e6d8400883dd300398bfca23",
+      "stage": "gate0",
+      "run": "gate0-llamacpp-check",
+      "note": "",
+      "reserved_usd": 2.0,
+      "actual_usd": 0.03,
+      "status": "failed",
+      "started_at": "2026-11-19T09:42:17.897038+00:00",
+      "finished_at": "2026-11-19T09:42:24.957905+00:00",
+      "details": {
+        "error_type": "RuntimeError",
+        "wall_seconds": 7.032553672790527,
+        "reconciled": "reconciled 2026-11-19 15:55 IST from `modal billing report --for today`: llamacpp app billed 0.035 over both failed attempts"
+      }
+    },
+    {
+      "id": "16e94f7dad1543ce9cc5e5c19237266c",
+      "stage": "gate0",
+      "run": "gate0-llamacpp-check",
+      "note": "",
+      "reserved_usd": 1.5,
+      "actual_usd": 0.03,
+      "status": "failed",
+      "started_at": "2026-11-19T09:43:03.639254+00:00",
+      "finished_at": "2026-11-19T09:43:09.903062+00:00",
+      "details": {
+        "error_type": "RuntimeError",
+        "wall_seconds": 6.256455183029175,
+        "reconciled": "reconciled 2026-11-19 15:55 IST from `modal billing report --for today`: llamacpp app billed 0.035 over both failed attempts"
+      }
+    },
+    {
+      "id": "d377608d16a4456b83852271a34fd61f",
+      "stage": "gate0",
+      "run": "gate0-llamacpp-check",
+      "note": "",
+      "reserved_usd": 2.0,
+      "actual_usd": 0.15,
+      "status": "failed",
+      "started_at": "2026-11-19T09:47:37.696918+00:00",
+      "finished_at": "2026-11-19T09:47:50.071304+00:00",
+      "details": {
+        "error_type": "RuntimeError",
+        "wall_seconds": 12.367017269134521,
+        "note": "conversion ok; failed at first generation on an unsupported mtmd-cli flag; ~15 min of 16 CPU"
+      }
+    },
+    {
+      "id": "a9cd461c19fa445fba0df87df2beb7a3",
+      "stage": "gate0",
+      "run": "gate0-llamacpp-check",
+      "note": "",
+      "reserved_usd": 2.0,
+      "actual_usd": 0.15,
+      "status": "failed",
+      "started_at": "2026-11-19T09:48:45.329484+00:00",
+      "finished_at": "2026-11-19T09:49:03.857994+00:00",
+      "details": {
+        "error_type": "RuntimeError",
+        "wall_seconds": 18.50131583213806,
+        "note": "conversion ok; failed at first generation on an unsupported mtmd-cli flag; ~15 min of 16 CPU"
+      }
+    },
+    {
+      "id": "6d33e826eb8340afbcf27a62a318833b",
+      "stage": "gate0",
+      "run": "gate0-llamacpp-check",
+      "note": "",
+      "reserved_usd": 2.0,
+      "actual_usd": 0.1,
+      "status": "failed",
+      "started_at": "2026-11-19T09:50:22.313376+00:00",
+      "finished_at": "2026-11-19T10:45:00+00:00",
+      "details": {
+        "note": "stopped: base GGUF fused attn_qkv+attn_gate so the LoRA could not load; relaunching unfused"
+      }
+    },
+    {
+      "id": "ab773e69bb214fef96c765c442b8264c",
+      "stage": "gate0",
+      "run": "gate0-llamacpp-check",
+      "note": "",
+      "reserved_usd": 2.0,
+      "actual_usd": 0.15,
+      "status": "failed",
+      "started_at": "2026-11-19T09:50:56.346490+00:00",
+      "finished_at": "2026-11-19T09:52:15.496148+00:00",
+      "details": {
+        "error_type": "RuntimeError",
+        "wall_seconds": 79.14089608192444,
+        "note": "conversion ok; failed at first generation on an unsupported mtmd-cli flag; ~15 min of 16 CPU"
+      }
+    },
+    {
+      "id": "345e06dd5243416eb0a722a3fb246408",
+      "stage": "gate0",
+      "run": "gate0-llamacpp-check",
+      "note": "",
+      "reserved_usd": 2.0,
+      "actual_usd": 1.35,
+      "status": "completed",
+      "started_at": "2026-11-19T09:52:47.958955+00:00",
+      "finished_at": "2026-11-19T11:12:50.543793+00:00",
+      "details": {
+        "wall_seconds": 4802.575977802277,
+        "note": "modal billing 2026-11-19 app ap-D3mptstO9AJ7JLls38ahZC 1.347 (current hour may still be settling); 16 CPU x ~80 min"
+      }
+    },
+    {
+      "id": "f4b037a00805450bbda9e1bfee338790",
+      "stage": "gate0",
+      "run": "gate0-llamacpp-check-v2",
+      "note": "amendment 4",
+      "reserved_usd": 4.0,
+      "actual_usd": 0.16,
+      "status": "failed",
+      "started_at": "2026-11-19T12:02:58.831832+00:00",
+      "finished_at": "2026-11-19T12:03:20.359051+00:00",
+      "details": {
+        "error_type": "RuntimeError",
+        "wall_seconds": 21.51580238342285,
+        "note": "billing ap-BjSTgbcPRv7STSkGxhB76U 0.162; stopped by over-strict CUDA guard"
+      }
+    },
+    {
+      "id": "a1f6e330d23d46228715674a8f71f334",
+      "stage": "gate0",
+      "run": "gate0-llamacpp-check-v2",
+      "note": "amendment 4",
+      "reserved_usd": 4.0,
+      "actual_usd": 0.53,
+      "status": "completed",
+      "started_at": "2026-11-19T12:04:24.417515+00:00",
+      "finished_at": "2026-11-19T12:12:04.697367+00:00",
+      "details": {
+        "wall_seconds": 460.2715902328491,
+        "note": "billing ap-60Tk78FL2aNTlNWNGxLT4r 0.531 (current hour may still settle); 3 x A10G"
+      }
+    },
+    {
+      "id": "5f34d7b0c6774163ba7e5eb6c004a4f0",
+      "stage": "task_pool",
+      "run": "task-pool-smoke",
+      "note": "",
+      "reserved_usd": 1.0,
+      "actual_usd": 0.05,
+      "status": "completed",
+      "started_at": "2026-11-19T14:53:08.267168+00:00",
+      "finished_at": "2026-11-19T14:55:14.767307+00:00",
+      "details": {
+        "wall_seconds": 126.47769665718079,
+        "reconciled": "reconciled 2026-11-19 from `modal billing report --for today`: app minicpm-t2l-task-pool billed USD 0.618 so far (current hour may still settle); split by wall time and rounded up to 0.90 in total"
+      }
+    },
+    {
+      "id": "8ac5fe6aa86945f5a9c7626c4dd2ea0b",
+      "stage": "task_pool",
+      "run": "task-pool-build",
+      "note": "",
+      "reserved_usd": 6.0,
+      "actual_usd": 0.65,
+      "status": "completed",
+      "started_at": "2026-11-19T15:01:07.856044+00:00",
+      "finished_at": "2026-11-19T16:12:52.204710+00:00",
+      "details": {
+        "wall_seconds": 4304.335693597794,
+        "reconciled": "reconciled 2026-11-19 from `modal billing report --for today`: app minicpm-t2l-task-pool billed USD 0.618 so far (current hour may still settle); split by wall time and rounded up to 0.90 in total"
+      }
+    },
+    {
+      "id": "e3f6570fc39b480ababce1e0cbbc3ee0",
+      "stage": "task_pool",
+      "run": "task-pool-build",
+      "note": "",
+      "reserved_usd": 0.5,
+      "actual_usd": 0.1,
+      "status": "completed",
+      "started_at": "2026-11-19T16:17:01.421159+00:00",
+      "finished_at": "2026-11-19T16:21:30.583383+00:00",
+      "details": {
+        "wall_seconds": 269.15247917175293,
+        "reconciled": "reconciled 2026-11-19 from `modal billing report --for today`: app minicpm-t2l-task-pool billed USD 0.618 so far (current hour may still settle); split by wall time and rounded up to 0.90 in total"
+      }
+    },
+    {
+      "id": "da4100258c1e4003ac0778289259a0b3",
+      "stage": "overhead",
+      "run": "p01-multitask-lora",
+      "note": "",
+      "reserved_usd": 4.5,
+      "actual_usd": 4.0,
+      "status": "completed",
+      "started_at": "2026-11-19T16:18:48.987432+00:00",
+      "finished_at": "2026-11-19T18:10:29.890401+00:00",
+      "details": {
+        "wall_seconds": 6700.8780081272125,
+        "reconciled": "reconciled 2026-11-19 23:41 IST from `modal billing report --for today`: app minicpm-t2l-pilots billed USD 12.92 for P-01 + P-03 + 2 processor checks (current hour may still settle); split by GPU time, rounded up to 13.20 total. User raised the pilots cap from 12 to 14 on 2026-11-19"
+      }
+    },
+    {
+      "id": "f1423f59df4f446ba8aa249a3a66c7a1",
+      "stage": "overhead",
+      "run": "pilot-proc-check",
+      "note": "",
+      "reserved_usd": 0.3,
+      "actual_usd": 0.05,
+      "status": "completed",
+      "started_at": "2026-11-19T16:20:38.486154+00:00",
+      "finished_at": "2026-11-19T16:20:59.534584+00:00",
+      "details": {
+        "wall_seconds": 21.031999826431274,
+        "reconciled": "reconciled 2026-11-19 23:41 IST from `modal billing report --for today`: app minicpm-t2l-pilots billed USD 12.92 for P-01 + P-03 + 2 processor checks (current hour may still settle); split by GPU time, rounded up to 13.20 total. User raised the pilots cap from 12 to 14 on 2026-11-19"
+      }
+    },
+    {
+      "id": "ac0b8e25435745ac82bb4c47eaa4cc61",
+      "stage": "overhead",
+      "run": "pilot-proc-check",
+      "note": "",
+      "reserved_usd": 0.3,
+      "actual_usd": 0.05,
+      "status": "completed",
+      "started_at": "2026-11-19T16:21:11.860518+00:00",
+      "finished_at": "2026-11-19T16:21:23.674993+00:00",
+      "details": {
+        "wall_seconds": 11.804600954055786,
+        "reconciled": "reconciled 2026-11-19 23:41 IST from `modal billing report --for today`: app minicpm-t2l-pilots billed USD 12.92 for P-01 + P-03 + 2 processor checks (current hour may still settle); split by GPU time, rounded up to 13.20 total. User raised the pilots cap from 12 to 14 on 2026-11-19"
+      }
+    },
+    {
+      "id": "5b3fbca156b44df7a14b2ee1434d4751",
+      "stage": "overhead",
+      "run": "p03-ocr4x",
+      "note": "",
+      "reserved_usd": 7.5,
+      "actual_usd": 9.1,
+      "status": "completed",
+      "started_at": "2026-11-19T16:21:38.494484+00:00",
+      "finished_at": "2026-11-19T17:21:49.618505+00:00",
+      "details": {
+        "wall_seconds": 3611.112067461014,
+        "reconciled": "reconciled 2026-11-19 23:41 IST from `modal billing report --for today`: app minicpm-t2l-pilots billed USD 12.92 for P-01 + P-03 + 2 processor checks (current hour may still settle); split by GPU time, rounded up to 13.20 total. User raised the pilots cap from 12 to 14 on 2026-11-19"
+      }
+    },
+    {
+      "id": "d484d1329ece41debe210287fe7eb329",
+      "stage": "task_pool",
+      "run": "task-pool-finalize",
+      "note": "",
+      "reserved_usd": 1.0,
+      "actual_usd": 0.1,
+      "status": "completed",
+      "started_at": "2026-11-19T16:21:47.067727+00:00",
+      "finished_at": "2026-11-19T16:29:06.230419+00:00",
+      "details": {
+        "wall_seconds": 439.15259981155396,
+        "reconciled": "reconciled 2026-11-19 from `modal billing report --for today`: app minicpm-t2l-task-pool billed USD 0.618 so far (current hour may still settle); split by wall time and rounded up to 0.90 in total"
+      }
+    },
+    {
+      "id": "8686a3bc18b94cfb84eaebaf830e8c8e",
+      "stage": "hypernetwork",
+      "run": "gate1-smoke",
+      "note": "",
+      "reserved_usd": 1.0,
+      "actual_usd": 0.3,
+      "status": "completed",
+      "started_at": "2026-11-20T05:34:26.287590+00:00",
+      "finished_at": "2026-11-20T05:36:44.763932+00:00",
+      "details": {
+        "wall_seconds": 138.46266078948975,
+        "reconciled": "reconciled 2026-11-20 15:20 IST from `modal billing report --for today`: app minicpm-t2l-gate1 billed USD 25.08 so far (current hour still settling); split by GPU-time per run, rounded up (total booked 28.4). Re-check after the day settles."
+      }
+    },
+    {
+      "id": "6692b4d511ca42849386dd36a21cfc54",
+      "stage": "hypernetwork",
+      "run": "gate1-embed",
+      "note": "",
+      "reserved_usd": 6.0,
+      "actual_usd": 4.8,
+      "status": "completed",
+      "started_at": "2026-11-20T05:37:07.930182+00:00",
+      "finished_at": "2026-11-20T05:48:35.558160+00:00",
+      "details": {
+        "wall_seconds": 687.6218283176422,
+        "reconciled": "reconciled 2026-11-20 15:20 IST from `modal billing report --for today`: app minicpm-t2l-gate1 billed USD 25.08 so far (current hour still settling); split by GPU-time per run, rounded up (total booked 28.4). Re-check after the day settles."
+      }
+    },
+    {
+      "id": "80cc84e8b7fe4d568d91c616fddadfc9",
+      "stage": "hypernetwork",
+      "run": "gate1-embed",
+      "note": "",
+      "reserved_usd": 30.0,
+      "actual_usd": 0.9,
+      "status": "completed",
+      "started_at": "2026-11-20T05:48:57.637966+00:00",
+      "finished_at": "2026-11-20T05:54:48.141874+00:00",
+      "details": {
+        "wall_seconds": 350.4841413497925,
+        "reconciled": "reconciled 2026-11-20 15:20 IST from `modal billing report --for today`: app minicpm-t2l-gate1 billed USD 25.08 so far (current hour still settling); split by GPU-time per run, rounded up (total booked 28.4). Re-check after the day settles."
+      }
+    },
+    {
+      "id": "d8e433c1489245b6bfa6f0f0023dc7f7",
+      "stage": "hypernetwork",
+      "run": "gate1-kernel-check",
+      "note": "",
+      "reserved_usd": 1.5,
+      "actual_usd": 0.05,
+      "status": "completed",
+      "started_at": "2026-11-20T05:55:17.487410+00:00",
+      "finished_at": "2026-11-20T05:57:08.774401+00:00",
+      "details": {
+        "wall_seconds": 111.27741384506226,
+        "reconciled": "reconciled 2026-11-20 15:20 IST from `modal billing report --for today`: app minicpm-t2l-gate1 billed USD 25.08 so far (current hour still settling); split by GPU-time per run, rounded up (total booked 28.4). Re-check after the day settles."
+      }
+    },
+    {
+      "id": "50c20593b22142f290cffac758579c51",
+      "stage": "hypernetwork",
+      "run": "gate1-embed",
+      "note": "",
+      "reserved_usd": 12.0,
+      "actual_usd": 9.3,
+      "status": "completed",
+      "started_at": "2026-11-20T05:57:49.405376+00:00",
+      "finished_at": "2026-11-20T06:56:11.731533+00:00",
+      "details": {
+        "wall_seconds": 3502.318676710129,
+        "reconciled": "reconciled 2026-11-20 15:20 IST from `modal billing report --for today`: app minicpm-t2l-gate1 billed USD 25.08 so far (current hour still settling); split by GPU-time per run, rounded up (total booked 28.4). Re-check after the day settles."
+      }
+    },
+    {
+      "id": "95ee9940497f4631893c168597e6753c",
+      "stage": "hypernetwork",
+      "run": "gate1-dev",
+      "note": "",
+      "reserved_usd": 20.0,
+      "actual_usd": 13.0,
+      "status": "completed",
+      "started_at": "2026-11-20T06:56:51.101088+00:00",
+      "finished_at": "2026-11-20T09:42:37.387201+00:00",
+      "details": {
+        "wall_seconds": 9946.276273488998,
+        "reconciled": "reconciled 2026-11-20 15:20 IST from `modal billing report --for today`: app minicpm-t2l-gate1 billed USD 25.08 so far (current hour still settling); split by GPU-time per run, rounded up (total booked 28.4). Re-check after the day settles."
+      }
+    },
+    {
+      "id": "8fbb17a4f3f842e9901dae5c2fda6613",
+      "stage": "hypernetwork",
+      "run": "gate1-final-train",
+      "note": "",
+      "reserved_usd": 25.0,
+      "actual_usd": null,
+      "status": "completed",
+      "started_at": "2026-11-20T09:43:50.190952+00:00",
+      "finished_at": "2026-11-20T14:46:39.074170+00:00",
+      "details": {
+        "wall_seconds": 18168.87241268158
+      }
+    },
+    {
+      "id": "aa256e48a13a42eea3e8675880955d19",
+      "stage": "evaluation",
+      "run": "gate1-evaluate",
+      "note": "",
+      "reserved_usd": 38.0,
+      "actual_usd": null,
+      "status": "failed",
+      "started_at": "2026-11-20T14:47:09.471145+00:00",
+      "finished_at": "2026-11-20T15:02:31.016315+00:00",
+      "details": {
+        "error_type": "ConflictError",
+        "wall_seconds": 921.5432608127594
+      }
+    },
+    {
+      "id": "06421036dddb4eccb4859ec78e64169c",
+      "stage": "evaluation",
+      "run": "gate1-evaluate",
+      "note": "",
+      "reserved_usd": 15.0,
+      "actual_usd": null,
+      "status": "completed",
+      "started_at": "2026-11-20T15:04:17.614661+00:00",
+      "finished_at": "2026-11-20T16:24:30.745141+00:00",
+      "details": {
+        "wall_seconds": 4813.109010219574
+      }
+    }
+  ]
+}

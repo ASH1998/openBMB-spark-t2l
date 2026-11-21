@@ -1,0 +1,31 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/openT2L
+          path: openT2L
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fonts for synthetic forms
+        run: sudo apt-get update && sudo apt-get install -y fonts-dejavu fonts-liberation fonts-arphic-ukai fonts-noto-cjk
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -e ./openT2L
+          python -m pip install -e ".[data,api,dev]"
+      - run: ruff check minicpm_t2l modal_app tests --select E9,F63,F7,F82
+      - run: python -m pytest -q

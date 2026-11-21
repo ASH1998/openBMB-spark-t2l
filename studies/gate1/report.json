@@ -1,0 +1,1326 @@
+{
+  "n_tasks": 78,
+  "n_complete": 78,
+  "missing": [],
+  "groups": {
+    "all": {
+      "n": 78,
+      "mean_f1": {
+        "base": 0.727671869809523,
+        "emit4": 0.8812816206476648
+      },
+      "primary_emit4_minus_base": {
+        "mean": 0.15360975083814177,
+        "ci95": [
+          0.11647517295654915,
+          0.1946092153563211
+        ],
+        "n": 78
+      },
+      "primary_pass": true,
+      "better_tasks": 71,
+      "worse_tasks": 2,
+      "emit4_minus_mt": null,
+      "oracle_gain_recovered": null,
+      "full_bar_pass": "not run (amendment 4)"
+    },
+    "synthetic": {
+      "n": 64,
+      "mean_f1": {
+        "base": 0.8126886053966229,
+        "emit4": 0.9574979221656686
+      },
+      "primary_emit4_minus_base": {
+        "mean": 0.14480931676904582,
+        "ci95": [
+          0.10402215996472151,
+          0.19058178876083323
+        ],
+        "n": 64
+      },
+      "primary_pass": true,
+      "better_tasks": 58,
+      "worse_tasks": 1,
+      "emit4_minus_mt": null,
+      "oracle_gain_recovered": null,
+      "full_bar_pass": "not run (amendment 4)"
+    },
+    "public": {
+      "n": 14,
+      "mean_f1": {
+        "base": 0.3390239356970665,
+        "emit4": 0.5328642422796468
+      },
+      "primary_emit4_minus_base": {
+        "mean": 0.19384030658258025,
+        "ci95": [
+          0.09674975647617443,
+          0.3045933435919129
+        ],
+        "n": 14
+      },
+      "primary_pass": true,
+      "better_tasks": 13,
+      "worse_tasks": 1,
+      "emit4_minus_mt": null,
+      "oracle_gain_recovered": null,
+      "full_bar_pass": "not run (amendment 4)"
+    }
+  },
+  "rows": [
+    {
+      "task": "chartqa_columns",
+      "group": "public",
+      "base": 0.28044280442804426,
+      "emit4": 0.29357798165137616,
+      "emit4_vs_base": {
+        "diff": 0.013135177223331906,
+        "ci95": [
+          -0.11892609228256434,
+          0.14457741211667915
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "chartqa_table_oecd",
+      "group": "public",
+      "base": 0.11732229123533472,
+      "emit4": 0.20919387075283144,
+      "emit4_vs_base": {
+        "diff": 0.09187157951749672,
+        "ci95": [
+          0.03859156811652302,
+          0.1471130864756243
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "chartqa_table_owid",
+      "group": "public",
+      "base": 0.1141757536882617,
+      "emit4": 0.17947214076246334,
+      "emit4_vs_base": {
+        "diff": 0.06529638707420164,
+        "ci95": [
+          -0.009098605320370906,
+          0.14761555392516507
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "chartqa_table_pew",
+      "group": "public",
+      "base": 0.29910080454330334,
+      "emit4": 0.3410230692076229,
+      "emit4_vs_base": {
+        "diff": 0.04192226466431953,
+        "ci95": [
+          -0.05341320702145447,
+          0.1391413132084312
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "chartqa_table_statista",
+      "group": "public",
+      "base": 0.40565656565656566,
+      "emit4": 0.6749915626054674,
+      "emit4_vs_base": {
+        "diff": 0.2693349969489018,
+        "ci95": [
+          0.15116614545353485,
+          0.3840927741367775
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "fintabnet_first_col",
+      "group": "public",
+      "base": 0.20638297872340425,
+      "emit4": 0.7879699248120301,
+      "emit4_vs_base": {
+        "diff": 0.5815869460886258,
+        "ci95": [
+          0.4437196795228976,
+          0.7052969766867123
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "fintabnet_full",
+      "group": "public",
+      "base": 0.30477436232831917,
+      "emit4": 0.8580821917808219,
+      "emit4_vs_base": {
+        "diff": 0.5533078294525027,
+        "ci95": [
+          0.42231485123238127,
+          0.6827665108769103
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "fintabnet_header",
+      "group": "public",
+      "base": 0.49122807017543857,
+      "emit4": 0.5776173285198556,
+      "emit4_vs_base": {
+        "diff": 0.08638925834441702,
+        "ci95": [
+          -0.03408504045446725,
+          0.21193299454169023
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "fintabnet_last_row",
+      "group": "public",
+      "base": 0.21843003412969283,
+      "emit4": 0.5751295336787565,
+      "emit4_vs_base": {
+        "diff": 0.35669949954906366,
+        "ci95": [
+          0.2143074449128602,
+          0.4924603174603175
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "fintabnet_shape",
+      "group": "public",
+      "base": 0.08,
+      "emit4": 0.43,
+      "emit4_vs_base": {
+        "diff": 0.35,
+        "ci95": [
+          0.27,
+          0.43
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "inv_header",
+      "group": "public",
+      "base": 0.6239067055393586,
+      "emit4": 0.6997084548104956,
+      "emit4_vs_base": {
+        "diff": 0.07580174927113703,
+        "ci95": [
+          0.03007518796992481,
+          0.12202380952380953
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "inv_items",
+      "group": "public",
+      "base": 0.5198807157057654,
+      "emit4": 0.8027210884353742,
+      "emit4_vs_base": {
+        "diff": 0.2828403727296087,
+        "ci95": [
+          0.19576324062600614,
+          0.3770380532649251
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "inv_parties",
+      "group": "public",
+      "base": 0.6224489795918368,
+      "emit4": 0.5204081632653061,
+      "emit4_vs_base": {
+        "diff": -0.10204081632653061,
+        "ci95": [
+          -0.2653061224489796,
+          0.061855670103092786
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "inv_summary",
+      "group": "public",
+      "base": 0.46258503401360546,
+      "emit4": 0.5102040816326531,
+      "emit4_vs_base": {
+        "diff": 0.047619047619047616,
+        "ci95": [
+          0.0,
+          0.10666666666666669
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_en_00",
+      "group": "synthetic",
+      "base": 0.9855715871254163,
+      "emit4": 0.9933333333333333,
+      "emit4_vs_base": {
+        "diff": 0.007761746207917031,
+        "ci95": [
+          0.0011024787273399284,
+          0.015555555555555545
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_en_01",
+      "group": "synthetic",
+      "base": 0.9038737446197992,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.09612625538020081,
+        "ci95": [
+          0.051851851851851816,
+          0.15000000000000002
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_en_02",
+      "group": "synthetic",
+      "base": 0.8783902012248469,
+      "emit4": 0.9946140035906643,
+      "emit4_vs_base": {
+        "diff": 0.11622380236581742,
+        "ci95": [
+          0.09580718612695016,
+          0.13815763056590924
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_en_03",
+      "group": "synthetic",
+      "base": 0.845225027442371,
+      "emit4": 0.9977827050997783,
+      "emit4_vs_base": {
+        "diff": 0.15255767765740724,
+        "ci95": [
+          0.11036627988256675,
+          0.19592043347331345
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_en_04",
+      "group": "synthetic",
+      "base": 0.976491862567812,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.023508137432188048,
+        "ci95": [
+          0.010752688172043001,
+          0.03717472118959109
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_en_05",
+      "group": "synthetic",
+      "base": 0.9597069597069597,
+      "emit4": 0.9760589318600368,
+      "emit4_vs_base": {
+        "diff": 0.016351972153077043,
+        "ci95": [
+          0.005508327550312275,
+          0.02822021395948726
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_en_06",
+      "group": "synthetic",
+      "base": 0.5576519916142557,
+      "emit4": 0.9982078853046595,
+      "emit4_vs_base": {
+        "diff": 0.4405558936904038,
+        "ci95": [
+          0.3896907216494845,
+          0.4831195200399476
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_en_07",
+      "group": "synthetic",
+      "base": 0.4766355140186916,
+      "emit4": 0.9931170108161259,
+      "emit4_vs_base": {
+        "diff": 0.5164814967974343,
+        "ci95": [
+          0.44967157004247504,
+          0.5717367307902963
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_zh_00",
+      "group": "synthetic",
+      "base": 0.4,
+      "emit4": 0.992,
+      "emit4_vs_base": {
+        "diff": 0.592,
+        "ci95": [
+          0.576,
+          0.608
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_zh_01",
+      "group": "synthetic",
+      "base": 0.9669565217391304,
+      "emit4": 0.9895833333333334,
+      "emit4_vs_base": {
+        "diff": 0.02262681159420299,
+        "ci95": [
+          0.006896551724137945,
+          0.039535778404719224
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_zh_02",
+      "group": "synthetic",
+      "base": 1.0,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_zh_03",
+      "group": "synthetic",
+      "base": 1.0,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_zh_04",
+      "group": "synthetic",
+      "base": 0.7933333333333333,
+      "emit4": 0.92,
+      "emit4_vs_base": {
+        "diff": 0.1266666666666667,
+        "ci95": [
+          0.08999999999999997,
+          0.16000000000000003
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_zh_05",
+      "group": "synthetic",
+      "base": 0.58719646799117,
+      "emit4": 0.9977628635346756,
+      "emit4_vs_base": {
+        "diff": 0.4105663955435056,
+        "ci95": [
+          0.38990825688073394,
+          0.43243243243243246
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_zh_06",
+      "group": "synthetic",
+      "base": 0.93,
+      "emit4": 0.9966666666666667,
+      "emit4_vs_base": {
+        "diff": 0.06666666666666665,
+        "ci95": [
+          0.046666666666666634,
+          0.08999999999999997
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_payslip_zh_07",
+      "group": "synthetic",
+      "base": 0.4863731656184486,
+      "emit4": 0.7816091954022989,
+      "emit4_vs_base": {
+        "diff": 0.2952360297838503,
+        "ci95": [
+          0.20121708892200696,
+          0.3861108954953556
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_en_00",
+      "group": "synthetic",
+      "base": 0.8515782404298187,
+      "emit4": 0.9667128987517337,
+      "emit4_vs_base": {
+        "diff": 0.11513465832191505,
+        "ci95": [
+          0.08936817612314307,
+          0.1407058189157696
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_en_01",
+      "group": "synthetic",
+      "base": 0.9883817427385893,
+      "emit4": 0.995850622406639,
+      "emit4_vs_base": {
+        "diff": 0.007468879668049766,
+        "ci95": [
+          0.001612903225806428,
+          0.014468085106382977
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_en_02",
+      "group": "synthetic",
+      "base": 0.9439386679444178,
+      "emit4": 0.9629272989889264,
+      "emit4_vs_base": {
+        "diff": 0.01898863104450854,
+        "ci95": [
+          0.010473842533499922,
+          0.02805755054635095
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_en_03",
+      "group": "synthetic",
+      "base": 0.9721706864564007,
+      "emit4": 0.9950186799501868,
+      "emit4_vs_base": {
+        "diff": 0.02284799349378608,
+        "ci95": [
+          0.012047767411892396,
+          0.03595223325062036
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_en_04",
+      "group": "synthetic",
+      "base": 0.8775,
+      "emit4": 0.945,
+      "emit4_vs_base": {
+        "diff": 0.0675,
+        "ci95": [
+          0.04749999999999999,
+          0.08750000000000002
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_en_05",
+      "group": "synthetic",
+      "base": 0.6292916123424598,
+      "emit4": 0.7062528115159694,
+      "emit4_vs_base": {
+        "diff": 0.07696119917350963,
+        "ci95": [
+          0.05097350967691894,
+          0.10388306945420644
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_en_06",
+      "group": "synthetic",
+      "base": 0.9661190965092402,
+      "emit4": 0.9861325115562404,
+      "emit4_vs_base": {
+        "diff": 0.02001341504700016,
+        "ci95": [
+          0.011293634496920002,
+          0.02970297029702973
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_en_07",
+      "group": "synthetic",
+      "base": 0.974025974025974,
+      "emit4": 0.9944547134935305,
+      "emit4_vs_base": {
+        "diff": 0.020428739467556523,
+        "ci95": [
+          0.011265164644714054,
+          0.03392289506724955
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_zh_00",
+      "group": "synthetic",
+      "base": 0.24195121951219511,
+      "emit4": 0.9754838709677419,
+      "emit4_vs_base": {
+        "diff": 0.7335326514555468,
+        "ci95": [
+          0.704853217356924,
+          0.7602976190476189
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_zh_01",
+      "group": "synthetic",
+      "base": 0.7911111111111111,
+      "emit4": 0.9733333333333334,
+      "emit4_vs_base": {
+        "diff": 0.18222222222222229,
+        "ci95": [
+          0.1444444444444445,
+          0.22000000000000008
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_zh_02",
+      "group": "synthetic",
+      "base": 0.4503937007874016,
+      "emit4": 0.92175899486008,
+      "emit4_vs_base": {
+        "diff": 0.47136529407267835,
+        "ci95": [
+          0.37582344077051133,
+          0.5622271175373987
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_zh_03",
+      "group": "synthetic",
+      "base": 0.6040100250626567,
+      "emit4": 0.9425,
+      "emit4_vs_base": {
+        "diff": 0.33848997493734334,
+        "ci95": [
+          0.3025,
+          0.3781926952141058
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_zh_04",
+      "group": "synthetic",
+      "base": 0.7682030728122913,
+      "emit4": 0.996031746031746,
+      "emit4_vs_base": {
+        "diff": 0.22782867321945477,
+        "ci95": [
+          0.18266086065195986,
+          0.2730292121724731
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_zh_05",
+      "group": "synthetic",
+      "base": 0.5155308298562818,
+      "emit4": 0.7015926236378877,
+      "emit4_vs_base": {
+        "diff": 0.1860617937816058,
+        "ci95": [
+          0.14656529058702972,
+          0.23242521953118794
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_zh_06",
+      "group": "synthetic",
+      "base": 0.832,
+      "emit4": 0.984,
+      "emit4_vs_base": {
+        "diff": 0.15200000000000002,
+        "ci95": [
+          0.11599999999999999,
+          0.19199999999999995
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_purchase_order_zh_07",
+      "group": "synthetic",
+      "base": 0.3818615751789976,
+      "emit4": 0.7380281690140845,
+      "emit4_vs_base": {
+        "diff": 0.3561665938350869,
+        "ci95": [
+          0.29647027407569243,
+          0.4247904455668261
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_en_00",
+      "group": "synthetic",
+      "base": 1.0,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_en_01",
+      "group": "synthetic",
+      "base": 0.9794754846066135,
+      "emit4": 0.9902912621359223,
+      "emit4_vs_base": {
+        "diff": 0.010815777529308845,
+        "ci95": [
+          0.002863232294760709,
+          0.020111731843575398
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_en_02",
+      "group": "synthetic",
+      "base": 0.997872340425532,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.0021276595744680327,
+        "ci95": [
+          0.0,
+          0.006756756756756799
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_en_03",
+      "group": "synthetic",
+      "base": 0.9866666666666667,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.013333333333333308,
+        "ci95": [
+          0.006535947712418277,
+          0.02099737532808399
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_en_04",
+      "group": "synthetic",
+      "base": 0.9886064855390009,
+      "emit4": 0.9982608695652174,
+      "emit4_vs_base": {
+        "diff": 0.009654384026216545,
+        "ci95": [
+          0.00171232876712335,
+          0.019992870106300242
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_en_05",
+      "group": "synthetic",
+      "base": 0.9614906832298137,
+      "emit4": 0.9950248756218906,
+      "emit4_vs_base": {
+        "diff": 0.03353419239207689,
+        "ci95": [
+          0.011049672152584455,
+          0.06443298969072164
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_en_06",
+      "group": "synthetic",
+      "base": 0.977818853974122,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.02218114602587795,
+        "ci95": [
+          0.013461538461538414,
+          0.03280224929709463
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_en_07",
+      "group": "synthetic",
+      "base": 0.9906367041198502,
+      "emit4": 0.9962546816479401,
+      "emit4_vs_base": {
+        "diff": 0.005617977528089901,
+        "ci95": [
+          -0.0019047619047619646,
+          0.013257575757575801
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_zh_00",
+      "group": "synthetic",
+      "base": 0.7338461538461538,
+      "emit4": 0.9972183588317107,
+      "emit4_vs_base": {
+        "diff": 0.2633722049855569,
+        "ci95": [
+          0.21842658693935812,
+          0.3083908367606608
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_zh_01",
+      "group": "synthetic",
+      "base": 0.956989247311828,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.043010752688172005,
+        "ci95": [
+          0.023008849557522137,
+          0.06571936056838368
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_zh_02",
+      "group": "synthetic",
+      "base": 0.9646739130434783,
+      "emit4": 0.9375,
+      "emit4_vs_base": {
+        "diff": -0.02717391304347827,
+        "ci95": [
+          -0.040616246498599407,
+          -0.013333333333333308
+        ],
+        "win": false,
+        "better": false,
+        "worse": true
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_zh_03",
+      "group": "synthetic",
+      "base": 0.9272581934452439,
+      "emit4": 0.9910641754670999,
+      "emit4_vs_base": {
+        "diff": 0.06380598202185606,
+        "ci95": [
+          0.04349351190914219,
+          0.08539120502569963
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_zh_04",
+      "group": "synthetic",
+      "base": 0.975669099756691,
+      "emit4": 0.9975490196078431,
+      "emit4_vs_base": {
+        "diff": 0.02187991985115212,
+        "ci95": [
+          0.010673099351990345,
+          0.035921205098493614
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_zh_05",
+      "group": "synthetic",
+      "base": 0.8669301712779973,
+      "emit4": 0.9241011984021305,
+      "emit4_vs_base": {
+        "diff": 0.057171027124133134,
+        "ci95": [
+          0.026816679392815512,
+          0.08992162441894913
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_zh_06",
+      "group": "synthetic",
+      "base": 0.5139664804469274,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.4860335195530726,
+        "ci95": [
+          0.43977591036414565,
+          0.5254237288135593
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_restaurant_bill_zh_07",
+      "group": "synthetic",
+      "base": 0.5165767154973014,
+      "emit4": 0.8703923900118906,
+      "emit4_vs_base": {
+        "diff": 0.3538156745145892,
+        "ci95": [
+          0.28796490488353277,
+          0.4127099919107622
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_en_00",
+      "group": "synthetic",
+      "base": 0.9770114942528736,
+      "emit4": 1.0,
+      "emit4_vs_base": {
+        "diff": 0.02298850574712641,
+        "ci95": [
+          0.0060240963855421326,
+          0.04371584699453557
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_en_01",
+      "group": "synthetic",
+      "base": 0.9911111111111112,
+      "emit4": 0.9911111111111112,
+      "emit4_vs_base": {
+        "diff": 0.0,
+        "ci95": [
+          -0.008888888888888835,
+          0.008888888888888835
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_en_02",
+      "group": "synthetic",
+      "base": 0.9633333333333334,
+      "emit4": 0.9766666666666667,
+      "emit4_vs_base": {
+        "diff": 0.013333333333333308,
+        "ci95": [
+          -0.010000000000000009,
+          0.039999999999999925
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_en_03",
+      "group": "synthetic",
+      "base": 0.9663716814159292,
+      "emit4": 0.9963768115942029,
+      "emit4_vs_base": {
+        "diff": 0.030005130178273665,
+        "ci95": [
+          0.013839984350547785,
+          0.051146384479717866
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_en_04",
+      "group": "synthetic",
+      "base": 0.9700427960057061,
+      "emit4": 0.98,
+      "emit4_vs_base": {
+        "diff": 0.009957203994293895,
+        "ci95": [
+          -0.010034644385571556,
+          0.027091909517016566
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_en_05",
+      "group": "synthetic",
+      "base": 0.8817204301075269,
+      "emit4": 0.9686609686609686,
+      "emit4_vs_base": {
+        "diff": 0.08694053855344175,
+        "ci95": [
+          0.046490201261186526,
+          0.1305997470545165
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_en_06",
+      "group": "synthetic",
+      "base": 0.9508928571428571,
+      "emit4": 0.9866666666666667,
+      "emit4_vs_base": {
+        "diff": 0.0357738095238096,
+        "ci95": [
+          0.015555555555555545,
+          0.058936543767243554
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_en_07",
+      "group": "synthetic",
+      "base": 0.9333333333333333,
+      "emit4": 0.9733333333333334,
+      "emit4_vs_base": {
+        "diff": 0.040000000000000036,
+        "ci95": [
+          0.01666666666666672,
+          0.06666666666666665
+        ],
+        "win": false,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_zh_00",
+      "group": "synthetic",
+      "base": 0.9055627425614489,
+      "emit4": 0.917312661498708,
+      "emit4_vs_base": {
+        "diff": 0.011749918937259185,
+        "ci95": [
+          -0.012248851141070105,
+          0.037224380198046525
+        ],
+        "win": false,
+        "better": false,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_zh_01",
+      "group": "synthetic",
+      "base": 0.3922413793103448,
+      "emit4": 0.9356984478935698,
+      "emit4_vs_base": {
+        "diff": 0.543457068583225,
+        "ci95": [
+          0.48986675624230214,
+          0.5944888167335874
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_zh_02",
+      "group": "synthetic",
+      "base": 0.68,
+      "emit4": 0.97,
+      "emit4_vs_base": {
+        "diff": 0.2899999999999999,
+        "ci95": [
+          0.26,
+          0.31500000000000006
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_zh_03",
+      "group": "synthetic",
+      "base": 0.7720588235294118,
+      "emit4": 0.967741935483871,
+      "emit4_vs_base": {
+        "diff": 0.1956831119544592,
+        "ci95": [
+          0.15394977388626951,
+          0.23623969741447437
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_zh_04",
+      "group": "synthetic",
+      "base": 0.7628571428571429,
+      "emit4": 0.9542857142857143,
+      "emit4_vs_base": {
+        "diff": 0.1914285714285714,
+        "ci95": [
+          0.15142857142857147,
+          0.23142857142857143
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_zh_05",
+      "group": "synthetic",
+      "base": 0.5893416927899686,
+      "emit4": 0.921875,
+      "emit4_vs_base": {
+        "diff": 0.3325333072100314,
+        "ci95": [
+          0.2858842908040723,
+          0.3732146887190896
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_zh_06",
+      "group": "synthetic",
+      "base": 0.6722408026755853,
+      "emit4": 0.8266666666666667,
+      "emit4_vs_base": {
+        "diff": 0.15442586399108138,
+        "ci95": [
+          0.13217002237136466,
+          0.17666666666666664
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    },
+    {
+      "task": "syn_shipping_label_zh_07",
+      "group": "synthetic",
+      "base": 0.73,
+      "emit4": 0.8,
+      "emit4_vs_base": {
+        "diff": 0.07000000000000006,
+        "ci95": [
+          0.040000000000000036,
+          0.10499999999999998
+        ],
+        "win": true,
+        "better": true,
+        "worse": false
+      }
+    }
+  ],
+  "arms": [
+    "base",
+    "emit4"
+  ],
+  "per_task_wins_emit4_vs_base": 42,
+  "shipped": true
+}
